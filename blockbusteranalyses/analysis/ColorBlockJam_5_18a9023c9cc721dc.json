@@ -1,0 +1,125 @@
+{
+ "hook": {
+  "hook_type": [
+   "Challenge Text",
+   "Gameplay Mid-Action"
+  ],
+  "hook_trigger": [
+   "Challenge / Ego Threat",
+   "Social Proof / Authority"
+  ],
+  "hook_emotion": [
+   "Curiosity"
+  ]
+ },
+ "audio": {
+  "audio_style_tags": [
+   "Gameplay SFX"
+  ],
+  "music_mood": "none"
+ },
+ "content": {
+  "concept_tags": [
+   "Puzzle Challenge",
+   "Gameplay Showcase",
+   "Fail / Win Loop"
+  ],
+  "concept_description": "A player attempts to clear checkers from a board to reach a target green piece, trying different clearing moves.",
+  "persuasion_triggers": [
+   "Challenge / Ego Threat",
+   "Social Proof / Authority"
+  ],
+  "player_motivation": [
+   "Mastery / Problem Solving",
+   "Completion / Order"
+  ],
+  "cultural_reference": "",
+  "why_it_works": "Presents a clear puzzle goal and challenge text that engages viewers' problem-solving drive through satisfying tap-and-slide clearing mechanics."
+ },
+ "visuals": {
+  "visual_style_tags": [
+   "3D Art",
+   "Top-Down View"
+  ],
+  "primary_color": "Brown #613C25, Black #1B1B1B, White #FFFFFF, Green #47D226",
+  "notable_characters": "",
+  "notable_objects": "Checkers pieces, puzzle board, award laurel wreaths"
+ },
+ "emotions": {
+  "ad_emotion": [
+   "Curiosity",
+   "Frustration"
+  ],
+  "emotional_arc": "Curiosity -> Frustration"
+ },
+ "end_card": {
+  "end_card_elements": [],
+  "cta_and_text": "00:00 - 'I cannot reach green', '2025 BEST PUZZLE GAME', '2025 BEST GAME CREATIVE'",
+  "end_card_brand_text": ""
+ },
+ "gameplay": {
+  "gameplay_seconds": 59,
+  "core_gameplay_notes": "Tapping black and white checkers to slide them into corresponding color-matched slots to clear the board towards the green checker.",
+  "gameplay_moment_type": [
+   "Puzzle Solving",
+   "Trial & Error"
+  ]
+ },
+ "ad_format": [
+  "Hybrid",
+  "Real Gameplay"
+ ],
+ "chapterization": [
+  {
+   "stage": "Hook",
+   "starttime_offset": "00:00",
+   "endtime_offset": "00:03",
+   "chapter_description": "Opening challenge text asking how to reach the green piece on the board."
+  },
+  {
+   "stage": "Demo",
+   "starttime_offset": "00:03",
+   "endtime_offset": "00:29",
+   "chapter_description": "Player taps checkers to clear pieces and open paths toward the target."
+  },
+  {
+   "stage": "Escalation",
+   "starttime_offset": "00:29",
+   "endtime_offset": "00:59",
+   "chapter_description": "Gameplay restarts and repeats demonstration of clearing pieces."
+  }
+ ],
+ "_evidence": {
+  "hook_trigger:Challenge / Ego Threat": "00:00 - Text 'I cannot reach green' challenges the player",
+  "hook_trigger:Social Proof / Authority": "00:00 - Badges claiming '2025 BEST PUZZLE GAME' and '2025 BEST GAME CREATIVE'",
+  "hook_emotion:Curiosity": "00:00 - Prompt 'I cannot reach green' sparks curiosity about how to reach the goal",
+  "persuasion_triggers:Challenge / Ego Threat": "00:00 - Text 'I cannot reach green' challenges the player",
+  "persuasion_triggers:Social Proof / Authority": "00:00 - Award wreaths for Best Puzzle Game and Best Game Creative displayed at bottom",
+  "ad_emotion:Curiosity": "00:05 - Watching the board gradually clear piece by piece",
+  "ad_emotion:Frustration": "00:24 - Attempting moves that don't immediately unlock the green piece",
+  "gameplay_moment_type:Puzzle Solving": "00:04 - Player selects matching pieces to slide into slots",
+  "gameplay_moment_type:Trial & Error": "00:15 - Player taps different pieces trying to find valid exit moves",
+  "ad_format": "rule 4 - Real Gameplay with added-on text overlays, custom star background, and laurel award wreaths"
+ },
+ "_audit": [
+  {
+   "field": "ad_format",
+   "claim": "[\"Hybrid\", \"Real Gameplay\"]",
+   "problem": "The ad features solely mobile screen gameplay framed by static graphics and text overlays with no live-action or cinematic animation components, so it is not a 'Hybrid' ad format.",
+   "fix": "[\"Real Gameplay\"]"
+  },
+  {
+   "field": "hook_type",
+   "claim": "Gameplay Mid-Action",
+   "problem": "At 00:00, the puzzle board is fully intact in its initial state before any moves have been made, so gameplay is not mid-action.",
+   "fix": "Remove 'Gameplay Mid-Action' from hook_type"
+  },
+  {
+   "field": "end_card",
+   "claim": "cta_and_text: \"00:00 - 'I cannot reach green', '2025 BEST PUZZLE GAME', '2025 BEST GAME CREATIVE'\"",
+   "problem": "The video has no end card; the cited text is a persistent on-screen UI/header overlay present throughout the ad.",
+   "fix": "\"cta_and_text\": \"\""
+  }
+ ],
+ "_validation_warnings": []
+}

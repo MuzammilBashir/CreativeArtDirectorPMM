@@ -1,0 +1,143 @@
+{
+ "hook": {
+  "hook_type": [
+   "Gameplay Mid-Action"
+  ],
+  "hook_trigger": [
+   "Oddly Satisfying (ASMR / OCD)",
+   "Curiosity Gap"
+  ],
+  "hook_emotion": [
+   "Satisfaction",
+   "Curiosity"
+  ]
+ },
+ "audio": {
+  "audio_style_tags": [
+   "Background Music",
+   "Gameplay SFX",
+   "ASMR"
+  ],
+  "music_mood": "Gentle relaxing acoustic guitar melody with ambient undertones"
+ },
+ "content": {
+  "concept_tags": [
+   "Gameplay Showcase",
+   "Puzzle Challenge",
+   "Transformation Arc"
+  ],
+  "concept_description": "A player solves an arrow maze puzzle where guiding spools of thread transforms maze lines into an embroidered portrait of the Girl with a Pearl Earring before encountering an error.",
+  "persuasion_triggers": [
+   "Oddly Satisfying (ASMR / OCD)",
+   "Challenge / Ego Threat"
+  ],
+  "player_motivation": [
+   "Completion / Order",
+   "Relaxation",
+   "Mastery / Problem Solving"
+  ],
+  "cultural_reference": "Girl with a Pearl Earring (Vermeer painting recreated in embroidery)",
+  "why_it_works": "The tactile, ASMR-style embroidery transformation creates immediate visual satisfaction, while an abrupt failure late in the ad activates ego threat and prompts viewers to download and solve it themselves."
+ },
+ "visuals": {
+  "visual_style_tags": [
+   "2D Art",
+   "Top-Down View",
+   "High-Contrast / Dark Mood"
+  ],
+  "primary_color": "Black #000000, Embroidery Gold #D99B26, Coral Pink #C44E52, Leaf Green #4C8C2B, White #FFFFFF",
+  "notable_characters": "Embroidered portrait of Girl with a Pearl Earring",
+  "notable_objects": "Thread spools, embroidery maze paths, flower petals, pearl earring"
+ },
+ "emotions": {
+  "ad_emotion": [
+   "Satisfaction",
+   "Curiosity",
+   "Frustration"
+  ],
+  "emotional_arc": "Calm and mesmerizing thread unspooling shifts to abrupt frustration when red warning borders flash on a wrong move."
+ },
+ "end_card": {
+  "end_card_elements": [
+   "Game Logo",
+   "CTA Button"
+  ],
+  "cta_and_text": "00:39 - COLOR MAZE, PLAY",
+  "end_card_brand_text": "COLOR MAZE"
+ },
+ "gameplay": {
+  "gameplay_seconds": 37,
+  "core_gameplay_notes": "Players trace and unspool colored thread along arrow-directed maze paths to fill in an intricate embroidered artwork.",
+  "gameplay_moment_type": [
+   "Satisfying Moment",
+   "Puzzle Solving",
+   "Failure"
+  ]
+ },
+ "ad_format": [
+  "Hybrid",
+  "Real Gameplay"
+ ],
+ "chapterization": [
+  {
+   "stage": "Hook",
+   "starttime_offset": "00:00",
+   "endtime_offset": "00:03",
+   "chapter_description": "Green thread smoothly unspools through the maze to form flower stems."
+  },
+  {
+   "stage": "Demo",
+   "starttime_offset": "00:03",
+   "endtime_offset": "00:32",
+   "chapter_description": "Successive threads unspool across hair and skin, revealing the embroidered portrait."
+  },
+  {
+   "stage": "Escalation",
+   "starttime_offset": "00:32",
+   "endtime_offset": "00:37",
+   "chapter_description": "A thread encounters a blocked path, flashing a red error border repeatedly."
+  },
+  {
+   "stage": "End Card",
+   "starttime_offset": "00:37",
+   "endtime_offset": "00:42",
+   "chapter_description": "Color Maze logo displays over a carousel of art levels with a green Play CTA button."
+  }
+ ],
+ "_evidence": {
+  "hook_trigger:Oddly Satisfying (ASMR / OCD)": "00:00 - Thread unspools smoothly along maze lines to form green embroidery stems",
+  "hook_trigger:Curiosity Gap": "00:01 - Player watches the maze path transform into stitched artwork",
+  "hook_emotion:Satisfaction": "00:00 - Smooth, rhythmic unraveling of thread fills in the image",
+  "hook_emotion:Curiosity": "00:01 - Viewer watches to see how the incomplete portrait will unfold",
+  "persuasion_triggers:Oddly Satisfying (ASMR / OCD)": "00:19 - Brown thread smoothly fills the hair curls along arrow paths",
+  "persuasion_triggers:Challenge / Ego Threat": "00:33 - Red flashing screen border indicates a failed move",
+  "ad_emotion:Satisfaction": "00:23 - Smooth unspooling reveals the face embroidery cleanly",
+  "ad_emotion:Curiosity": "00:10 - Watching different colored threads fill in separate sections of the art",
+  "ad_emotion:Frustration": "00:33 - Red border flash and halt in progress signals a gameplay mistake",
+  "gameplay_moment_type:Satisfying Moment": "00:27 - Clean continuous reveal of skin tone embroidery from unraveling thread",
+  "gameplay_moment_type:Puzzle Solving": "00:15 - Navigating winding arrow channels across the portrait layout",
+  "gameplay_moment_type:Failure": "00:33 - Red error flash appears twice when the thread hits a dead end",
+  "ad_format": "Rule 4: Real board puzzle combined with an art reveal mechanic that uncovers embroidered portrait underneath"
+ },
+ "_audit": [
+  {
+   "field": "audio.audio_style_tags",
+   "claim": "['Background Music', 'Gameplay SFX', 'ASMR']",
+   "problem": "There is no background music playing in the ad; the audio consists entirely of sound effects (thread unspooling, error thuds, UI pops).",
+   "fix": "['Gameplay SFX', 'ASMR']"
+  },
+  {
+   "field": "audio.music_mood",
+   "claim": "Gentle relaxing acoustic guitar melody with ambient undertones",
+   "problem": "There is no music or acoustic guitar melody in the video.",
+   "fix": null
+  },
+  {
+   "field": "ad_format",
+   "claim": "['Hybrid', 'Real Gameplay']",
+   "problem": "'Hybrid' is incorrect as the video contains no live-action, UGC, or 3D cinematic elements combined with gameplay; it is exclusively gameplay capture followed by an end card.",
+   "fix": "['Real Gameplay']"
+  }
+ ],
+ "_validation_warnings": []
+}

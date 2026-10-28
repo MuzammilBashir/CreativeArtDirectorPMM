@@ -1,0 +1,134 @@
+{
+ "hook": {
+  "hook_type": [
+   "Fail / Near-Miss",
+   "Gameplay Mid-Action"
+  ],
+  "hook_trigger": [
+   "Loss Aversion",
+   "Challenge / Ego Threat"
+  ],
+  "hook_emotion": [
+   "Frustration",
+   "Tension"
+  ]
+ },
+ "audio": {
+  "audio_style_tags": [
+   "Background Music",
+   "Gameplay SFX"
+  ],
+  "music_mood": "playful whimsical marimba and pizzicato background music"
+ },
+ "content": {
+  "concept_tags": [
+   "Gameplay Showcase",
+   "Fail / Win Loop",
+   "Puzzle Challenge"
+  ],
+  "concept_description": "A player attempts to unravel a dense maze of arrows, repeatedly picking blocked arrows that deplete lives.",
+  "persuasion_triggers": [
+   "Loss Aversion",
+   "Challenge / Ego Threat"
+  ],
+  "player_motivation": [
+   "Mastery / Problem Solving",
+   "Completion / Order"
+  ],
+  "cultural_reference": "",
+  "why_it_works": "Seeing someone repeatedly fail an apparently simple arrow-clearing maze while losing lives provokes the viewer to want to prove they can do better."
+ },
+ "visuals": {
+  "visual_style_tags": [
+   "2D Art",
+   "Top-Down View",
+   "Bright Palette"
+  ],
+  "primary_color": "White #FFFFFF, Black #000000, Red #FF1A4B",
+  "notable_characters": "Hand cursor",
+  "notable_objects": "Arrow maze, Heart lives bar"
+ },
+ "emotions": {
+  "ad_emotion": [
+   "Frustration",
+   "Tension"
+  ],
+  "emotional_arc": "Frustration over repeated failed arrow taps leads to mounting tension as remaining lives are drained."
+ },
+ "end_card": {
+  "end_card_elements": [
+   "Game Logo",
+   "Tagline Text"
+  ],
+  "cta_and_text": "00:27 - 'Arrow Puzzle', 00:27 - 'This feature is not included in the actual gameplay yet.'",
+  "end_card_brand_text": "Arrow Puzzle"
+ },
+ "gameplay": {
+  "gameplay_seconds": 26,
+  "core_gameplay_notes": "Tapping an unblocked arrow sends it gliding off the board, while tapping a blocked arrow flashes red, sounds an error buzz, and breaks a heart life.",
+  "gameplay_moment_type": [
+   "Failure",
+   "Trial & Error",
+   "Puzzle Solving"
+  ]
+ },
+ "ad_format": [
+  "Hybrid",
+  "Real Gameplay"
+ ],
+ "chapterization": [
+  {
+   "stage": "Hook",
+   "starttime_offset": "00:00",
+   "endtime_offset": "00:03",
+   "chapter_description": "A hand taps a blocked arrow, triggering an error highlight and shattering a heart life."
+  },
+  {
+   "stage": "Demo",
+   "starttime_offset": "00:03",
+   "endtime_offset": "00:10",
+   "chapter_description": "The player tests different arrows across the maze and successfully clears one at the top right."
+  },
+  {
+   "stage": "Escalation",
+   "starttime_offset": "00:10",
+   "endtime_offset": "00:26",
+   "chapter_description": "Frequent incorrect taps cause red screen flashes and drain almost all remaining heart lives."
+  },
+  {
+   "stage": "End Card",
+   "starttime_offset": "00:26",
+   "endtime_offset": "00:30",
+   "chapter_description": "Final end screen displaying the Arrow Puzzle logo and a gameplay feature disclaimer."
+  }
+ ],
+ "_evidence": {
+  "hook_trigger:Loss Aversion": "00:01 - A heart cracks and turns grey after an invalid move",
+  "hook_trigger:Challenge / Ego Threat": "00:02 - Player makes an illegal move and gets penalized with an error sound",
+  "hook_emotion:Frustration": "00:01 - Red error highlight and vibrating blocked arrow",
+  "hook_emotion:Tension": "00:02 - Red border flash and broken heart reducing the lives counter",
+  "persuasion_triggers:Loss Aversion": "00:02 - Broken hearts threaten a game over as lives deplete",
+  "persuasion_triggers:Challenge / Ego Threat": "00:06 - Player's continuous blunders prompt the viewer to solve the puzzle correctly",
+  "ad_emotion:Frustration": "00:02 - Repetitive error buzzes and blocked arrows",
+  "ad_emotion:Tension": "00:24 - Heart counter rapidly dwindles to just three remaining hearts",
+  "gameplay_moment_type:Failure": "00:02 - Arrow path turns red and shakes when blocked",
+  "gameplay_moment_type:Trial & Error": "00:08 - Hand searches around the grid trying different arrows",
+  "gameplay_moment_type:Puzzle Solving": "00:10 - Player successfully locates and taps an unblocked arrow to clear it",
+  "ad_format": "Rule 4 (Hybrid): Real Arrow Puzzle board mechanic paired with an added-on heart lives bar and error border flash overlay."
+ },
+ "_audit": [
+  {
+   "field": "ad_format",
+   "claim": "Real Gameplay",
+   "problem": "The end card explicitly states 'This feature is not included in the actual gameplay yet.', indicating the footage is simulated or fake gameplay rather than authentic real gameplay.",
+   "fix": "Misleading / Fake Gameplay"
+  },
+  {
+   "field": "visuals.notable_characters",
+   "claim": "Hand cursor",
+   "problem": "A hand cursor is a UI pointer/element rather than a character.",
+   "fix": ""
+  }
+ ],
+ "_validation_warnings": []
+}

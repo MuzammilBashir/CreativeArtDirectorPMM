@@ -1,0 +1,37 @@
+[
+  {
+    "picture": "butterfly",
+    "arrows": 176,
+    "coverage": 0.9037656903765691,
+    "omitted": 92,
+    "valid": true
+  },
+  {
+    "picture": "rocket",
+    "arrows": 101,
+    "coverage": 0.9059674502712477,
+    "omitted": 52,
+    "valid": true
+  },
+  {
+    "picture": "fox",
+    "arrows": 138,
+    "coverage": 0.9087591240875912,
+    "omitted": 75,
+    "valid": true
+  },
+  {
+    "picture": "tropical-fish",
+    "arrows": 110,
+    "coverage": 0.8990384615384616,
+    "omitted": 63,
+    "valid": true
+  },
+  {
+    "picture": "sunflower",
+    "arrows": 130,
+    "coverage": 0.9282700421940928,
+    "omitted": 51,
+    "valid": true
+  }
+]

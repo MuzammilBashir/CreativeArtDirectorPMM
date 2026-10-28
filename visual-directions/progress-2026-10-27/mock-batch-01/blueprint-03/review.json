@@ -1,0 +1,17 @@
+{
+  "blueprint": 3,
+  "origin": "New layout",
+  "occupancy_percent": 84.375,
+  "occupied_cells": 54,
+  "empty_cells": 10,
+  "studs": 216,
+  "initial_straight_exits": 0,
+  "initial_single_piece_exit_routes": [
+    "O"
+  ],
+  "verified_route_drags": 21,
+  "render_attempts": 1,
+  "blueprint_validation": "PASS under declared test rules",
+  "mock_review": "Major footprints, empty pockets, gate placement and stud patterns visually consistent; not pixel-exact verified",
+  "production_approval": "WITHHELD: gate behavior, camera-scale precision and ad timing unverified"
+}

@@ -1,0 +1,53 @@
+{
+ "hook": {
+  "hook_type": ["Cinematic / Story Opening"],
+  "hook_trigger": ["Novelty", "Curiosity Gap"],
+  "hook_emotion": ["Curiosity", "Surprise"]
+ },
+ "audio": {
+  "audio_style_tags": ["Background Music", "Gameplay SFX", "ASMR"],
+  "music_mood": "Chill rhythmic lofi electronic beat"
+ },
+ "content": {
+  "concept_tags": ["Gameplay Showcase", "Puzzle Challenge"],
+  "concept_description": "Players tap directional arrows arranged in the shape of a meerkat to dismantle the maze without collisions.",
+  "persuasion_triggers": ["Oddly Satisfying (ASMR / OCD)", "Novelty", "Curiosity Gap"],
+  "player_motivation": ["Completion / Order", "Relaxation", "Mastery / Problem Solving"],
+  "cultural_reference": "",
+  "why_it_works": "The transition from an intricate 3D animal sculpture into a clean, oddly satisfying arrow-clearing puzzle immediately hooks visual curiosity and offers relaxing ASMR payoff."
+ },
+ "visuals": {
+  "visual_style_tags": ["3D Art", "2D Art", "Top-Down View", "High-Contrast / Dark Mood"],
+  "primary_color": "Dark Slate Blue (#232B3E), White (#FFFFFF)",
+  "notable_characters": "None",
+  "notable_objects": "3D meerkat arrow maze sculpture, 2D interlocking white directional arrows, animated hand cursor"
+ },
+ "emotions": {
+  "ad_emotion": ["Curiosity", "Relaxation", "Satisfaction"],
+  "emotional_arc": "Curiosity -> Relaxation -> Satisfaction"
+ },
+ "end_card": {
+  "end_card_elements": [],
+  "cta_and_text": ""
+ },
+ "gameplay": {
+  "gameplay_seconds": 55,
+  "core_gameplay_notes": "Tapping unblocked arrows so they shoot outward and clear the intricate animal silhouette maze.",
+  "gameplay_moment_type": ["Puzzle Solving", "Satisfying Moment", "Trial & Error"]
+ },
+ "ad_format": ["Real Gameplay", "CGI Animation"],
+ "chapterization": [
+  {
+   "stage": "Hook",
+   "starttime_offset": "00:00",
+   "endtime_offset": "00:03",
+   "chapter_description": "A 3D meerkat sculpture crafted from maze arrows rotates and transitions into a flat 2D top-down puzzle."
+  },
+  {
+   "stage": "Demo",
+   "starttime_offset": "00:03",
+   "endtime_offset": "00:58",
+   "chapter_description": "A finger cursor systematically taps unobstructed arrows, clearing the meerkat shape piece by piece."
+  }
+ ]
+}

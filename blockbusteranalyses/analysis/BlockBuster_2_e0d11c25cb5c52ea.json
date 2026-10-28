@@ -1,0 +1,114 @@
+{
+ "hook": {
+  "hook_type": [
+   "Gameplay Mid-Action"
+  ],
+  "hook_trigger": [
+   "Curiosity Gap"
+  ],
+  "hook_emotion": [
+   "Curiosity"
+  ]
+ },
+ "audio": {
+  "audio_style_tags": [
+   "Background Music",
+   "Gameplay SFX"
+  ],
+  "music_mood": "upbeat tropical marimba puzzle music"
+ },
+ "content": {
+  "concept_tags": [
+   "Gameplay Showcase",
+   "Puzzle Challenge"
+  ],
+  "concept_description": "A finger navigates a tight grid of interlocking toy brick blocks, sliding them to align with exit arrows and clear the board.",
+  "persuasion_triggers": [
+   "Oddly Satisfying (ASMR / OCD)",
+   "Challenge / Ego Threat"
+  ],
+  "player_motivation": [
+   "Mastery / Problem Solving",
+   "Completion / Order"
+  ],
+  "cultural_reference": "LEGO toy bricks",
+  "why_it_works": "The tactile plastic brick aesthetic and clean sliding mechanics create a satisfying spatial puzzle that draws viewers in to see the board cleared."
+ },
+ "visuals": {
+  "visual_style_tags": [
+   "3D Art",
+   "Top-Down View",
+   "Bright Palette"
+  ],
+  "primary_color": "Cyan #3ABFF8, Yellow #FBBF24, Magenta #EC4899, Green #22C55E, Red #EF4444",
+  "notable_characters": "Hand cursor",
+  "notable_objects": "Toy brick puzzle pieces, exit arrow indicators"
+ },
+ "emotions": {
+  "ad_emotion": [
+   "Curiosity",
+   "Satisfaction"
+  ],
+  "emotional_arc": "Curiosity -> Satisfaction"
+ },
+ "end_card": {
+  "end_card_elements": [
+   "Game Logo",
+   "CTA Button"
+  ],
+  "cta_and_text": "00:57 - 'BLOCK BUSTER', 'PLAY NOW!'",
+  "end_card_brand_text": "BLOCK BUSTER"
+ },
+ "gameplay": {
+  "gameplay_seconds": 56,
+  "core_gameplay_notes": "Sliding different colored brick shapes into empty spaces on a grid to maneuver them out of exit arrows on the side.",
+  "gameplay_moment_type": [
+   "Puzzle Solving",
+   "Satisfying Moment"
+  ]
+ },
+ "ad_format": [
+  "Real Gameplay"
+ ],
+ "chapterization": [
+  {
+   "stage": "Hook",
+   "starttime_offset": "00:00",
+   "endtime_offset": "00:06",
+   "chapter_description": "A hand cursor tests sliding blocks on a packed board and clears the first brick."
+  },
+  {
+   "stage": "Demo",
+   "starttime_offset": "00:06",
+   "endtime_offset": "00:28",
+   "chapter_description": "Sequential moves rearrange smaller bricks to unlock pathways toward the exits."
+  },
+  {
+   "stage": "Escalation",
+   "starttime_offset": "00:28",
+   "endtime_offset": "00:56",
+   "chapter_description": "Intricate maneuvers shift blocks around the massive yellow brick to prepare its escape."
+  },
+  {
+   "stage": "End Card",
+   "starttime_offset": "00:56",
+   "endtime_offset": "00:59",
+   "chapter_description": "Block Buster logo and Play Now call to action display on screen."
+  }
+ ],
+ "_evidence": {
+  "hook_trigger:Curiosity Gap": "00:01 - Dense board of interlocking blocks invites figuring out the escape route",
+  "hook_emotion:Curiosity": "00:01 - Hand tests sliding blocks in a crowded puzzle board",
+  "persuasion_triggers:Oddly Satisfying (ASMR / OCD)": "00:06 - Block slides cleanly through the exit arrow and disintegrates into particles",
+  "persuasion_triggers:Challenge / Ego Threat": "00:20 - Multiple blocks block the giant yellow brick, requiring strategic multi-step rearranging",
+  "ad_emotion:Curiosity": "00:10 - Hand tests different moves to navigate around locked obstacles",
+  "ad_emotion:Satisfaction": "00:29 - Cyan brick slides off board and bursts into sparkle effects",
+  "gameplay_moment_type:Puzzle Solving": "00:12 - Hand rearranges blocks into empty slots to open an exit lane",
+  "gameplay_moment_type:Satisfying Moment": "00:41 - Red brick pops smoothly out of the grid with sound and particle effects",
+  "ad_format": "Rule 1 - The ad displays direct gameplay of the block sliding puzzle without fake overlays or exaggerated meters"
+ },
+ "_audit": [],
+ "_validation_warnings": [
+  "gameplay_seconds 56 vs Demo+Escalation+Payoff 50; check"
+ ]
+}

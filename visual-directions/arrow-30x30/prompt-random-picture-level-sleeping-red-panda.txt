@@ -1,0 +1,40 @@
+Create a vertical 9:16 mobile-gameplay mock for a directional arrow puzzle level called “Sleeping Red Panda.”
+
+The entire playable board is a recognizable sleeping red panda curled into a compact circular silhouette, with its tail wrapping around the lower body and one small bamboo branch tucked near the paws. Build the picture entirely from separate arrow-shaped puzzle pieces and bent arrow tracks: every visible line must have a clear arrowhead showing its travel direction. Use a dense but readable 30x30-style grid composition with generous negative space between clusters so the player can identify individual arrows.
+
+Visual direction:
+- black to very-dark charcoal background
+- crisp neon arrow tracks in coral red, warm orange, golden yellow, electric cyan, blue, violet, and lime green
+- subtle colored glow around each track, but keep the arrow bodies thin, clean, and highly legible
+- use the silhouette’s color zones to suggest red panda fur: rust-red head and tail, warm cream muzzle and belly, deep violet shadow areas, and dark brown/black paws and ears
+- no gradients inside the arrow tracks; keep them flat and graphic with a restrained glow
+- rounded 90-degree bends, consistent line weight, clean spacing, and clearly separated arrow pieces
+- a calm premium puzzle-game look with the visual discipline of a polished Amaze GO board and the high-contrast neon energy of the Point Out reference
+
+Gameplay readability:
+- show several arrows with genuinely open lanes to the screen edge
+- show other arrows visibly blocked by neighboring pieces, creating a clear solve order
+- include one highlighted cyan arrow as the obvious first legal move, with a soft white outline and a faint path preview
+- preserve the red panda silhouette even before any pieces are removed
+- do not add random decorative maze lines that do not function as arrow pieces
+- do not make the board look like a continuous illustration; it must read as playable directional pieces forming a picture
+
+UI mock:
+- top-center text: “LEVEL 1”
+- small heart/lives indicator in the upper corner
+- compact progress label: “0 / 24 arrows cleared”
+- optional small IQ meter, understated and secondary to the board
+- one realistic white hand cursor hovering over the highlighted cyan arrow, matching mobile ad gameplay language
+- no brand logo, no fake store badges, no copied characters, and no additional text
+
+Composition:
+- center the full red panda board with comfortable margins for a 9:16 ad frame
+- maintain strong silhouette readability at thumbnail size
+- show the board in a clean top-down orthographic view
+- high-resolution polished mobile-game mock, production concept art, sharp edges, consistent geometry
+
+Avoid:
+- copying any exact animal silhouette, arrow arrangement, or frame from the references
+- tangled spaghetti lines, ambiguous arrowheads, overlapping tracks, unreadable micro-details, photorealism, 3D blocks, beige paper styling, or a generic rectangular maze
+- arrows pointing in impossible or inconsistent directions
+- decorative objects that obscure the puzzle board

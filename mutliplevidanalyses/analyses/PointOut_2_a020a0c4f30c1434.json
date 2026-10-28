@@ -1,0 +1,118 @@
+{
+ "hook": {
+  "hook_type": [
+   "Cinematic / Story Opening"
+  ],
+  "hook_trigger": [
+   "Novelty"
+  ],
+  "hook_emotion": [
+   "Curiosity"
+  ]
+ },
+ "audio": {
+  "audio_style_tags": [
+   "Gameplay SFX"
+  ],
+  "music_mood": "none"
+ },
+ "content": {
+  "concept_tags": [
+   "Gameplay Showcase",
+   "Puzzle Challenge"
+  ],
+  "concept_description": "A neon lion maze puzzle challenge where the player tries to untangle directional arrows, but fails continuously and watches their IQ score drop.",
+  "persuasion_triggers": [
+   "Challenge / Ego Threat"
+  ],
+  "player_motivation": [
+   "Mastery / Problem Solving",
+   "Completion / Order"
+  ],
+  "cultural_reference": "Albert Einstein avatar representing IQ measurement",
+  "why_it_works": "The dropping IQ meter and red flashing failure effects trigger ego threat and urge viewers to download the game to prove they can solve the puzzle correctly."
+ },
+ "visuals": {
+  "visual_style_tags": [
+   "2D Art",
+   "High-Contrast / Dark Mood"
+  ],
+  "primary_color": "black #000000, neon cyan #00E5FF, neon magenta #FF007F, neon orange #FF8C00",
+  "notable_characters": "Albert Einstein icon",
+  "notable_objects": "Lion neon maze, hand cursor, FAIL button"
+ },
+ "emotions": {
+  "ad_emotion": [
+   "Frustration",
+   "Tension"
+  ],
+  "emotional_arc": "Intrigue at neon lion art -> increasing frustration and tension as wrong moves make the IQ drop to failure"
+ },
+ "end_card": {
+  "end_card_elements": [
+   "Game Logo",
+   "CTA Button"
+  ],
+  "cta_and_text": "00:58 - 'PLAY NOW!' on CTA button, 'ARROW OUT' logo text",
+  "end_card_brand_text": "ARROW OUT"
+ },
+ "gameplay": {
+  "gameplay_seconds": 51,
+  "core_gameplay_notes": "Tapping arrows to slide them out of an intricate maze without colliding into other arrows.",
+  "gameplay_moment_type": [
+   "Puzzle Solving",
+   "Trial & Error",
+   "Failure"
+  ]
+ },
+ "ad_format": [
+  "Hybrid",
+  "Real Gameplay",
+  "CGI Animation"
+ ],
+ "chapterization": [
+  {
+   "stage": "Hook",
+   "starttime_offset": "00:00",
+   "endtime_offset": "00:05",
+   "chapter_description": "Animated neon lion roars and transforms into a circuit-like arrow maze profile."
+  },
+  {
+   "stage": "Demo",
+   "starttime_offset": "00:05",
+   "endtime_offset": "00:18",
+   "chapter_description": "A hand cursor begins tapping arrows around the lion's face, making some successful moves and some errors."
+  },
+  {
+   "stage": "Escalation",
+   "starttime_offset": "00:18",
+   "endtime_offset": "00:55",
+   "chapter_description": "Camera zooms and shifts across the lion body as repeated mistakes cause the IQ meter to steadily decline from 85 down to 15."
+  },
+  {
+   "stage": "Payoff",
+   "starttime_offset": "00:55",
+   "endtime_offset": "00:57",
+   "chapter_description": "A large red 'FAIL' stamp pops up over the game screen with a failure buzzer."
+  },
+  {
+   "stage": "End Card",
+   "starttime_offset": "00:57",
+   "endtime_offset": "00:59",
+   "chapter_description": "End card appears showing the Arrow Out app icon, game logo, and Play Now button."
+  }
+ ],
+ "_evidence": {
+  "hook_trigger:Novelty": "00:00 - Glowing neon animated roaring lion morphing into an arrow circuit puzzle.",
+  "hook_emotion:Curiosity": "00:00 - Glowing neon aesthetic and lion roaring animation draws immediate curiosity.",
+  "persuasion_triggers:Challenge / Ego Threat": "00:07 - 'Your IQ' bar decreases with each wrong move, challenging the player's intelligence.",
+  "ad_emotion:Frustration": "00:09 - Screen flashes red and buzzer sounds as IQ drops from wrong choices.",
+  "ad_emotion:Tension": "00:47 - Screen continues to flash red as IQ plummets to 20, building tension.",
+  "gameplay_moment_type:Puzzle Solving": "00:05 - Hand taps arrows trying to clear paths from the lion outline.",
+  "gameplay_moment_type:Trial & Error": "00:08 - Hand attempts tapping blocked arrows, testing which arrows can exit.",
+  "gameplay_moment_type:Failure": "00:56 - Big red FAIL stamp appears on screen after repeated wrong moves.",
+  "ad_format": "Rule 4 applied: Real arrow untangling puzzle mechanics paired with an IQ meter, Einstein avatar, animated CGI intro, and FAIL stamp overlay."
+ },
+ "_audit": [],
+ "_validation_warnings": []
+}

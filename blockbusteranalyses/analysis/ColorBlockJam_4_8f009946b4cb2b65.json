@@ -1,0 +1,118 @@
+{
+ "hook": {
+  "hook_type": [
+   "Gameplay Mid-Action"
+  ],
+  "hook_trigger": [
+   "Oddly Satisfying (ASMR / OCD)"
+  ],
+  "hook_emotion": [
+   "Curiosity",
+   "Satisfaction"
+  ]
+ },
+ "audio": {
+  "audio_style_tags": [
+   "Gameplay SFX",
+   "ASMR"
+  ],
+  "music_mood": "none; tactile plastic clicks and brick disintegration sounds only"
+ },
+ "content": {
+  "concept_tags": [
+   "Gameplay Showcase",
+   "Puzzle Challenge"
+  ],
+  "concept_description": "A top-down sliding puzzle game where Lego-style interlocking blocks are shifted through open grid spaces to exit through matching colored perimeter gates.",
+  "persuasion_triggers": [
+   "Oddly Satisfying (ASMR / OCD)",
+   "Challenge / Ego Threat"
+  ],
+  "player_motivation": [
+   "Mastery / Problem Solving",
+   "Completion / Order"
+  ],
+  "cultural_reference": "Lego building bricks",
+  "why_it_works": "Crisp tactile sound effects combined with smooth sliding movements and satisfying disintegration animations appeal to puzzle and ASMR lovers."
+ },
+ "visuals": {
+  "visual_style_tags": [
+   "3D Art",
+   "Top-Down View",
+   "Bright Palette"
+  ],
+  "primary_color": "Grey #7E8592, Yellow #EEA537, Red #B5323C, Purple #9D4396, Blue #2E60D7",
+  "notable_characters": "",
+  "notable_objects": "Lego-like plastic blocks, sliding perimeter slots, animated pointer hand"
+ },
+ "emotions": {
+  "ad_emotion": [
+   "Curiosity",
+   "Satisfaction"
+  ],
+  "emotional_arc": "Curiosity about the spatial block arrangement leads to satisfaction as blocks clear smoothly."
+ },
+ "end_card": {
+  "end_card_elements": [],
+  "cta_and_text": "",
+  "end_card_brand_text": ""
+ },
+ "gameplay": {
+  "gameplay_seconds": 60,
+  "core_gameplay_notes": "A simulated hand drags shaped interlocking plastic blocks into free board spaces to align them with matching color border slots, causing them to disintegrate.",
+  "gameplay_moment_type": [
+   "Puzzle Solving",
+   "Satisfying Moment"
+  ]
+ },
+ "ad_format": [
+  "Real Gameplay"
+ ],
+ "chapterization": [
+  {
+   "stage": "Hook",
+   "starttime_offset": "00:00",
+   "endtime_offset": "00:03",
+   "chapter_description": "Hand immediately slides an orange brick into a bottom slot where it crumbles."
+  },
+  {
+   "stage": "Demo",
+   "starttime_offset": "00:03",
+   "endtime_offset": "00:28",
+   "chapter_description": "Hand systematically shifts blocks around the board to create pathways and clear colored pieces."
+  },
+  {
+   "stage": "Escalation",
+   "starttime_offset": "00:28",
+   "endtime_offset": "01:00",
+   "chapter_description": "Puzzle layout repeats, highlighting the methodical spatial problem-solving steps."
+  }
+ ],
+ "_evidence": {
+  "hook_trigger:Oddly Satisfying (ASMR / OCD)": "00:01 - Orange block slides into matching perimeter slot and dissolves into small bricks with a crisp sound",
+  "hook_emotion:Curiosity": "00:00 - Viewer sees a crowded interlocking grid of colorful blocks waiting to be solved",
+  "hook_emotion:Satisfaction": "00:01 - Orange block cleanly slides into the slot and crumbles",
+  "persuasion_triggers:Oddly Satisfying (ASMR / OCD)": "00:02 - Purple brick slides out and disintegrates smoothly into fragments",
+  "persuasion_triggers:Challenge / Ego Threat": "00:06 - Grid is tightly packed with shapes blocking each other, requiring clever spatial maneuvering",
+  "ad_emotion:Curiosity": "00:15 - Hand rearranges central yellow and red pieces to find pathing",
+  "ad_emotion:Satisfaction": "00:24 - Green 2x2 block slides into matching green gate and bursts",
+  "gameplay_moment_type:Puzzle Solving": "00:11 - Hand slides the yellow cross piece downward to create space for surrounding blocks",
+  "gameplay_moment_type:Satisfying Moment": "00:09 - Orange block reaches border exit and crumbles away with tactile sound",
+  "ad_format": "Rule 1 - The video displays standard in-game board puzzle mechanics without external overlays"
+ },
+ "_audit": [
+  {
+   "field": "content.persuasion_triggers",
+   "claim": "Challenge / Ego Threat",
+   "problem": "There is no challenge or ego threat present (e.g., no provocative copy like 'Only 1% can solve', failed attempts, or taunts); the ad consists solely of calm, unprompted puzzle gameplay.",
+   "fix": "Remove 'Challenge / Ego Threat' from persuasion_triggers and _evidence."
+  },
+  {
+   "field": "chapterization[2].stage",
+   "claim": "Escalation",
+   "problem": "The footage starting around 00:28/00:29 is an exact loop of the initial gameplay from 00:00 rather than an escalation in stakes, speed, or difficulty.",
+   "fix": "Label this segment as 'Loop' or 'Repeat' instead of 'Escalation'."
+  }
+ ],
+ "_validation_warnings": []
+}

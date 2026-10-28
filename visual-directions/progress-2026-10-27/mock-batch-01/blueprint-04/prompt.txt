@@ -1,0 +1,356 @@
+Create ONE polished mobile puzzle game board mock from the supplied CAD blueprint.
+Image 1 is the EXACT GEOMETRY MASTER. Image 2 is MATERIAL/FINISH reference only; do not copy its layout, colors or hand.
+Apply polished rounded toy-plastic rendering, gently beveled connected block outlines, soft ambient shadows, subtle glossy highlights and raised round studs. Keep the strict orthographic top-down camera. Match the geometry master precisely. Dark blue board floor, purple frame. No hand, text, branding, added UI, particle effects or perspective.
+HARD REQUIREMENTS: exactly 8x8 equal cells; 54 occupied cells, 10 blank cells; 11 connected blocks; 11 corresponding colored edge gates. Every occupied logical cell has EXACTLY FOUR studs arranged 2x2: 216 studs total. A 2x2-cell block thus has 16 studs, not four. All studs share one diameter and spacing. Cells of a single piece form one seamless solid shape, not separate tiles. Do not merge adjacent different pieces, fill empty cells, add/remove studs, rotate/shift blocks, or relocate/resize gates. Preserve all concave notches and holes. Retain the yellow 2x2 square in the exact center. Each gate is an actual full-width opening with colored sill and outward white arrow, with no wall blocking its aperture. Other border segments remain closed. Slight bevels must not alter footprints.
+The cell map below is authoritative: rows top-to-bottom, columns left-to-right; '.' means empty. Coordinates in block metadata are ZERO BASED (x,y). Gate start and width refer to logical cell intervals along the edge. Colors are the block IDs' hex colors. IDs and the cell map must NOT appear as text in the final image. Reproduce the blueprint faithfully; do not solve or rearrange the puzzle.
+{
+  "grid": [
+    ". . . . G P P .",
+    "O O O G G . P C",
+    "O W W G G . P C",
+    "O W W Y Y C C C",
+    "O W W Y Y T T T",
+    ". N N R V T B T",
+    "N N R R V B B B",
+    ". R R V V V B ."
+  ],
+  "blocks": {
+    "Y": {
+      "name": "Y",
+      "color": "#FFD43B",
+      "cells": [
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "gate": [
+        "bottom",
+        3,
+        2
+      ]
+    },
+    "B": {
+      "name": "B",
+      "color": "#3889F5",
+      "cells": [
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          5
+        ],
+        [
+          6,
+          6
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          7,
+          6
+        ]
+      ],
+      "gate": [
+        "right",
+        3,
+        3
+      ]
+    },
+    "C": {
+      "name": "C",
+      "color": "#39CBE0",
+      "cells": [
+        [
+          5,
+          3
+        ],
+        [
+          6,
+          3
+        ],
+        [
+          7,
+          1
+        ],
+        [
+          7,
+          2
+        ],
+        [
+          7,
+          3
+        ]
+      ],
+      "gate": [
+        "right",
+        0,
+        3
+      ]
+    },
+    "V": {
+      "name": "V",
+      "color": "#9364DA",
+      "cells": [
+        [
+          3,
+          7
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          7
+        ]
+      ],
+      "gate": [
+        "bottom",
+        5,
+        3
+      ]
+    },
+    "T": {
+      "name": "T",
+      "color": "#248B85",
+      "cells": [
+        [
+          5,
+          4
+        ],
+        [
+          5,
+          5
+        ],
+        [
+          6,
+          4
+        ],
+        [
+          7,
+          4
+        ],
+        [
+          7,
+          5
+        ]
+      ],
+      "gate": [
+        "left",
+        6,
+        2
+      ]
+    },
+    "R": {
+      "name": "R",
+      "color": "#DA657F",
+      "cells": [
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          6
+        ]
+      ],
+      "gate": [
+        "bottom",
+        0,
+        3
+      ]
+    },
+    "G": {
+      "name": "G",
+      "color": "#45B969",
+      "cells": [
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          4,
+          2
+        ]
+      ],
+      "gate": [
+        "top",
+        2,
+        2
+      ]
+    },
+    "P": {
+      "name": "P",
+      "color": "#C787D4",
+      "cells": [
+        [
+          5,
+          0
+        ],
+        [
+          6,
+          0
+        ],
+        [
+          6,
+          1
+        ],
+        [
+          6,
+          2
+        ]
+      ],
+      "gate": [
+        "top",
+        4,
+        2
+      ]
+    },
+    "N": {
+      "name": "N",
+      "color": "#5360B6",
+      "cells": [
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          5
+        ]
+      ],
+      "gate": [
+        "left",
+        4,
+        2
+      ]
+    },
+    "O": {
+      "name": "O",
+      "color": "#D68D45",
+      "cells": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "gate": [
+        "left",
+        0,
+        4
+      ]
+    },
+    "W": {
+      "name": "W",
+      "color": "#91ADB8",
+      "cells": [
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "gate": [
+        "top",
+        0,
+        2
+      ]
+    }
+  }
+}

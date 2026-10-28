@@ -1,0 +1,138 @@
+{
+ "hook": {
+  "hook_type": [
+   "Gameplay Mid-Action"
+  ],
+  "hook_trigger": [
+   "Urgency / FOMO",
+   "Challenge / Ego Threat"
+  ],
+  "hook_emotion": [
+   "Curiosity",
+   "Tension"
+  ]
+ },
+ "audio": {
+  "audio_style_tags": [
+   "Background Music",
+   "Gameplay SFX"
+  ],
+  "music_mood": "Tense underwater ambient music with ticking clock and buzzer SFX"
+ },
+ "content": {
+  "concept_tags": [
+   "Gameplay Showcase",
+   "Puzzle Challenge",
+   "Fail / Win Loop"
+  ],
+  "concept_description": "A player attempts to clear an arrow pipe labyrinth to release trapped blue creatures before a 35-second timer runs out, ultimately failing.",
+  "persuasion_triggers": [
+   "Urgency / FOMO",
+   "Challenge / Ego Threat",
+   "Loss Aversion"
+  ],
+  "player_motivation": [
+   "Mastery / Problem Solving",
+   "Completion / Order"
+  ],
+  "cultural_reference": "",
+  "why_it_works": "The rapid countdown timer and complex maze layout create intense time pressure and ego threat, enticing viewers to try solving it themselves."
+ },
+ "visuals": {
+  "visual_style_tags": [
+   "2D Art",
+   "3D Art",
+   "Bright Palette"
+  ],
+  "primary_color": "Steel Blue (#4682B4), Underwater Teal (#1C4E68), Crimson Red (#C8102E)",
+  "notable_characters": "Clownfish, blue tang, little blue diamond creatures",
+  "notable_objects": "Arrow maze pipes, pressure gauge timer, FAIL stamp, search bar"
+ },
+ "emotions": {
+  "ad_emotion": [
+   "Tension",
+   "Urgency",
+   "Frustration"
+  ],
+  "emotional_arc": "Curious engagement quickly builds into rising tension and urgency as the clock runs down, ending in frustration upon failure."
+ },
+ "end_card": {
+  "end_card_elements": [
+   "Game Logo",
+   "Store Badges",
+   "Tagline Text"
+  ],
+  "cta_and_text": "00:39 - Search bar types 'Amaze GO!', Google Play and App Store badges",
+  "end_card_brand_text": "Amaze GO!"
+ },
+ "gameplay": {
+  "gameplay_seconds": 36,
+  "core_gameplay_notes": "Tapping directional arrows in a tangled pipe labyrinth to clear paths and allow trapped items to fall through to the exit before time runs out.",
+  "gameplay_moment_type": [
+   "Puzzle Solving",
+   "Trial & Error",
+   "Failure"
+  ]
+ },
+ "ad_format": [
+  "Hybrid",
+  "Real Gameplay"
+ ],
+ "chapterization": [
+  {
+   "stage": "Hook",
+   "starttime_offset": "00:00",
+   "endtime_offset": "00:03",
+   "chapter_description": "Arrow maze container with trapped blue creatures and a 35-second countdown timer."
+  },
+  {
+   "stage": "Demo",
+   "starttime_offset": "00:03",
+   "endtime_offset": "00:20",
+   "chapter_description": "Player taps out arrows, releasing batches of blue creatures into the pipes."
+  },
+  {
+   "stage": "Escalation",
+   "starttime_offset": "00:20",
+   "endtime_offset": "00:36",
+   "chapter_description": "Timer drops below 15 seconds with red flashing emergency lights as moves get frantic."
+  },
+  {
+   "stage": "Payoff",
+   "starttime_offset": "00:36",
+   "endtime_offset": "00:38",
+   "chapter_description": "Timer hits 00, screen desaturates, and a large FAIL stamp appears."
+  },
+  {
+   "stage": "End Card",
+   "starttime_offset": "00:38",
+   "endtime_offset": "00:41",
+   "chapter_description": "End card displaying the app icon, animated search bar typing 'Amaze GO!', and app store badges."
+  }
+ ],
+ "_evidence": {
+  "hook_trigger:Urgency / FOMO": "00:00 - A circular timer starting at 35 seconds creates immediate time pressure.",
+  "hook_trigger:Challenge / Ego Threat": "00:00 - Dense, tangled arrow labyrinth packed with trapped blue gems challenges viewer to solve it.",
+  "hook_emotion:Curiosity": "00:01 - Viewer watches to see how the arrow puzzle mechanism works.",
+  "hook_emotion:Tension": "00:01 - Timer counting down from 35 immediately introduces pressure.",
+  "persuasion_triggers:Urgency / FOMO": "00:20 - Red flashing edges and rapid countdown timer intensify time pressure.",
+  "persuasion_triggers:Challenge / Ego Threat": "00:26 - Difficult maze layout causes the player to struggle and fail.",
+  "persuasion_triggers:Loss Aversion": "00:35 - Timer ticks down to 00 threatening loss of progress.",
+  "ad_emotion:Tension": "00:20 - Flashing red screen borders and ticking timer ratchet up pressure.",
+  "ad_emotion:Urgency": "00:26 - Countdown reaches single digits (09 to 00) accelerating the pace.",
+  "ad_emotion:Frustration": "00:36 - Large red FAIL stamp and buzzer sound trigger disappointment at losing.",
+  "gameplay_moment_type:Puzzle Solving": "00:02 - Player taps specific arrows to clear routes through the pipes.",
+  "gameplay_moment_type:Trial & Error": "00:15 - Player taps arrows in different sections attempting to find clear escape paths.",
+  "gameplay_moment_type:Failure": "00:36 - Time runs out and red FAIL stamp appears.",
+  "ad_format": "Rule 4: real arrow maze mechanic with added underwater pipe theme, timer gauge, and FAIL stamp overlay"
+ },
+ "_audit": [
+  {
+   "field": "end_card_elements",
+   "claim": "Tagline Text",
+   "problem": "There is no tagline or slogan text displayed on the end card; only the game logo, an animated search bar, and store badges are shown.",
+   "fix": "Remove 'Tagline Text' from end_card_elements"
+  }
+ ],
+ "_validation_warnings": []
+}

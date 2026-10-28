@@ -1,0 +1,110 @@
+{
+ "hook": {
+  "hook_type": [
+   "Gameplay Mid-Action",
+   "Fail / Near-Miss"
+  ],
+  "hook_trigger": [
+   "Curiosity Gap",
+   "Challenge / Ego Threat",
+   "Novelty"
+  ],
+  "hook_emotion": [
+   "Curiosity",
+   "Frustration"
+  ]
+ },
+ "audio": {
+  "audio_style_tags": [
+   "Gameplay SFX",
+   "ASMR"
+  ],
+  "music_mood": "Minimalist audio with rhythmic click, error, and whoosh ASMR sound effects"
+ },
+ "content": {
+  "concept_tags": [
+   "Gameplay Showcase",
+   "Puzzle Challenge",
+   "Fail / Win Loop"
+  ],
+  "concept_description": "A tap-away arrow puzzle arranged in the shape of a stylized human face, showing alternating blocked errors and smooth untangling.",
+  "persuasion_triggers": [
+   "Oddly Satisfying (ASMR / OCD)",
+   "Challenge / Ego Threat",
+   "Novelty"
+  ],
+  "player_motivation": [
+   "Mastery / Problem Solving",
+   "Relaxation",
+   "Completion / Order"
+  ],
+  "cultural_reference": "",
+  "why_it_works": "The striking visual layout of a face formed of arrow lines immediately arrests attention, while intentional missteps stimulate the viewer's urge to step in and solve it cleanly."
+ },
+ "visuals": {
+  "visual_style_tags": [
+   "2D Art",
+   "High-Contrast / Dark Mood",
+   "Top-Down View"
+  ],
+  "primary_color": "Black #000000, White #FFFFFF, Red #7D0000",
+  "notable_characters": "Stylized human face outline formed by intertwined arrow pathways",
+  "notable_objects": "White directional arrows, hand pointer cursor, red screen-edge fail flash"
+ },
+ "emotions": {
+  "ad_emotion": [
+   "Curiosity",
+   "Frustration",
+   "Satisfaction",
+   "Relaxation"
+  ],
+  "emotional_arc": "Curiosity -> Frustration -> Satisfaction"
+ },
+ "end_card": {
+  "end_card_elements": [
+   "Game Logo",
+   "Tagline Text",
+   "CTA Button"
+  ],
+  "cta_and_text": "'ArrowScapes' logo, 'ASMR PUZZLE' text, and green 'Play' button at 00:43"
+ },
+ "gameplay": {
+  "gameplay_seconds": 42,
+  "core_gameplay_notes": "Tapping directional arrow tiles to release them out of the maze when their exit trajectory is clear.",
+  "gameplay_moment_type": [
+   "Puzzle Solving",
+   "Trial & Error",
+   "Failure",
+   "Satisfying Moment"
+  ]
+ },
+ "ad_format": [
+  "Real Gameplay"
+ ],
+ "chapterization": [
+  {
+   "stage": "Hook",
+   "starttime_offset": "00:00",
+   "endtime_offset": "00:03",
+   "chapter_description": "Initial view of the face maze where the pointer tests arrows and triggers error feedback."
+  },
+  {
+   "stage": "Demo",
+   "starttime_offset": "00:03",
+   "endtime_offset": "00:27",
+   "chapter_description": "Pointer methodically probes different arrow junctions, releasing unblocked arrows and flashing red on blocked ones."
+  },
+  {
+   "stage": "Escalation",
+   "starttime_offset": "00:27",
+   "endtime_offset": "00:41",
+   "chapter_description": "Quick clearing around the outer edge of the face with satisfying whoosh animations."
+  },
+  {
+   "stage": "End Card",
+   "starttime_offset": "00:41",
+   "endtime_offset": "00:45",
+   "chapter_description": "Animated transition to the ArrowScapes title screen with an interactive Play button."
+  }
+ ]
+}

@@ -1,0 +1,134 @@
+{
+ "hook": {
+  "hook_type": [
+   "Cinematic / Story Opening"
+  ],
+  "hook_trigger": [
+   "Novelty"
+  ],
+  "hook_emotion": [
+   "Curiosity"
+  ]
+ },
+ "audio": {
+  "audio_style_tags": [
+   "Voiceover",
+   "Gameplay SFX",
+   "Background Music"
+  ],
+  "music_mood": "Upbeat electronic synthesized casual puzzle music"
+ },
+ "content": {
+  "concept_tags": [
+   "Puzzle Challenge",
+   "Reaction / Testimonial",
+   "Fail / Win Loop"
+  ],
+  "concept_description": "A presenter demonstrates an arrow maze puzzle shaped like a lion while an IQ score penalizes every wrong move until failure.",
+  "persuasion_triggers": [
+   "Challenge / Ego Threat",
+   "Novelty"
+  ],
+  "player_motivation": [
+   "Mastery / Problem Solving"
+  ],
+  "cultural_reference": "Albert Einstein avatar on the IQ meter",
+  "why_it_works": "The striking neon animal puzzle visual coupled with a punishing IQ meter challenges the viewer's ego to prove they can solve it without failing."
+ },
+ "visuals": {
+  "visual_style_tags": [
+   "2D Art",
+   "3D Art",
+   "High-Contrast / Dark Mood"
+  ],
+  "primary_color": "#000000, #00D2FF, #FF007F, #FFA500",
+  "notable_characters": "Female UGC presenter, Albert Einstein avatar on IQ meter, neon lion",
+  "notable_objects": "Arrow maze puzzle, FAIL stamp, IQ progress bar"
+ },
+ "emotions": {
+  "ad_emotion": [
+   "Curiosity",
+   "Frustration",
+   "Tension"
+  ],
+  "emotional_arc": "Curiosity -> Frustration -> Tension"
+ },
+ "end_card": {
+  "end_card_elements": [
+   "Game Logo",
+   "CTA Button"
+  ],
+  "cta_and_text": "00:57 - 'POINT OUT' and 'PLAY NOW!'",
+  "end_card_brand_text": "POINT OUT"
+ },
+ "gameplay": {
+  "gameplay_seconds": 51,
+  "core_gameplay_notes": "Tapping arrows to slide them off the board in the correct order without hitting blocking arrows.",
+  "gameplay_moment_type": [
+   "Puzzle Solving",
+   "Trial & Error",
+   "Failure"
+  ]
+ },
+ "ad_format": [
+  "Hybrid",
+  "Real Gameplay",
+  "UGC",
+  "CGI Animation"
+ ],
+ "chapterization": [
+  {
+   "stage": "Hook",
+   "starttime_offset": "00:00",
+   "endtime_offset": "00:05",
+   "chapter_description": "Animated 3D neon circuit lion walks and roars."
+  },
+  {
+   "stage": "Setup",
+   "starttime_offset": "00:05",
+   "endtime_offset": "00:16",
+   "chapter_description": "Presenter introduces Point Out and explains arrow clearing mechanics."
+  },
+  {
+   "stage": "Demo",
+   "starttime_offset": "00:16",
+   "endtime_offset": "00:30",
+   "chapter_description": "Presenter taps an incorrect arrow, losing IQ points."
+  },
+  {
+   "stage": "Escalation",
+   "starttime_offset": "00:30",
+   "endtime_offset": "00:46",
+   "chapter_description": "Presenter struggles with blocked arrows as IQ rapidly drops."
+  },
+  {
+   "stage": "Payoff",
+   "starttime_offset": "00:46",
+   "endtime_offset": "00:56",
+   "chapter_description": "IQ falls to lowest levels and a large FAIL stamp appears."
+  },
+  {
+   "stage": "End Card",
+   "starttime_offset": "00:56",
+   "endtime_offset": "00:59",
+   "chapter_description": "Game logo, icon, and Play Now call-to-action button."
+  }
+ ],
+ "_evidence": {
+  "hook_trigger:Novelty": "00:01 - colorful glowing neon lion walks and roars against black void",
+  "hook_emotion:Curiosity": "00:01 - intriguing neon circuit design of lion grabs attention",
+  "persuasion_triggers:Challenge / Ego Threat": "00:19 - IQ meter drops on mistakes and presenter challenges viewer to beat score",
+  "persuasion_triggers:Novelty": "00:01 - striking neon arrow puzzle shaped like a lion",
+  "ad_emotion:Curiosity": "00:01 - neon lion animation intrigues viewer",
+  "ad_emotion:Frustration": "00:28 - narrator groans 'wrong again' as arrows collide and IQ score falls",
+  "ad_emotion:Tension": "00:47 - screen edges pulse red as IQ drops down to 15",
+  "gameplay_moment_type:Puzzle Solving": "00:08 - player taps outward pointing arrows to clear the board",
+  "gameplay_moment_type:Trial & Error": "00:16 - player taps blocked arrow causing a crash animation",
+  "gameplay_moment_type:Failure": "00:56 - IQ drops to 15 and giant red FAIL stamp covers the screen",
+  "ad_format": "Rule 4: real arrow-clearing gameplay combined with fake IQ meter, Einstein avatar, FAIL stamp overlay, UGC presenter, and 3D CGI neon lion intro"
+ },
+ "_audit": [],
+ "_validation_warnings": [
+  "gameplay_seconds 51 vs Demo+Escalation+Payoff 40; check"
+ ]
+}

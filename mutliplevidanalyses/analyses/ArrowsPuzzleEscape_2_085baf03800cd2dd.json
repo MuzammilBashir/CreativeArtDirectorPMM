@@ -1,0 +1,128 @@
+{
+ "hook": {
+  "hook_type": [
+   "Challenge Text"
+  ],
+  "hook_trigger": [
+   "Curiosity Gap"
+  ],
+  "hook_emotion": [
+   "Curiosity"
+  ]
+ },
+ "audio": {
+  "audio_style_tags": [
+   "Voiceover",
+   "Background Music",
+   "Gameplay SFX"
+  ],
+  "music_mood": "calm ambient acoustic background music"
+ },
+ "content": {
+  "concept_tags": [
+   "Puzzle Challenge",
+   "Gameplay Showcase"
+  ],
+  "concept_description": "A scroll lists the relaxing features of the arrow puzzle game before demonstrating arrow-clearing gameplay that ends with an error collision.",
+  "persuasion_triggers": [
+   "Curiosity Gap",
+   "Challenge / Ego Threat"
+  ],
+  "player_motivation": [
+   "Relaxation",
+   "Mastery / Problem Solving",
+   "Completion / Order"
+  ],
+  "cultural_reference": "",
+  "why_it_works": "Contrasts calming promised benefits with engaging puzzle-solving gameplay that triggers an urge to intervene when an error occurs."
+ },
+ "visuals": {
+  "visual_style_tags": [
+   "2D Art",
+   "Top-Down View",
+   "Bright Palette"
+  ],
+  "primary_color": "white #FFFFFF, black #000000, forest green #2E4B1F",
+  "notable_characters": "",
+  "notable_objects": "ancient parchment scroll, arrow maze, pointer hand"
+ },
+ "emotions": {
+  "ad_emotion": [
+   "Relaxation",
+   "Frustration"
+  ],
+  "emotional_arc": "Curiosity -> Relaxation -> Frustration"
+ },
+ "end_card": {
+  "end_card_elements": [
+   "Game Logo"
+  ],
+  "cta_and_text": "00:56 - Arrows",
+  "end_card_brand_text": "Arrows"
+ },
+ "gameplay": {
+  "gameplay_seconds": 40,
+  "core_gameplay_notes": "A hand cursor taps unblocked arrows in a dense maze to slide them off the screen.",
+  "gameplay_moment_type": [
+   "Puzzle Solving",
+   "Satisfying Moment",
+   "Failure"
+  ]
+ },
+ "ad_format": [
+  "Real Gameplay"
+ ],
+ "chapterization": [
+  {
+   "stage": "Hook",
+   "starttime_offset": "00:00",
+   "endtime_offset": "00:03",
+   "chapter_description": "Scroll rolls down asking if viewer wants the most relaxing arrow puzzle game"
+  },
+  {
+   "stage": "Setup",
+   "starttime_offset": "00:03",
+   "endtime_offset": "00:16",
+   "chapter_description": "Checklist of game features written out with voiceover narration"
+  },
+  {
+   "stage": "Demo",
+   "starttime_offset": "00:16",
+   "endtime_offset": "00:49",
+   "chapter_description": "Hand cursor systematically untangles arrows from the outer edges of the puzzle"
+  },
+  {
+   "stage": "Escalation",
+   "starttime_offset": "00:49",
+   "endtime_offset": "00:56",
+   "chapter_description": "Cursor taps an arrow that hits a wall/obstacle and turns red in a failed move"
+  },
+  {
+   "stage": "End Card",
+   "starttime_offset": "00:56",
+   "endtime_offset": "00:59",
+   "chapter_description": "Clean white end card with the game name Arrows"
+  }
+ ],
+ "_evidence": {
+  "hook_trigger:Curiosity Gap": "00:01 - Text on scroll asks 'Looking for the most relaxing arrow puzzle game?'",
+  "hook_emotion:Curiosity": "00:01 - Question prompt invites viewer to see what game is being introduced",
+  "persuasion_triggers:Curiosity Gap": "00:02 - Prompts viewer to discover the arrow puzzle game",
+  "persuasion_triggers:Challenge / Ego Threat": "00:50 - Tapping a blocked arrow triggers a red failure path",
+  "ad_emotion:Relaxation": "00:20 - Gentle sliding arrows with soothing music and gentle tapping sounds",
+  "ad_emotion:Frustration": "00:50 - An arrow collision turns red, interrupting the smooth clearing progress",
+  "gameplay_moment_type:Puzzle Solving": "00:25 - Finding which exterior arrows can freely escape the maze",
+  "gameplay_moment_type:Satisfying Moment": "00:30 - Multiple arrows smoothly flying off screen in sequence",
+  "gameplay_moment_type:Failure": "00:50 - Blocked arrow turns red upon collision with an obstructing line",
+  "ad_format": "Rule 1 applied: board shows direct arrow untangling puzzle mechanics of the advertised game on an unmodified board"
+ },
+ "_audit": [
+  {
+   "field": "hook.hook_type",
+   "claim": "[\"Challenge Text\"]",
+   "problem": "The text shown during the hook ('Looking for the most relaxing arrow puzzle game?') is a question/inquiry rather than a challenge to the viewer.",
+   "fix": "Change [\"Challenge Text\"] to [\"Question\"]"
+  }
+ ],
+ "_validation_warnings": []
+}

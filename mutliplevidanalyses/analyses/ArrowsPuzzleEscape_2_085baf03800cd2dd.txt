@@ -1,0 +1,105 @@
+{
+ "hook": {
+  "hook_type": [
+   "Cinematic / Story Opening",
+   "Challenge Text"
+  ],
+  "hook_trigger": [
+   "Curiosity Gap",
+   "Novelty"
+  ],
+  "hook_emotion": [
+   "Curiosity",
+   "Relaxation"
+  ]
+ },
+ "audio": {
+  "audio_style_tags": [
+   "Voiceover",
+   "Background Music",
+   "Gameplay SFX",
+   "ASMR"
+  ],
+  "music_mood": "Gentle ambient nature pads with soothing voiceover and satisfying mechanical tap sounds"
+ },
+ "content": {
+  "concept_tags": [
+   "Problem-Solution",
+   "Puzzle Challenge",
+   "Gameplay Showcase"
+  ],
+  "concept_description": "Promotes an offline, ad-free arrow puzzle game designed for relaxation and sleep by showcasing a calming labyrinth-clearing demonstration.",
+  "persuasion_triggers": [
+   "Oddly Satisfying (ASMR / OCD)",
+   "Novelty"
+  ],
+  "player_motivation": [
+   "Relaxation",
+   "Completion / Order",
+   "Mastery / Problem Solving"
+  ],
+  "cultural_reference": "",
+  "why_it_works": "Leverages player desire for relaxing, uninterrupted mobile games by explicitly promising no ads/no Wi-Fi paired with hypnotic, ASMR-style puzzle unwinding gameplay."
+ },
+ "visuals": {
+  "visual_style_tags": [
+   "2D Art",
+   "Top-Down View"
+  ],
+  "primary_color": "Clean White (#FFFFFF), Ink Black (#000000), Forest Green (#2E4F28)",
+  "notable_characters": "A classic cartoon white glove cursor indicating user touches.",
+  "notable_objects": "An unrolling parchment scroll with green checkmarks, glowing forest elements, and a dense monochrome arrow labyrinth."
+ },
+ "emotions": {
+  "ad_emotion": [
+   "Relaxation",
+   "Satisfaction",
+   "Curiosity"
+  ],
+  "emotional_arc": "Curious intrigue from the fantasy scroll setup transitioning into meditative calm and satisfaction during puzzle clearance."
+ },
+ "end_card": {
+  "end_card_elements": [
+   "Game Logo"
+  ],
+  "cta_and_text": "Game logo '▲rrows' appears at 00:56"
+ },
+ "gameplay": {
+  "gameplay_seconds": 41,
+  "core_gameplay_notes": "Tapping arrows with unobstructed forward paths to detangle and remove them from a tightly packed maze structure.",
+  "gameplay_moment_type": [
+   "Puzzle Solving",
+   "Satisfying Moment"
+  ]
+ },
+ "ad_format": [
+  "Real Gameplay",
+  "Hybrid"
+ ],
+ "chapterization": [
+  {
+   "stage": "Hook",
+   "starttime_offset": "00:00",
+   "endtime_offset": "00:03",
+   "chapter_description": "A magical forest scene opens with a vintage scroll unfurling asking if the viewer wants a relaxing puzzle game."
+  },
+  {
+   "stage": "Setup",
+   "starttime_offset": "00:03",
+   "endtime_offset": "00:15",
+   "chapter_description": "The scroll lists top selling points like no ads, offline play, 10,000+ levels, and better sleep."
+  },
+  {
+   "stage": "Demo",
+   "starttime_offset": "00:16",
+   "endtime_offset": "00:56",
+   "chapter_description": "A cartoon hand taps through a minimalist black-and-white arrow maze, smoothly untangling lines one arrow at a time."
+  },
+  {
+   "stage": "End Card",
+   "starttime_offset": "00:56",
+   "endtime_offset": "00:58",
+   "chapter_description": "Clean minimalist end screen displaying the game title '▲rrows'."
+  }
+ ]
+}

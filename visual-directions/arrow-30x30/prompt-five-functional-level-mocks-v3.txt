@@ -1,0 +1,39 @@
+Create five separate 9:16 vertical mobile-gameplay level mocks for an Arrow-style puzzle game. Each mock must show a different picture composition: 1) brain, 2) butterfly, 3) small rocket, 4) leaf, 5) sleeping cat.
+
+NON-NEGOTIABLE GEOMETRY RULES — treat these as a diagram, not loose illustration:
+- Every arrow is an independent piece with one continuous orthogonal path.
+- Every arrow piece has exactly ONE arrowhead, at its terminal moving end only.
+- The opposite end of every piece is a blunt rounded tail with NO arrowhead.
+- Never place an arrowhead in the middle of a piece.
+- Never create a fork, branch, loop, self-intersection, or Y-shaped piece.
+- Every piece uses exactly one flat solid color from tail to head; never change color inside one piece.
+- No pieces overlap, cross, merge, or touch in a way that makes boundaries ambiguous.
+- No two arrowheads may face each other along the same lane or point directly toward each other.
+- Every arrow must point toward a visible free board edge with a completely unobstructed path from its head to the edge.
+- Leave a clear empty corridor between every neighboring arrow piece.
+- Make the exit direction and ownership of every piece unmistakable.
+- Use roughly 20–28 pieces per level, with no more than one highlighted piece.
+
+BOARD AND STYLE:
+- Pure black background with a subtle, evenly spaced dotted grid.
+- Thin crisp neon line art, consistent stroke width, restrained glow.
+- Use solid color groups inspired by the reference gameplay: magenta, cyan, yellow, red, violet, and white.
+- The picture silhouette is formed by the arrangement of separate arrow pieces; do not draw a continuous illustration underneath the pieces.
+- Keep the board sparse enough that every individual arrow can be inspected.
+- Top-down orthographic gameplay view, clean mobile-ad presentation.
+
+UI:
+- Small top label: “LEVEL 1”
+- Three heart icons
+- Progress label: “0 / 24 ARROWS CLEARED”
+- Highlight exactly one legal first move in cyan with a thin white outline and a faint outward path guide.
+- Add one white hand cursor touching only the highlighted piece.
+- No other text, logo, badge, or decorative object.
+
+VALIDATION VIEW:
+- Make all arrowheads large and visibly isolated.
+- The tail-to-head direction must be readable at thumbnail size.
+- Do not use white as a long continuous spiral or central decorative shape; white is allowed only as separate single-color arrow pieces.
+- Before finalizing each mock, visually check: one head per piece, one color per piece, zero overlaps, zero head-to-head pairs, and a clear edge exit for every piece.
+
+Avoid double-headed arrows, hidden arrowheads, multicolor arrows, gradients inside pieces, intersecting strokes, touching arrowheads, blocked exits, ambiguous silhouettes, dense spaghetti, 3D blocks, photorealism, beige paper styling, and fake gameplay geometry.

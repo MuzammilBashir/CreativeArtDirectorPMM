@@ -1,0 +1,11 @@
+.npm-cache/
+.uv-cache/
+.uv-python/
+
+# Local credentials and machine-specific state
+.aws/
+.git-credentials
+
+# OS/editor noise
+Thumbs.db
+.DS_Store

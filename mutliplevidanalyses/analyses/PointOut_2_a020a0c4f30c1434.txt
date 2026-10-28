@@ -1,0 +1,71 @@
+{
+ "hook": {
+  "hook_type": ["Cinematic / Story Opening"],
+  "hook_trigger": ["Novelty", "Curiosity Gap"],
+  "hook_emotion": ["Curiosity", "Surprise"]
+ },
+ "audio": {
+  "audio_style_tags": ["Background Music", "Gameplay SFX"],
+  "music_mood": "Quirky playful puzzle background rhythm with realistic roaring and mechanical tap SFX"
+ },
+ "content": {
+  "concept_tags": ["Gameplay Showcase", "Puzzle Challenge", "Fail / Win Loop"],
+  "concept_description": "A striking neon arrow maze shaped like a lion challenges the player to unblock arrows, accompanied by an IQ meter that drops on mistakes until failing.",
+  "persuasion_triggers": ["Challenge / Ego Threat", "Oddly Satisfying (ASMR / OCD)", "Curiosity Gap"],
+  "player_motivation": ["Mastery / Problem Solving", "Completion / Order"],
+  "cultural_reference": "Albert Einstein IQ test meme icon",
+  "why_it_works": "The vibrant neon aesthetic immediately grabs attention, while the declining IQ counter and obvious failed taps trigger ego threat and urge viewers to prove they can solve it."
+ },
+ "visuals": {
+  "visual_style_tags": ["2D Art", "High-Contrast / Dark Mood", "Bright Palette", "Top-Down View"],
+  "primary_color": "Black (#000000) with neon cyan, magenta, orange, and yellow arrows",
+  "notable_characters": "Animated neon lion, Albert Einstein portrait icon",
+  "notable_objects": "Neon directional arrows, hand cursor pointer, IQ meter bar, red FAIL button stamp"
+ },
+ "emotions": {
+  "ad_emotion": ["Curiosity", "Frustration", "Tension", "Satisfaction"],
+  "emotional_arc": "Curiosity -> Engagement -> Tension -> Frustration"
+ },
+ "end_card": {
+  "end_card_elements": ["Game Logo", "CTA Button"],
+  "cta_and_text": "FAIL popup at 00:56; 'ARROW OUT' logo and 'PLAY NOW!' button at 00:57"
+ },
+ "gameplay": {
+  "gameplay_seconds": 51,
+  "core_gameplay_notes": "Tapping unobstructed neon arrows to fly out of a complex maze silhouette while avoiding blocked paths.",
+  "gameplay_moment_type": ["Puzzle Solving", "Trial & Error", "Failure"]
+ },
+ "ad_format": ["Hybrid", "Fake Gameplay"],
+ "chapterization": [
+  {
+   "stage": "Hook",
+   "starttime_offset": "00:00",
+   "endtime_offset": "00:05",
+   "chapter_description": "A glowing neon lion roars and steps forward before morphing into a maze puzzle."
+  },
+  {
+   "stage": "Setup",
+   "starttime_offset": "00:05",
+   "endtime_offset": "00:18",
+   "chapter_description": "The camera zooms into the lion's head maze as an IQ meter appears and the player taps arrows."
+  },
+  {
+   "stage": "Demo",
+   "starttime_offset": "00:18",
+   "endtime_offset": "00:44",
+   "chapter_description": "The player attempts to clear tangled arrows on the body, occasionally hitting blocks that reduce their IQ."
+  },
+  {
+   "stage": "Escalation",
+   "starttime_offset": "00:44",
+   "endtime_offset": "00:56",
+   "chapter_description": "The camera shifts back to the head; repeated blocked clicks flash red and rapidly drain the IQ score."
+  },
+  {
+   "stage": "End Card",
+   "starttime_offset": "00:56",
+   "endtime_offset": "00:59",
+   "chapter_description": "A prominent FAIL stamp triggers the Arrow Out game logo and Play Now call to action."
+  }
+ ]
+}

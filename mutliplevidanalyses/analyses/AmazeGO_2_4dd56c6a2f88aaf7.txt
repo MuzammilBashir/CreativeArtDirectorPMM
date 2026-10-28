@@ -1,0 +1,107 @@
+{
+ "hook": {
+  "hook_type": [
+   "Gameplay Mid-Action",
+   "Fail / Near-Miss"
+  ],
+  "hook_trigger": [
+   "Challenge / Ego Threat",
+   "Curiosity Gap"
+  ],
+  "hook_emotion": [
+   "Curiosity",
+   "Frustration"
+  ]
+ },
+ "audio": {
+  "audio_style_tags": [
+   "Voiceover",
+   "Background Music",
+   "Gameplay SFX"
+  ],
+  "music_mood": "Quirky, upbeat puzzle music accompanied by playful cartoon sound effects"
+ },
+ "content": {
+  "concept_tags": [
+   "Gameplay Showcase",
+   "Fail / Win Loop",
+   "Puzzle Challenge"
+  ],
+  "concept_description": "Players attempt to connect matching colored dots without intersecting lines, while an IQ counter drops with repeated failures.",
+  "persuasion_triggers": [
+   "Challenge / Ego Threat",
+   "Curiosity Gap"
+  ],
+  "player_motivation": [
+   "Mastery / Problem Solving",
+   "Completion / Order"
+  ],
+  "cultural_reference": "Albert Einstein",
+  "why_it_works": "Shows repeated fails on an easy-looking puzzle alongside an IQ counter, triggering ego threat and compelling viewers to prove they can solve it."
+ },
+ "visuals": {
+  "visual_style_tags": [
+   "2D Art",
+   "Top-Down View",
+   "Bright Palette"
+  ],
+  "primary_color": "White (#FFFFFF), Blue (#3B82F6), Green (#22C55E), Red (#EF4444)",
+  "notable_characters": "Man in plaid shirt in living room; animated Albert Einstein cutout making expressive gestures",
+  "notable_objects": "Large TV screen displaying dots, pencil drawing colored paths on paper, animated IQ score counter"
+ },
+ "emotions": {
+  "ad_emotion": [
+   "Curiosity",
+   "Frustration",
+   "Humor"
+  ],
+  "emotional_arc": "Curiosity -> Frustration -> Humor"
+ },
+ "end_card": {
+  "end_card_elements": [
+   "Game Logo",
+   "Store Badges"
+  ],
+  "cta_and_text": "'Amaze GO!' in search bar, with 'GET IT ON Google Play' and 'Download on the App Store' badges at 00:52"
+ },
+ "gameplay": {
+  "gameplay_seconds": 48,
+  "core_gameplay_notes": "Draw non-intersecting lines between pairs of matching colored dots.",
+  "gameplay_moment_type": [
+   "Puzzle Solving",
+   "Trial & Error",
+   "Failure"
+  ]
+ },
+ "ad_format": [
+  "Hybrid",
+  "Live Action",
+  "Fake Gameplay"
+ ],
+ "chapterization": [
+  {
+   "stage": "Hook",
+   "starttime_offset": "00:00",
+   "endtime_offset": "00:08",
+   "chapter_description": "A man draws lines on a large TV screen to connect dots but fails when the red line crosses another path."
+  },
+  {
+   "stage": "Demo",
+   "starttime_offset": "00:08",
+   "endtime_offset": "00:26",
+   "chapter_description": "A hand draws on paper under an Einstein graphic with an IQ prompt, failing on initial route combinations."
+  },
+  {
+   "stage": "Escalation",
+   "starttime_offset": "00:26",
+   "endtime_offset": "00:51",
+   "chapter_description": "Alternative drawing attempts repeatedly clash, causing the animated IQ score to rapidly fall."
+  },
+  {
+   "stage": "End Card",
+   "starttime_offset": "00:51",
+   "endtime_offset": "00:55",
+   "chapter_description": "Search animation displaying 'Amaze GO!' alongside app store download badges."
+  }
+ ]
+}

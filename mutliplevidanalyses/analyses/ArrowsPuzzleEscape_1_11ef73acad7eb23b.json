@@ -1,0 +1,108 @@
+{
+ "hook": {
+  "hook_type": [
+   "Cinematic / Story Opening"
+  ],
+  "hook_trigger": [
+   "Novelty",
+   "Curiosity Gap"
+  ],
+  "hook_emotion": [
+   "Curiosity"
+  ]
+ },
+ "audio": {
+  "audio_style_tags": [
+   "Background Music",
+   "Gameplay SFX"
+  ],
+  "music_mood": "chill ambient electronic beat"
+ },
+ "content": {
+  "concept_tags": [
+   "Gameplay Showcase",
+   "Puzzle Challenge"
+  ],
+  "concept_description": "A 3D meerkat made of maze blocks transitions into a 2D arrow maze puzzle where arrows are systematically untangled and cleared.",
+  "persuasion_triggers": [
+   "Oddly Satisfying (ASMR / OCD)",
+   "Novelty"
+  ],
+  "player_motivation": [
+   "Mastery / Problem Solving",
+   "Relaxation",
+   "Completion / Order"
+  ],
+  "cultural_reference": "",
+  "why_it_works": "The hypnotic, rhythmic clearing of intricate arrow paths creates a calm, satisfying loop that draws puzzle fans in."
+ },
+ "visuals": {
+  "visual_style_tags": [
+   "2D Art",
+   "3D Art",
+   "Top-Down View"
+  ],
+  "primary_color": "#232938 (dark slate blue background), #FFFFFF (white arrows), #FFAE99 (finger cursor)",
+  "notable_characters": "Meerkat (3D model and 2D maze shape)",
+  "notable_objects": "Interlocking white arrows, animated pointer hand"
+ },
+ "emotions": {
+  "ad_emotion": [
+   "Curiosity",
+   "Satisfaction",
+   "Relaxation"
+  ],
+  "emotional_arc": "Curious 3D intro -> satisfying and relaxing puzzle solving"
+ },
+ "end_card": {
+  "end_card_elements": [],
+  "cta_and_text": "",
+  "end_card_brand_text": ""
+ },
+ "gameplay": {
+  "gameplay_seconds": 55,
+  "core_gameplay_notes": "A simulated hand taps free outward-pointing arrows to shoot them off the board and gradually clear the meerkat-shaped maze.",
+  "gameplay_moment_type": [
+   "Puzzle Solving",
+   "Satisfying Moment",
+   "Trial & Error"
+  ]
+ },
+ "ad_format": [
+  "Hybrid",
+  "Real Gameplay",
+  "CGI Animation"
+ ],
+ "chapterization": [
+  {
+   "stage": "Hook",
+   "starttime_offset": "00:00",
+   "endtime_offset": "00:03",
+   "chapter_description": "3D rotating meerkat composed of maze blocks."
+  },
+  {
+   "stage": "Demo",
+   "starttime_offset": "00:03",
+   "endtime_offset": "00:58",
+   "chapter_description": "Continuous gameplay of tapping free arrows to clear the meerkat silhouette."
+  }
+ ],
+ "_evidence": {
+  "hook_trigger:Novelty": "00:00 - Unique 3D meerkat sculpture crafted from maze pathways rotating in space",
+  "hook_trigger:Curiosity Gap": "00:01 - Intricate 3D maze animal sparks interest in how it translates into gameplay",
+  "hook_emotion:Curiosity": "00:01 - Viewer watches the 3D meerkat structure rotate and transform",
+  "persuasion_triggers:Oddly Satisfying (ASMR / OCD)": "00:10 - Arrows gliding smoothly off screen one after another with click sound effects",
+  "persuasion_triggers:Novelty": "00:00 - Meerkat-shaped arrow puzzle layout",
+  "ad_emotion:Curiosity": "00:02 - Viewer inspects the complex meerkat maze structure",
+  "ad_emotion:Satisfaction": "00:15 - Smooth sequence of arrows shooting away to hollow out the shape",
+  "ad_emotion:Relaxation": "00:30 - Calm background music accompanying continuous, orderly puzzle clearing",
+  "gameplay_moment_type:Puzzle Solving": "00:08 - Hand identifies and taps unobstructed arrows along the outer perimeter",
+  "gameplay_moment_type:Satisfying Moment": "00:39 - Long arrow shoots smoothly across the screen freeing trapped inner arrows",
+  "gameplay_moment_type:Trial & Error": "00:25 - A tapped arrow turns red and bounces back because its path is blocked",
+  "ad_format": "Rule 4 applied: Real arrow gameplay combined with a 3D CGI animation intro sequence (00:00 - 00:03)"
+ },
+ "_audit": [],
+ "_validation_warnings": [
+  "visuals.visual_style_tags: >3 tags, kept first 3"
+ ]
+}

@@ -1,0 +1,28 @@
+CAD / IMAGEGEN CONTRACT — V1
+
+Purpose: render a validated level, not invent a level during rendering.
+
+Inputs for EVERY request:
+1. A deterministic, inspected blueprint: exact cells, pieces, empty spaces, gates and studs.
+2. A separate material reference, explicitly restricted to finish and lighting.
+3. Cell map, zero-based coordinate convention, per-piece cell sets and gate edge/start/width.
+4. Explicit stud counts per piece plus total, and two-by-two studs per occupied cell.
+5. A list of fixed geometry and permitted appearance changes.
+
+Authority: validated level data -> matching blueprint -> style reference. A style reference must never override geometry. Hard requirements are checked independently; attractive lighting cannot compensate for a wrong footprint, gate or stud count.
+
+Fixed for this batch: 8x8, 54 occupied cells, 10 empty cells, 11 pieces, 11 matching-color gates, 216 studs, central yellow 2x2. Generalize these values from the next level's data; do not hardcode them for other games.
+
+Allowed changes: bevels within footprints, rounded corners, lighting, soft contact shadows and plastic finish. No rearrangement, rotation, merging, resized gates, extra UI, hand, effects, camera tilt or changed empty cells. Orthographic top-down view.
+
+Validation before rendering: connected integer shapes, no overlap, gate intervals within bounds and nonoverlapping, gate spans matching exit orientation, reproducible complete solution under declared movement rules, initial-exit reachability report, unique layout identity. Density is not a proof of difficulty.
+
+Review after rendering: compare all 64 logical cells; enumerate every block and gate; count studs piece-by-piece; check gate arrows, dimensions, alignment, color correspondence, scale and camera. Mark uncertain items unverified. Retain failed versions and name the visible failure. A visually consistent raster is not executable level data or a verified gameplay simulation.
+
+Batch finding: blueprint-05 attempt 1 visibly substituted a 3x3 stud pattern on yellow. Retry restored a 4x4 pattern after explicit per-piece counts were added. This is one observed correction, not evidence of permanent learning or guaranteed success. Include those counts in future first attempts.
+
+Remaining issue: all mocks render gates as raised colored strips. Their spans can be compared in a still, but actual opening or retracting behavior requires an execution specification and animation check. Do not infer physical traversability from a polished still.
+
+Learning mechanism: version these prompts, reference pairs, review findings and failure examples. Supply the selected relevant examples with future generation requests. Repeated tool calls do not permanently train ImageGen. Keep level solving and geometry checks outside ImageGen. Do not promote an example to approved-example status until all applicable checks pass.
+
+Scope limit: this batch tests structural rendering, not a final 20-second ad. Saved complete routes use 21–32 straight drags, not necessarily minimum solutions. The original two-block reveal remains unresolved.

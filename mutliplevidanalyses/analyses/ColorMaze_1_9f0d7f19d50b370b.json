@@ -1,0 +1,130 @@
+{
+ "hook": {
+  "hook_type": [
+   "Gameplay Mid-Action"
+  ],
+  "hook_trigger": [
+   "Novelty",
+   "Curiosity Gap"
+  ],
+  "hook_emotion": [
+   "Curiosity"
+  ]
+ },
+ "audio": {
+  "audio_style_tags": [
+   "ASMR",
+   "Gameplay SFX",
+   "Background Music"
+  ],
+  "music_mood": "Calm ambient synth drone with subtle tones"
+ },
+ "content": {
+  "concept_tags": [
+   "Gameplay Showcase",
+   "Puzzle Challenge",
+   "Fail / Win Loop"
+  ],
+  "concept_description": "A player taps arrows embedded in a human face silhouette, balancing successful releases against blocked moves.",
+  "persuasion_triggers": [
+   "Oddly Satisfying (ASMR / OCD)",
+   "Challenge / Ego Threat"
+  ],
+  "player_motivation": [
+   "Mastery / Problem Solving",
+   "Completion / Order"
+  ],
+  "cultural_reference": "",
+  "why_it_works": "The visually striking face maze combined with crisp ASMR sound effects creates an engaging puzzle loop that entices players to find the clear path."
+ },
+ "visuals": {
+  "visual_style_tags": [
+   "2D Art",
+   "High-Contrast / Dark Mood"
+  ],
+  "primary_color": "#000000 (black), #FFFFFF (white)",
+  "notable_characters": "Stylized human face composed of maze-like arrows",
+  "notable_objects": "Pointer cursor hand, directional arrows"
+ },
+ "emotions": {
+  "ad_emotion": [
+   "Curiosity",
+   "Frustration",
+   "Tension"
+  ],
+  "emotional_arc": "Curiosity at the intricate face maze shifts to frustration and tension as repeated blocked moves flash red."
+ },
+ "end_card": {
+  "end_card_elements": [
+   "Game Logo",
+   "Tagline Text",
+   "CTA Button"
+  ],
+  "cta_and_text": "00:42 - ARROWSCAPES, 00:42 - ASMR PUZZLE, 00:43 - Play",
+  "end_card_brand_text": "ARROWSCAPES"
+ },
+ "gameplay": {
+  "gameplay_seconds": 41,
+  "core_gameplay_notes": "Tapping arrows facing outward to release them from a face-shaped board without hitting blocking arrows.",
+  "gameplay_moment_type": [
+   "Puzzle Solving",
+   "Trial & Error",
+   "Failure"
+  ]
+ },
+ "ad_format": [
+  "Real Gameplay"
+ ],
+ "chapterization": [
+  {
+   "stage": "Hook",
+   "starttime_offset": "00:00",
+   "endtime_offset": "00:04",
+   "chapter_description": "Intricate face puzzle is introduced as the pointer targets an arrow."
+  },
+  {
+   "stage": "Demo",
+   "starttime_offset": "00:04",
+   "endtime_offset": "00:41",
+   "chapter_description": "Player taps various arrows around the face, alternating between sliding arrows away and hitting roadblocks that flash red."
+  },
+  {
+   "stage": "End Card",
+   "starttime_offset": "00:41",
+   "endtime_offset": "00:45",
+   "chapter_description": "Board zooms out and overlays the game logo, ASMR subtitle, and Play button."
+  }
+ ],
+ "_evidence": {
+  "hook_trigger:Novelty": "00:01 - An intricate portrait of a face constructed entirely out of interconnected white arrows.",
+  "hook_trigger:Curiosity Gap": "00:02 - Hand cursor moves toward the eye arrow, leaving the viewer curious about what will happen when clicked.",
+  "hook_emotion:Curiosity": "00:01 - The detailed arrow portrait invites viewers to inspect how it can be solved.",
+  "persuasion_triggers:Oddly Satisfying (ASMR / OCD)": "00:15 - Smooth whoosh audio and sliding animation as clear arrows exit the board.",
+  "persuasion_triggers:Challenge / Ego Threat": "00:28 - Red screen borders and dull thud indicate an illegal blocked move, provoking the urge to solve it correctly.",
+  "ad_emotion:Curiosity": "00:02 - Viewer inspects the complex maze structure.",
+  "ad_emotion:Frustration": "00:04 - Red screen border flash and thud sound upon a blocked move.",
+  "ad_emotion:Tension": "00:27 - Repeated blocked taps in succession build tension as the player struggles to find open arrows.",
+  "gameplay_moment_type:Puzzle Solving": "00:15 - Hand finds and clears open peripheral arrows.",
+  "gameplay_moment_type:Trial & Error": "00:20 - Testing various outer arrows along the jawline to see which one is unblocked.",
+  "gameplay_moment_type:Failure": "00:04 - Arrow blocked by adjacent arrow, triggering red screen vignette.",
+  "ad_format": "Rule 1: Real gameplay showing the core arrow-tapping puzzle mechanic on the face-shaped board."
+ },
+ "_audit": [
+  {
+   "field": "audio.audio_style_tags",
+   "claim": "Background Music",
+   "problem": "There is no background music in the video; the audio consists only of gameplay sound effects (thuds, slides) and an end card sound effect.",
+   "fix": "Remove 'Background Music' from audio_style_tags"
+  },
+  {
+   "field": "audio.music_mood",
+   "claim": "Calm ambient synth drone with subtle tones",
+   "problem": "There is no background music or synth drone present in the video.",
+   "fix": ""
+  }
+ ],
+ "_validation_warnings": [
+  "gameplay_seconds 41 vs Demo+Escalation+Payoff 37; check",
+  "BRAND MISMATCH: end card says 'arrowscapes', expected one of ['color maze']"
+ ]
+}

@@ -1,0 +1,136 @@
+{
+ "hook": {
+  "hook_type": [
+   "Gameplay Mid-Action",
+   "Challenge Text"
+  ],
+  "hook_trigger": [
+   "Oddly Satisfying (ASMR / OCD)"
+  ],
+  "hook_emotion": [
+   "Relaxation",
+   "Curiosity"
+  ]
+ },
+ "audio": {
+  "audio_style_tags": [
+   "Voiceover",
+   "Background Music",
+   "Gameplay SFX"
+  ],
+  "music_mood": "Calm, upbeat acoustic-electronic background melody"
+ },
+ "content": {
+  "concept_tags": [
+   "Gameplay Showcase",
+   "Puzzle Challenge",
+   "Problem-Solution"
+  ],
+  "concept_description": "A relaxing showcase of a block-sliding puzzle game emphasizing stress-free gameplay with no timers, featuring handcrafted levels and satisfying piece clears.",
+  "persuasion_triggers": [
+   "Oddly Satisfying (ASMR / OCD)",
+   "Challenge / Ego Threat"
+  ],
+  "player_motivation": [
+   "Relaxation",
+   "Mastery / Problem Solving",
+   "Completion / Order"
+  ],
+  "cultural_reference": "",
+  "why_it_works": "Contrasting stressful timed mobile games with a relaxing, un-timed puzzle experience appeals strongly to casual players seeking satisfying mental stimulation without anxiety."
+ },
+ "visuals": {
+  "visual_style_tags": [
+   "3D Art",
+   "Top-Down View",
+   "Bright Palette"
+  ],
+  "primary_color": "Dominant deep blue (#002244, #19488a) with vibrant primary block accents in red (#e53935), green (#43a047), orange (#fb8c00), and sky blue (#039be5)",
+  "notable_characters": "",
+  "notable_objects": "Pegged puzzle blocks, flaming pocket watch, animated hand pointer"
+ },
+ "emotions": {
+  "ad_emotion": [
+   "Relaxation",
+   "Satisfaction"
+  ],
+  "emotional_arc": "Relaxation -> Satisfaction"
+ },
+ "end_card": {
+  "end_card_elements": [
+   "Game Logo",
+   "CTA Button"
+  ],
+  "cta_and_text": "00:56 - 'BLOCK BUSTER' logo and 'PLAY NOW!' CTA button",
+  "end_card_brand_text": "BLOCK BUSTER"
+ },
+ "gameplay": {
+  "gameplay_seconds": 50,
+  "core_gameplay_notes": "Players slide textured, multi-square block shapes across a gridded board to line them up with matching color-coded exit gates along the perimeter.",
+  "gameplay_moment_type": [
+   "Puzzle Solving",
+   "Satisfying Moment",
+   "Board Clear / Combo"
+  ]
+ },
+ "ad_format": [
+  "Real Gameplay",
+  "CGI Animation"
+ ],
+ "chapterization": [
+  {
+   "stage": "Hook",
+   "starttime_offset": "00:00",
+   "endtime_offset": "00:03",
+   "chapter_description": "Prominent 'No Timer!' text introduces smooth block-clearing gameplay."
+  },
+  {
+   "stage": "Demo",
+   "starttime_offset": "00:03",
+   "endtime_offset": "00:20",
+   "chapter_description": "Hand cursor slides blocks across the board into matching exit portals, emphasizing relaxed pacing."
+  },
+  {
+   "stage": "Escalation",
+   "starttime_offset": "00:20",
+   "endtime_offset": "00:52",
+   "chapter_description": "A 9-grid view showcases level variety before a cinematic clock burns away and gameplay resumes at a faster solve rate."
+  },
+  {
+   "stage": "Payoff",
+   "starttime_offset": "00:52",
+   "endtime_offset": "00:56",
+   "chapter_description": "Simultaneous clearance of multiple puzzle boards bursting into block particles."
+  },
+  {
+   "stage": "End Card",
+   "starttime_offset": "00:56",
+   "endtime_offset": "00:59",
+   "chapter_description": "Animated finger taps the 'PLAY NOW!' button underneath the Block Buster logo."
+  }
+ ],
+ "_evidence": {
+  "hook_trigger:Oddly Satisfying (ASMR / OCD)": "00:01 - Green block slides cleanly through the bottom portal and bursts into tiny cubes",
+  "hook_emotion:Relaxation": "00:01 - Voiceover says 'No timer... no pressure' as blocks gently slide",
+  "hook_emotion:Curiosity": "00:00 - Bold header 'No Timer!' challenges typical puzzle game conventions",
+  "persuasion_triggers:Oddly Satisfying (ASMR / OCD)": "00:13 - Clean slide and disintegration of blue block through matched blue gate",
+  "persuasion_triggers:Challenge / Ego Threat": "00:25 - Voiceover asks 'Ready for the challenge?' over complex puzzle boards",
+  "ad_emotion:Relaxation": "00:10 - Voiceover reminds viewer to 'Play at your own pace. Focus on the fun, not the clock'",
+  "ad_emotion:Satisfaction": "00:51 - Final block clears the board followed by synchronized multicolor particle explosions",
+  "gameplay_moment_type:Puzzle Solving": "00:36 - Sliding blocks strategically to unblock paths for others",
+  "gameplay_moment_type:Satisfying Moment": "00:13 - Block disintegrates into crisp square particles upon exit",
+  "gameplay_moment_type:Board Clear / Combo": "00:52 - Multiple grids shown completing and bursting into confetti particles",
+  "ad_format": "Rule 1 & Rule 3 applied: real board puzzle mechanics shown, combined with rendered CGI animation of the burning pocket watch at 00:28-00:33"
+ },
+ "_audit": [
+  {
+   "field": "hook_type",
+   "claim": "Challenge Text",
+   "problem": "The text 'No Timer!' announces a game feature/benefit rather than issuing a challenge or dare to the viewer.",
+   "fix": "Remove 'Challenge Text' or replace with a feature/benefit hook type."
+  }
+ ],
+ "_validation_warnings": [
+  "visuals.visual_style_tags: >3 tags, kept first 3"
+ ]
+}

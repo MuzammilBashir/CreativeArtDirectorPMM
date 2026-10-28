@@ -1,0 +1,134 @@
+{
+ "hook": {
+  "hook_type": [
+   "Gameplay Mid-Action"
+  ],
+  "hook_trigger": [
+   "Oddly Satisfying (ASMR / OCD)",
+   "Curiosity Gap"
+  ],
+  "hook_emotion": [
+   "Curiosity",
+   "Satisfaction"
+  ]
+ },
+ "audio": {
+  "audio_style_tags": [
+   "Background Music",
+   "Gameplay SFX"
+  ],
+  "music_mood": "Upbeat playful electronic synth music"
+ },
+ "content": {
+  "concept_tags": [
+   "Puzzle Challenge",
+   "Gameplay Showcase",
+   "Fail / Win Loop"
+  ],
+  "concept_description": "The player attempts to sort matching colored jewels into respective chests under strings, but misplaces items and triggers a game over.",
+  "persuasion_triggers": [
+   "Oddly Satisfying (ASMR / OCD)",
+   "Challenge / Ego Threat"
+  ],
+  "player_motivation": [
+   "Mastery / Problem Solving",
+   "Completion / Order"
+  ],
+  "cultural_reference": "",
+  "why_it_works": "The tactile jewel sorting mechanism creates satisfying organization vibes, while deliberate player mistakes provoke viewer frustration and urge them to try it themselves."
+ },
+ "visuals": {
+  "visual_style_tags": [
+   "2D Art",
+   "Bright Palette"
+  ],
+  "primary_color": "Yellow (#FFF9A6), Green (#8CD790), Ruby Red (#D11A38), Emerald Green (#179B58)",
+  "notable_characters": "",
+  "notable_objects": "Jewel chests, stylized stylus pen, rubies, emeralds, diamonds"
+ },
+ "emotions": {
+  "ad_emotion": [
+   "Curiosity",
+   "Frustration",
+   "Tension"
+  ],
+  "emotional_arc": "Curious engagement with satisfying sorting shifts into tension and frustration upon repeated errors and failure."
+ },
+ "end_card": {
+  "end_card_elements": [
+   "Game Logo",
+   "Store Badges",
+   "CTA Button"
+  ],
+  "cta_and_text": "Amaze GO! (00:28), Google Play badge (00:28), App Store badge (00:28)",
+  "end_card_brand_text": "Amaze GO!"
+ },
+ "gameplay": {
+  "gameplay_seconds": 27,
+  "core_gameplay_notes": "A stylus pen selects and slides jewels along vertical strings to match the target color shown under treasure chests.",
+  "gameplay_moment_type": [
+   "Puzzle Solving",
+   "Trial & Error",
+   "Failure"
+  ]
+ },
+ "ad_format": [
+  "Fake Gameplay"
+ ],
+ "chapterization": [
+  {
+   "stage": "Hook",
+   "starttime_offset": "00:00",
+   "endtime_offset": "00:03",
+   "chapter_description": "Stylus sorts initial diamonds and rubies on strings."
+  },
+  {
+   "stage": "Demo",
+   "starttime_offset": "00:03",
+   "endtime_offset": "00:13",
+   "chapter_description": "Player completes the first sorting sequence."
+  },
+  {
+   "stage": "Escalation",
+   "starttime_offset": "00:13",
+   "endtime_offset": "00:24",
+   "chapter_description": "Second level attempts jewel sorting with reversed chest colors."
+  },
+  {
+   "stage": "Payoff",
+   "starttime_offset": "00:24",
+   "endtime_offset": "00:27",
+   "chapter_description": "Player misplaces jewels onto incorrect strings resulting in a big FAIL button."
+  },
+  {
+   "stage": "End Card",
+   "starttime_offset": "00:27",
+   "endtime_offset": "00:30",
+   "chapter_description": "End card displaying Amaze GO! app logo and store badges."
+  }
+ ],
+ "_evidence": {
+  "hook_trigger:Oddly Satisfying (ASMR / OCD)": "00:01 - Jewels neatly sliding and snapping into place on the string",
+  "hook_trigger:Curiosity Gap": "00:00 - Player manipulating gems on strings to see how the sorting mechanism functions",
+  "hook_emotion:Curiosity": "00:01 - Viewer watches how the gems are separated and sorted onto respective chests",
+  "hook_emotion:Satisfaction": "00:02 - Clean snap sounds and smooth movement of gems",
+  "persuasion_triggers:Oddly Satisfying (ASMR / OCD)": "00:05 - Neatly lining up identical color gems under matching chests",
+  "persuasion_triggers:Challenge / Ego Threat": "00:25 - Obvious blunders sorting the wrong gems into columns provoking the viewer",
+  "ad_emotion:Curiosity": "00:02 - Watching the jewel mechanics unfold",
+  "ad_emotion:Tension": "00:24 - Jewels being forced onto mismatched lines creating anxiety",
+  "ad_emotion:Frustration": "00:27 - Large red 'FAIL' stamp appears after wrong moves",
+  "gameplay_moment_type:Puzzle Solving": "00:04 - Arranging jewels by color beneath corresponding chests",
+  "gameplay_moment_type:Trial & Error": "00:18 - Trying to move diamonds and rubies back and forth between strands",
+  "gameplay_moment_type:Failure": "00:27 - Giant red FAIL stamp pops onto screen",
+  "ad_format": "Rule 2 (Fake Gameplay): Advertised game is Amaze GO! (maze/arrow path puzzle), but ad shows a jewel sorting mechanic."
+ },
+ "_audit": [
+  {
+   "field": "end_card.end_card_elements",
+   "claim": "CTA Button",
+   "problem": "There is no call-to-action (CTA) button on the end card; it only displays the app logo, a search bar, and app store badges.",
+   "fix": "Remove 'CTA Button' from end_card_elements"
+  }
+ ],
+ "_validation_warnings": []
+}

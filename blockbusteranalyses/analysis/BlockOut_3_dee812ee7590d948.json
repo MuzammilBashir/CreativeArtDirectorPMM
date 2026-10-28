@@ -1,0 +1,133 @@
+{
+ "hook": {
+  "hook_type": [
+   "Gameplay Mid-Action",
+   "Challenge Text"
+  ],
+  "hook_trigger": [
+   "Challenge / Ego Threat",
+   "Curiosity Gap"
+  ],
+  "hook_emotion": [
+   "Curiosity",
+   "Frustration"
+  ]
+ },
+ "audio": {
+  "audio_style_tags": [
+   "Background Music",
+   "Gameplay SFX"
+  ],
+  "music_mood": "cheerful, lighthearted acoustic guitar melody with whimsical sound effects"
+ },
+ "content": {
+  "concept_tags": [
+   "Gameplay Showcase",
+   "Puzzle Challenge"
+  ],
+  "concept_description": "A player struggles and methodically slides colored and checkerboard lego-style blocks into exit arrows to clear the board.",
+  "persuasion_triggers": [
+   "Challenge / Ego Threat",
+   "Oddly Satisfying (ASMR / OCD)"
+  ],
+  "player_motivation": [
+   "Mastery / Problem Solving",
+   "Completion / Order"
+  ],
+  "cultural_reference": "",
+  "why_it_works": "The tactile block-sliding mechanic paired with satisfying crunch sound effects and challenging spatial layout hooks viewers into wanting to solve it themselves."
+ },
+ "visuals": {
+  "visual_style_tags": [
+   "3D Art",
+   "Top-Down View",
+   "Bright Palette"
+  ],
+  "primary_color": "#D5A8B8 (soft pink background), #FFFFFF (white blocks), #222222 (black blocks), #FFA500 (orange blocks)",
+  "notable_characters": "",
+  "notable_objects": "Lego-style studded puzzle blocks, arrow slider slots"
+ },
+ "emotions": {
+  "ad_emotion": [
+   "Curiosity",
+   "Frustration",
+   "Satisfaction"
+  ],
+  "emotional_arc": "Intrigue and slight frustration trying to maneuver blocks, yielding to satisfaction as pathways are cleared."
+ },
+ "end_card": {
+  "end_card_elements": [],
+  "cta_and_text": "00:00 - 'I can't reach colors..', 00:49 - 'why is this so hard?!'",
+  "end_card_brand_text": ""
+ },
+ "gameplay": {
+  "gameplay_seconds": 60,
+  "core_gameplay_notes": "Sliding studded blocks in horizontal and vertical directions toward matching colored or open exit chutes.",
+  "gameplay_moment_type": [
+   "Puzzle Solving",
+   "Trial & Error",
+   "Satisfying Moment"
+  ]
+ },
+ "ad_format": [
+  "Real Gameplay"
+ ],
+ "chapterization": [
+  {
+   "stage": "Hook",
+   "starttime_offset": "00:00",
+   "endtime_offset": "00:04",
+   "chapter_description": "Initial puzzle board is presented with text highlighting blocked colored pieces."
+  },
+  {
+   "stage": "Demo",
+   "starttime_offset": "00:04",
+   "endtime_offset": "00:49",
+   "chapter_description": "Player slowly crushes checkerboard blocks through exits to free the long orange block."
+  },
+  {
+   "stage": "Escalation",
+   "starttime_offset": "00:49",
+   "endtime_offset": "00:59",
+   "chapter_description": "A new, more intricate puzzle featuring a green 'I' shape surrounded by monochrome blocks begins."
+  }
+ ],
+ "_evidence": {
+  "hook_trigger:Challenge / Ego Threat": "00:00 - Text 'I can't reach colors..' prompts the viewer to solve the blocked pathway",
+  "hook_trigger:Curiosity Gap": "00:00 - The player taps blocked pieces, inviting viewers to figure out the exit sequence",
+  "hook_emotion:Curiosity": "00:01 - Viewer wonders which block must be eliminated first to release the colored row",
+  "hook_emotion:Frustration": "00:00 - 'I can't reach colors..' text combined with unmoving blocks conveys being stuck",
+  "persuasion_triggers:Challenge / Ego Threat": "00:49 - Caption 'why is this so hard?!' directly provokes the viewer's problem-solving ego",
+  "persuasion_triggers:Oddly Satisfying (ASMR / OCD)": "00:15 - Blocks neatly slide through matching exit portals and crumble with satisfying audio",
+  "ad_emotion:Curiosity": "00:07 - Watching the slider explore empty spaces creates intrigue about the solution",
+  "ad_emotion:Frustration": "00:49 - Caption expresses player difficulty navigating the compact layout",
+  "ad_emotion:Satisfaction": "00:25 - Orange block finally slides across the board into its matching exit slot",
+  "gameplay_moment_type:Puzzle Solving": "00:19 - Maneuvering black and white pieces out of the way to create a corridor",
+  "gameplay_moment_type:Trial & Error": "00:01 - Tapping multiple pieces that cannot move yet",
+  "gameplay_moment_type:Satisfying Moment": "00:32 - Sequential disposal of blocks into the bottom exit chute",
+  "ad_format": "Rule 1 applied: unmodified real puzzle board gameplay shown throughout the video"
+ },
+ "_audit": [
+  {
+   "field": "audio.audio_style_tags",
+   "claim": "['Background Music', 'Gameplay SFX']",
+   "problem": "There is no background music in the video; the audio consists entirely of sound effects (taps, slide clicks, crumbles).",
+   "fix": "['Gameplay SFX']"
+  },
+  {
+   "field": "audio.music_mood",
+   "claim": "cheerful, lighthearted acoustic guitar melody with whimsical sound effects",
+   "problem": "No acoustic guitar melody or background music is present in the video.",
+   "fix": "No background music; only ambient block tapping and crumbling sound effects"
+  },
+  {
+   "field": "end_card.cta_and_text",
+   "claim": "00:00 - 'I can't reach colors..', 00:49 - 'why is this so hard?!'",
+   "problem": "These are in-game caption overlays shown during gameplay, not text on an end card (there is no end card in this video).",
+   "fix": ""
+  }
+ ],
+ "_validation_warnings": [
+  "gameplay_seconds 60 vs Demo+Escalation+Payoff 55; check"
+ ]
+}

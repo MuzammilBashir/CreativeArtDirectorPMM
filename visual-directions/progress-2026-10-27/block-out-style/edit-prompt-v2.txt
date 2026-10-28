@@ -1,0 +1,27 @@
+TASK: Restyle our existing block-puzzle mock to match the supplied Block Out! close-up's material, color clarity and lighting. This is an appearance edit of the existing level.
+
+INPUT ROLES
+Image 1: existing mock, the edit target.
+Image 2: checked blueprint, the authority for every piece, cell and gate.
+Image 3: user-supplied Block Out! close-up, the authority for surface finish, color character and lighting only. Do not copy its row layout, black-and-white checkerboard, exiting block or effects.
+
+COLOR
+Use clean saturated toy-plastic colors with strong hue separation, as in Image 3. Eliminate the muted pastel/grey cast in colored pieces. Retain our pieces' distinct color identities: yellow remains the hero; blue and indigo remain distinguishable; violet and lilac remain distinguishable. Keep neutral blue-grey neutral rather than arbitrarily turning it into another colored piece. Match every gate to its piece after any color adjustment. Faces should read primarily as solid color, with localized shading rather than large washed-out gradients. The reference's rainbow and black/white pieces illustrate color clarity, not a mandate to add pieces or change this level.
+
+BLOCK FORM AND SMOOTHNESS
+Smooth molded plastic with broad planar faces, softly rounded silhouette corners, restrained bevels and consistent modest thickness. Each polyomino is a single seamless solid. Preserve the crisp shape of concave corners. Give the surfaces controlled soft gloss: neither chalky flat matte nor glassy inflated candy. Keep the surface polished and smooth, without grain, scratches or texture.
+
+STUDS
+Small raised round studs with gently curved tops, low readable sidewalls and consistent diameter. Match the reference's soft upper-edge highlight and darker lower contact shadow. They must not become flat discs, hemispherical bubbles or oversized buttons. Preserve all prescribed stud centers and counts.
+
+HIGHLIGHTS AND SHADOWS
+Use a coherent soft upper-left light as an approximation of the reference. Put narrow, gentle highlights on upper/left bevels and stud tops; keep lower/right sides darker in the same hue family. Add tight soft contact shadows under studs and along adjoining block bases. Avoid bright white gloss rings, long reflection streaks, metallic rims, thick black contour lines and floating shadows. Do not eliminate depth while reducing gloss. Ignore the reference's white exit flash; it is an effect, not the material treatment.
+
+BOARD AND GATES
+Dark indigo recessed floor, subdued continuous purple frame with soft rounded corners and a predominantly matte finish. A very fine frame texture is acceptable; do not texture the blocks. Avoid the previous shiny segmented bumper look. Keep every gate aperture interval unchanged; make its colored sill simple, with a readable outward ivory-white triangular arrow and restrained bevel/shadow like the reference. Do not invent gate-opening mechanics in a still.
+
+GEOMETRY LOCK
+Keep the same orthographic top-down camera, framing, 8x8 equal grid and all piece coordinates from Image 2. Exactly 54 occupied cells, 10 empty cells, 11 connected blocks, 11 matching-color gates. Preserve every empty pocket, notch and gap; no moving, rotating, resizing, merging, splitting, filling or solving. Yellow remains the central 2x2 square. Exactly FOUR studs per occupied cell in a 2x2 array: 216 total. Yellow has FOUR rows of FOUR studs, 16 total. Every one-cell-wide arm has two parallel stud rows/columns. Piece totals: yellow16, blue cross20, cyan L20, violet T20, teal U20, rose stair20, green P20, lilac L16, indigo S16, orange long L24, blue-grey rectangle24. Style changes must not alter these counts or dimensions.
+
+OUTPUT
+One board-only edited mock. No hand, text, UI, logo, extra pieces, gem obstacles, sparkle, confetti, exit flash or checkerboard redesign. Match the reference's controlled soft-gloss plastic and clear compact shading while preserving our level exactly.

@@ -1,0 +1,141 @@
+{
+ "hook": {
+  "hook_type": [
+   "Gameplay Mid-Action"
+  ],
+  "hook_trigger": [
+   "Curiosity Gap"
+  ],
+  "hook_emotion": [
+   "Curiosity"
+  ]
+ },
+ "audio": {
+  "audio_style_tags": [
+   "Background Music",
+   "Gameplay SFX"
+  ],
+  "music_mood": "Upbeat cheerful synth pop background track"
+ },
+ "content": {
+  "concept_tags": [
+   "Gameplay Showcase",
+   "Fail / Win Loop",
+   "Puzzle Challenge"
+  ],
+  "concept_description": "A player attempts to clear an intricate arrow maze level by tapping arrows in sequence, but makes repeated illegal moves losing hearts until failing.",
+  "persuasion_triggers": [
+   "Challenge / Ego Threat",
+   "Loss Aversion"
+  ],
+  "player_motivation": [
+   "Mastery / Problem Solving",
+   "Completion / Order"
+  ],
+  "cultural_reference": "",
+  "why_it_works": "The ad presents a highly complex, satisfying arrow labyrinth and demonstrates repeated failure, triggering viewer ego and urge to solve it correctly."
+ },
+ "visuals": {
+  "visual_style_tags": [
+   "2D Art",
+   "Top-Down View",
+   "High-Contrast / Dark Mood"
+  ],
+  "primary_color": "Black #000000, Neon Green #22C55E, Purple #A855F7, Red #EF4444",
+  "notable_characters": "Animated hand pointer",
+  "notable_objects": "Hearts / life counter, Arrow puzzle maze, FAILED rubber stamp"
+ },
+ "emotions": {
+  "ad_emotion": [
+   "Frustration",
+   "Tension"
+  ],
+  "emotional_arc": "Curious engagement turning into tension and frustration as hearts deplete until total failure"
+ },
+ "end_card": {
+  "end_card_elements": [
+   "Game Logo",
+   "Tagline Text"
+  ],
+  "cta_and_text": "Arrow Puzzle, This feature is not included in the actual gameplay yet. at 00:28",
+  "end_card_brand_text": "Arrow Puzzle"
+ },
+ "gameplay": {
+  "gameplay_seconds": 27,
+  "core_gameplay_notes": "Tap arrows to slide them free from an intertwined maze without colliding with blocked paths; mistakes deduct hearts.",
+  "gameplay_moment_type": [
+   "Puzzle Solving",
+   "Trial & Error",
+   "Failure"
+  ]
+ },
+ "ad_format": [
+  "Hybrid",
+  "Real Gameplay"
+ ],
+ "chapterization": [
+  {
+   "stage": "Hook",
+   "starttime_offset": "00:00",
+   "endtime_offset": "00:03",
+   "chapter_description": "Initial view of the massive intricate floral arrow maze zooming in."
+  },
+  {
+   "stage": "Demo",
+   "starttime_offset": "00:03",
+   "endtime_offset": "00:14",
+   "chapter_description": "Player taps arrows, hitting blocked paths and losing hearts."
+  },
+  {
+   "stage": "Escalation",
+   "starttime_offset": "00:14",
+   "endtime_offset": "00:26",
+   "chapter_description": "Rapid succession of mistakes as hearts drop from five to zero."
+  },
+  {
+   "stage": "Payoff",
+   "starttime_offset": "00:26",
+   "endtime_offset": "00:28",
+   "chapter_description": "All hearts break and a large red FAILED stamp slams onto the screen."
+  },
+  {
+   "stage": "End Card",
+   "starttime_offset": "00:28",
+   "endtime_offset": "00:30",
+   "chapter_description": "App logo with brand title and disclaimer."
+  }
+ ],
+ "_evidence": {
+  "hook_trigger:Curiosity Gap": "00:00 - Dense floral arrow labyrinth zooming in inviting viewer curiosity",
+  "hook_emotion:Curiosity": "00:01 - Intricate glittering pattern displayed before interaction begins",
+  "persuasion_triggers:Challenge / Ego Threat": "00:26 - Player fails completely with giant FAILED stamp inciting viewer belief they could do better",
+  "persuasion_triggers:Loss Aversion": "00:03 - Hearts cracking and depleting every time a blocked arrow is tapped",
+  "ad_emotion:Frustration": "00:11 - Repeated blocked moves flashing red with cracking heart icons",
+  "ad_emotion:Tension": "00:24 - Last remaining hearts breaking one after another",
+  "gameplay_moment_type:Puzzle Solving": "00:08 - Hand selects arrows seeking an unobstructed exit path",
+  "gameplay_moment_type:Trial & Error": "00:10 - Hand tries multiple directions to find an unblocked route",
+  "gameplay_moment_type:Failure": "00:26 - Final heart breaks and FAILED stamp covers the screen",
+  "ad_format": "Rule 4: Real gameplay board with added hearts/lives overlay and a FAILED stamp overlay"
+ },
+ "_audit": [
+  {
+   "field": "audio.audio_style_tags",
+   "claim": "Background Music",
+   "problem": "There is no background music in the ad; the audio track consists exclusively of sound effects (chimes, error buzzers, and glass break SFX).",
+   "fix": "Remove 'Background Music' from audio_style_tags, leaving only 'Gameplay SFX'."
+  },
+  {
+   "field": "audio.music_mood",
+   "claim": "Upbeat cheerful synth pop background track",
+   "problem": "No music is present in the video.",
+   "fix": "Set music_mood to null or 'None'."
+  },
+  {
+   "field": "ad_format",
+   "claim": "Real Gameplay",
+   "problem": "The end screen explicitly shows a disclaimer stating 'This feature is not included in the actual gameplay yet.', making 'Real Gameplay' incorrect.",
+   "fix": "Replace 'Real Gameplay' with 'Misleading Gameplay' or 'Fake Gameplay'."
+  }
+ ],
+ "_validation_warnings": []
+}

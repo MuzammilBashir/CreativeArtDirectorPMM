@@ -1,0 +1,111 @@
+{
+ "hook": {
+  "hook_type": [
+   "Gameplay Mid-Action"
+  ],
+  "hook_trigger": [
+   "Curiosity Gap",
+   "Oddly Satisfying (ASMR / OCD)"
+  ],
+  "hook_emotion": [
+   "Curiosity",
+   "Relaxation"
+  ]
+ },
+ "audio": {
+  "audio_style_tags": [
+   "Background Music",
+   "Gameplay SFX"
+  ],
+  "music_mood": "Calm, ambient electronic puzzle music"
+ },
+ "content": {
+  "concept_tags": [
+   "Gameplay Showcase",
+   "Fail / Win Loop",
+   "Puzzle Challenge"
+  ],
+  "concept_description": "Player tries to unblock entangled arrows from a complex maze mandala, but makes repeated mistakes until hearts run out and they fail.",
+  "persuasion_triggers": [
+   "Challenge / Ego Threat",
+   "Oddly Satisfying (ASMR / OCD)",
+   "Loss Aversion"
+  ],
+  "player_motivation": [
+   "Mastery / Problem Solving",
+   "Completion / Order",
+   "Relaxation"
+  ],
+  "cultural_reference": "",
+  "why_it_works": "The visually appealing glitter arrow maze draws attention, while deliberate player missteps provoke viewer urge to correct the mistakes and solve it successfully."
+ },
+ "visuals": {
+  "visual_style_tags": [
+   "2D Art",
+   "Top-Down View",
+   "High-Contrast / Dark Mood"
+  ],
+  "primary_color": "Black (#000000), Neon Purple (#A855F7), Neon Green (#22C55E)",
+  "notable_characters": "White cartoon pointing hand cursor",
+  "notable_objects": "Glittering neon arrows forming an intricate circular labyrinth, Heart life meters, Red FAILED rubber stamp"
+ },
+ "emotions": {
+  "ad_emotion": [
+   "Curiosity",
+   "Frustration",
+   "Tension"
+  ],
+  "emotional_arc": "Curiosity -> Tension -> Frustration"
+ },
+ "end_card": {
+  "end_card_elements": [
+   "Game Logo",
+   "Tagline Text"
+  ],
+  "cta_and_text": "Arrow Puzzle (0:29), This feature is not included in the actual gameplay yet. (0:29)"
+ },
+ "gameplay": {
+  "gameplay_seconds": 27,
+  "core_gameplay_notes": "Tapping arrows to slide them out of an interconnected maze without colliding into blocked paths.",
+  "gameplay_moment_type": [
+   "Puzzle Solving",
+   "Trial & Error",
+   "Failure"
+  ]
+ },
+ "ad_format": [
+  "Real Gameplay"
+ ],
+ "chapterization": [
+  {
+   "stage": "Hook",
+   "starttime_offset": "00:00",
+   "endtime_offset": "00:02",
+   "chapter_description": "Zooming into an intricate, glittering neon arrow labyrinth puzzle."
+  },
+  {
+   "stage": "Demo",
+   "starttime_offset": "00:02",
+   "endtime_offset": "00:10",
+   "chapter_description": "Pointer tests arrow moves, clearing a few but colliding and losing a life."
+  },
+  {
+   "stage": "Escalation",
+   "starttime_offset": "00:10",
+   "endtime_offset": "00:26",
+   "chapter_description": "Pointer attempts further moves, making repeated wrong turns and depleting remaining hearts."
+  },
+  {
+   "stage": "Payoff",
+   "starttime_offset": "00:26",
+   "endtime_offset": "00:28",
+   "chapter_description": "All hearts break and a large red FAILED stamp slams down over the board."
+  },
+  {
+   "stage": "End Card",
+   "starttime_offset": "00:28",
+   "endtime_offset": "00:30",
+   "chapter_description": "App icon and logo display with a small disclaimer text."
+  }
+ ]
+}

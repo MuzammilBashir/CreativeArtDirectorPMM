@@ -1,0 +1,102 @@
+{
+ "hook": {
+  "hook_type": [
+   "Gameplay Mid-Action",
+   "Fail / Near-Miss"
+  ],
+  "hook_trigger": [
+   "Challenge / Ego Threat",
+   "Loss Aversion"
+  ],
+  "hook_emotion": [
+   "Curiosity",
+   "Frustration"
+  ]
+ },
+ "audio": {
+  "audio_style_tags": [
+   "Background Music",
+   "Gameplay SFX"
+  ],
+  "music_mood": "Upbeat, lighthearted, and bouncy casual puzzle soundtrack"
+ },
+ "content": {
+  "concept_tags": [
+   "Gameplay Showcase",
+   "Fail / Win Loop",
+   "Puzzle Challenge"
+  ],
+  "concept_description": "A player tries to untangle a crowded maze of arrows, losing lives rapidly upon making wrong moves.",
+  "persuasion_triggers": [
+   "Challenge / Ego Threat",
+   "Loss Aversion",
+   "Oddly Satisfying (ASMR / OCD)"
+  ],
+  "player_motivation": [
+   "Mastery / Problem Solving",
+   "Completion / Order"
+  ],
+  "cultural_reference": "",
+  "why_it_works": "Repeated blunders and depleting heart counters trigger viewer frustration and ego threat, compelling viewers to download and solve it correctly."
+ },
+ "visuals": {
+  "visual_style_tags": [
+   "2D Art",
+   "Top-Down View",
+   "Bright Palette"
+  ],
+  "primary_color": "White #FFFFFF, Black #000000, Red #E52535",
+  "notable_characters": "A white cartoon hand pointing and interacting with the puzzle",
+  "notable_objects": "Intricate black line-arrow maze, heart life bar, blue untangled arrow path"
+ },
+ "emotions": {
+  "ad_emotion": [
+   "Frustration",
+   "Tension",
+   "Curiosity",
+   "Satisfaction"
+  ],
+  "emotional_arc": "Frustration -> Tension -> Satisfaction -> Urgency"
+ },
+ "end_card": {
+  "end_card_elements": [
+   "Game Logo",
+   "Tagline Text"
+  ],
+  "cta_and_text": "'Arrow Puzzle' app logo and 'This feature is not included in the actual gameplay yet.' at 00:27"
+ },
+ "gameplay": {
+  "gameplay_seconds": 26,
+  "core_gameplay_notes": "Tapping arrows in the correct sequence so they can slide out unobstructed without colliding into other paths.",
+  "gameplay_moment_type": [
+   "Puzzle Solving",
+   "Trial & Error",
+   "Failure",
+   "Satisfying Moment"
+  ]
+ },
+ "ad_format": [
+  "Fake Gameplay",
+  "Hybrid"
+ ],
+ "chapterization": [
+  {
+   "stage": "Hook",
+   "starttime_offset": "00:00",
+   "endtime_offset": "00:03",
+   "chapter_description": "Hand selects a blocked arrow which turns red and breaks a life heart."
+  },
+  {
+   "stage": "Escalation",
+   "starttime_offset": "00:03",
+   "endtime_offset": "00:26",
+   "chapter_description": "Player alternates between clearing occasional arrows and repeatedly failing, bringing remaining lives down to critical levels."
+  },
+  {
+   "stage": "End Card",
+   "starttime_offset": "00:26",
+   "endtime_offset": "00:29",
+   "chapter_description": "Arrow Puzzle icon is shown with gameplay disclaimer text."
+  }
+ ]
+}

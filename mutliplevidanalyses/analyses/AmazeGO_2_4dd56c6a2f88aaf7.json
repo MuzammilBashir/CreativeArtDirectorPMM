@@ -1,0 +1,128 @@
+{
+ "hook": {
+  "hook_type": [
+   "Gameplay Mid-Action"
+  ],
+  "hook_trigger": [
+   "Curiosity Gap"
+  ],
+  "hook_emotion": [
+   "Curiosity"
+  ]
+ },
+ "audio": {
+  "audio_style_tags": [
+   "Voiceover",
+   "Background Music",
+   "Gameplay SFX"
+  ],
+  "music_mood": "Upbeat playful casual puzzle music"
+ },
+ "content": {
+  "concept_tags": [
+   "Fail / Win Loop",
+   "Puzzle Challenge"
+  ],
+  "concept_description": "A puzzle challenge where players attempt to connect pairs of colored dots without crossing paths, repeatedly testing routes and failing.",
+  "persuasion_triggers": [
+   "Challenge / Ego Threat",
+   "Curiosity Gap"
+  ],
+  "player_motivation": [
+   "Mastery / Problem Solving",
+   "Achievement / Progression"
+  ],
+  "cultural_reference": "Albert Einstein",
+  "why_it_works": "The IQ score framing and repeated near-miss failures trigger the viewer's desire to step in and solve the seemingly simple puzzle."
+ },
+ "visuals": {
+  "visual_style_tags": [
+   "2D Art",
+   "Top-Down View",
+   "Bright Palette"
+  ],
+  "primary_color": "White #FFFFFF, Blue #2563EB, Green #22C55E, Red #EF4444",
+  "notable_characters": "Albert Einstein",
+  "notable_objects": "Pencil, TV screen"
+ },
+ "emotions": {
+  "ad_emotion": [
+   "Curiosity",
+   "Frustration",
+   "Tension"
+  ],
+  "emotional_arc": "Curiosity -> Frustration"
+ },
+ "end_card": {
+  "end_card_elements": [
+   "Game Logo",
+   "Store Badges",
+   "CTA Button"
+  ],
+  "cta_and_text": "00:52 - Amaze GO! search bar with Google Play and App Store badges",
+  "end_card_brand_text": "Amaze GO!"
+ },
+ "gameplay": {
+  "gameplay_seconds": 50,
+  "core_gameplay_notes": "Connect pairs of matching colored dots using continuous lines without crossing any other lines.",
+  "gameplay_moment_type": [
+   "Puzzle Solving",
+   "Trial & Error",
+   "Failure"
+  ]
+ },
+ "ad_format": [
+  "Fake Gameplay",
+  "Live Action"
+ ],
+ "chapterization": [
+  {
+   "stage": "Hook",
+   "starttime_offset": "00:00",
+   "endtime_offset": "00:08",
+   "chapter_description": "A man attempts to connect colored dots on a large television display."
+  },
+  {
+   "stage": "Demo",
+   "starttime_offset": "00:08",
+   "endtime_offset": "00:26",
+   "chapter_description": "Hand-drawn paper mockup with an Einstein IQ meter testing initial connection routes."
+  },
+  {
+   "stage": "Escalation",
+   "starttime_offset": "00:26",
+   "endtime_offset": "00:51",
+   "chapter_description": "Repeated unsuccessful attempts with lines crossing and the IQ score rapidly dropping."
+  },
+  {
+   "stage": "End Card",
+   "starttime_offset": "00:51",
+   "endtime_offset": "00:54",
+   "chapter_description": "App icon, title search bar, and app store download badges."
+  }
+ ],
+ "_evidence": {
+  "hook_trigger:Curiosity Gap": "00:01 - Man draws a line connecting blue dots on screen, engaging viewer curiosity",
+  "hook_emotion:Curiosity": "00:01 - Viewer watches to see if the man can solve the dot-connecting challenge",
+  "persuasion_triggers:Challenge / Ego Threat": "00:09 - Japanese voiceover and onscreen text challenge player IQ with Albert Einstein graphic",
+  "persuasion_triggers:Curiosity Gap": "00:23 - The player tests alternative paths to see if all dots can connect without intersecting",
+  "ad_emotion:Curiosity": "00:10 - Hand begins drawing paths between dots, sparking curiosity about solution",
+  "ad_emotion:Frustration": "00:25 - Repeated line intersection failures marked with red X and dropping IQ score",
+  "ad_emotion:Tension": "00:39 - Hand struggles as available space runs out and IQ score drops",
+  "gameplay_moment_type:Puzzle Solving": "00:04 - Connecting green dots on the TV screen",
+  "gameplay_moment_type:Trial & Error": "00:20 - Hand re-attempts drawing different path curves between dots",
+  "gameplay_moment_type:Failure": "00:25 - Red X appears when red line crosses green line",
+  "ad_format": "Rule 2 (Fake Gameplay: connect-the-dots line flow puzzle used for an arrow game icon) + Rule 3 (Live Action presenter at 00:00-00:08)"
+ },
+ "_audit": [
+  {
+   "field": "end_card_elements",
+   "claim": "CTA Button",
+   "problem": "There is no CTA button (such as 'Play Now' or 'Install') on the end card; it only contains the game icon/logo, a search bar, and app store badges.",
+   "fix": "Remove 'CTA Button' from end_card_elements."
+  }
+ ],
+ "_validation_warnings": [
+  "gameplay_seconds 50 vs Demo+Escalation+Payoff 43; check"
+ ]
+}

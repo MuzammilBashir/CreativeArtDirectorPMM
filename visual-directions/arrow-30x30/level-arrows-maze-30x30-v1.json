@@ -1,0 +1,341 @@
+{
+  "level_id": "arrows-maze-30x30-v1",
+  "game_reference": "Oakever Amaze GO / Arrows-style directional clearing",
+  "grid": [
+    30,
+    30
+  ],
+  "objective": "clear every arrow by tapping only arrows with an unobstructed path in its pointing direction",
+  "rules": [
+    "arrows slide straight off the board",
+    "blocked arrows remain until the blocker is removed",
+    "wrong taps may cost a heart",
+    "no rotation"
+  ],
+  "pieces": [
+    {
+      "id": "A",
+      "shape": "line",
+      "direction": "left",
+      "color": "#4CC9F0",
+      "cells": [
+        [
+          5,
+          3
+        ],
+        [
+          5,
+          4
+        ],
+        [
+          5,
+          5
+        ]
+      ]
+    },
+    {
+      "id": "B",
+      "shape": "line",
+      "direction": "left",
+      "color": "#4895EF",
+      "cells": [
+        [
+          5,
+          8
+        ],
+        [
+          5,
+          9
+        ],
+        [
+          5,
+          10
+        ]
+      ]
+    },
+    {
+      "id": "C",
+      "shape": "line",
+      "direction": "left",
+      "color": "#4361EE",
+      "cells": [
+        [
+          5,
+          13
+        ],
+        [
+          5,
+          14
+        ],
+        [
+          5,
+          15
+        ]
+      ]
+    },
+    {
+      "id": "D",
+      "shape": "line",
+      "direction": "left",
+      "color": "#3F37C9",
+      "cells": [
+        [
+          5,
+          18
+        ],
+        [
+          5,
+          19
+        ],
+        [
+          5,
+          20
+        ]
+      ]
+    },
+    {
+      "id": "E",
+      "shape": "line",
+      "direction": "left",
+      "color": "#7209B7",
+      "cells": [
+        [
+          5,
+          23
+        ],
+        [
+          5,
+          24
+        ],
+        [
+          5,
+          25
+        ]
+      ]
+    },
+    {
+      "id": "F",
+      "shape": "line",
+      "direction": "right",
+      "color": "#F72585",
+      "cells": [
+        [
+          14,
+          23
+        ],
+        [
+          14,
+          24
+        ],
+        [
+          14,
+          25
+        ]
+      ]
+    },
+    {
+      "id": "G",
+      "shape": "line",
+      "direction": "right",
+      "color": "#FF5D8F",
+      "cells": [
+        [
+          14,
+          18
+        ],
+        [
+          14,
+          19
+        ],
+        [
+          14,
+          20
+        ]
+      ]
+    },
+    {
+      "id": "H",
+      "shape": "line",
+      "direction": "right",
+      "color": "#FF8FA3",
+      "cells": [
+        [
+          14,
+          13
+        ],
+        [
+          14,
+          14
+        ],
+        [
+          14,
+          15
+        ]
+      ]
+    },
+    {
+      "id": "I",
+      "shape": "line",
+      "direction": "right",
+      "color": "#FFB3C6",
+      "cells": [
+        [
+          14,
+          8
+        ],
+        [
+          14,
+          9
+        ],
+        [
+          14,
+          10
+        ]
+      ]
+    },
+    {
+      "id": "J",
+      "shape": "line",
+      "direction": "right",
+      "color": "#FFD166",
+      "cells": [
+        [
+          14,
+          3
+        ],
+        [
+          14,
+          4
+        ],
+        [
+          14,
+          5
+        ]
+      ]
+    },
+    {
+      "id": "K",
+      "shape": "line",
+      "direction": "up",
+      "color": "#06D6A0",
+      "cells": [
+        [
+          3,
+          7
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          7
+        ]
+      ]
+    },
+    {
+      "id": "L",
+      "shape": "line",
+      "direction": "up",
+      "color": "#1B9AAA",
+      "cells": [
+        [
+          8,
+          7
+        ],
+        [
+          9,
+          7
+        ],
+        [
+          10,
+          7
+        ]
+      ]
+    },
+    {
+      "id": "M",
+      "shape": "line",
+      "direction": "up",
+      "color": "#118AB2",
+      "cells": [
+        [
+          18,
+          7
+        ],
+        [
+          19,
+          7
+        ],
+        [
+          20,
+          7
+        ]
+      ]
+    },
+    {
+      "id": "N",
+      "shape": "line",
+      "direction": "down",
+      "color": "#90BE6D",
+      "cells": [
+        [
+          4,
+          22
+        ],
+        [
+          5,
+          22
+        ],
+        [
+          6,
+          22
+        ]
+      ]
+    },
+    {
+      "id": "O",
+      "shape": "line",
+      "direction": "down",
+      "color": "#43AA8B",
+      "cells": [
+        [
+          10,
+          22
+        ],
+        [
+          11,
+          22
+        ],
+        [
+          12,
+          22
+        ]
+      ]
+    }
+  ],
+  "clear_order": [
+    "A",
+    "F",
+    "G",
+    "H",
+    "I",
+    "J",
+    "K",
+    "B",
+    "C",
+    "D",
+    "L",
+    "M",
+    "O",
+    "N",
+    "E"
+  ],
+  "validation": {
+    "overlap": false,
+    "within_grid": true,
+    "all_arrows_clearable": true,
+    "solution_verified_by_simulation": true,
+    "runtime_tuning": "match movement distance and feedback to the game build"
+  }
+}

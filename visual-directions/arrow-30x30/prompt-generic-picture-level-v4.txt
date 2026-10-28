@@ -1,0 +1,40 @@
+Create a playable Arrow puzzle level on a 30×30 rectangular grid.
+
+Target picture or theme: [INSERT THEME]
+
+Workflow:
+1. Build the dense mechanics-first arrow layout.
+2. Validate every arrow mechanically.
+3. Arrange the validated arrows into the target picture.
+
+Composition:
+- Use arrows as the primary filled material of the picture.
+- Occupy approximately 70–80% of the total grid area when the theme allows it.
+- Allow intentional negative-space gaps between separate picture elements.
+- Separate clusters are valid when they represent meaningful parts of the picture.
+- Do not force arrows into areas that should remain empty.
+- Avoid accidental empty regions caused by weak placement or undersized arrows.
+- Use large readable arrows, normally 3–8 grid cells long.
+
+Strict gameplay geometry:
+- Each arrow is one continuous orthogonal path.
+- Each arrow has exactly one arrowhead at its terminal moving end.
+- The opposite end is a blunt rounded tail.
+- No double-headed arrows.
+- No arrowheads in the middle of an arrow.
+- No branches, forks, loops, or self-intersections.
+- No overlaps, crossings, merges, or ambiguous touching.
+- No two arrowheads may face each other directly.
+- Every arrow must have a unique exit lane toward a board edge.
+- Every exit lane must be clear when that arrow becomes available.
+- Each arrow uses one flat solid color from tail to head.
+- Do not use decorative lines that are not playable arrows.
+
+Picture constraint:
+- Form the requested picture only by arranging valid arrows.
+- Never sacrifice arrow geometry to improve the silhouette.
+- If the picture and playability conflict, preserve playability.
+
+Render as a clean top-down 30×30 blueprint with a visible grid, dark background, high-contrast colored arrows, and no extra UI.
+
+Before finalizing, verify every piece for one head, one color, no overlap, no head-to-head orientation, correct occupancy, and a valid exit lane.

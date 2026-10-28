@@ -1,0 +1,104 @@
+{
+ "hook": {
+  "hook_type": [
+   "Challenge Text"
+  ],
+  "hook_trigger": [
+   "Challenge / Ego Threat"
+  ],
+  "hook_emotion": [
+   "Curiosity"
+  ]
+ },
+ "audio": {
+  "audio_style_tags": [
+   "Gameplay SFX"
+  ],
+  "music_mood": "none"
+ },
+ "content": {
+  "concept_tags": [
+   "Gameplay Showcase",
+   "Puzzle Challenge"
+  ],
+  "concept_description": "A player solves a sliding block puzzle by carefully shifting colored and checkerboard blocks to allow long color strips to exit the board.",
+  "persuasion_triggers": [
+   "Oddly Satisfying (ASMR / OCD)",
+   "Challenge / Ego Threat"
+  ],
+  "player_motivation": [
+   "Mastery / Problem Solving",
+   "Completion / Order"
+  ],
+  "cultural_reference": "",
+  "why_it_works": "The tactile Lego-style aesthetic and methodical puzzle-solving mechanics engage viewers who enjoy spatial reasoning and satisfying clearing actions."
+ },
+ "visuals": {
+  "visual_style_tags": [
+   "2D Art",
+   "Top-Down View",
+   "Bright Palette"
+  ],
+  "primary_color": "Slate Blue (#6e7c9c), Red (#eb3b3b), Green (#00c853), Yellow (#ffd600), Blue (#1e88e5)",
+  "notable_characters": "",
+  "notable_objects": "Lego-style studs and puzzle tiles, pointer hand finger"
+ },
+ "emotions": {
+  "ad_emotion": [
+   "Curiosity",
+   "Satisfaction"
+  ],
+  "emotional_arc": "Curiosity -> Satisfaction"
+ },
+ "end_card": {
+  "end_card_elements": [],
+  "cta_and_text": "I can't reach colors (00:00-00:59)",
+  "end_card_brand_text": ""
+ },
+ "gameplay": {
+  "gameplay_seconds": 60,
+  "core_gameplay_notes": "Sliding Lego-style colored border bars and checkerboard tiles to clear paths for each colored strip to exit through matching colored directional arrows.",
+  "gameplay_moment_type": [
+   "Puzzle Solving",
+   "Satisfying Moment"
+  ]
+ },
+ "ad_format": [
+  "Real Gameplay"
+ ],
+ "chapterization": [
+  {
+   "stage": "Hook",
+   "starttime_offset": "00:00",
+   "endtime_offset": "00:03",
+   "chapter_description": "Initial setup displaying the challenge text 'I can't reach colors' as the hand attempts moves."
+  },
+  {
+   "stage": "Demo",
+   "starttime_offset": "00:03",
+   "endtime_offset": "00:40",
+   "chapter_description": "Manipulating black and white checkerboard blocks and sliding colored rails to open avenues."
+  },
+  {
+   "stage": "Payoff",
+   "starttime_offset": "00:40",
+   "endtime_offset": "00:59",
+   "chapter_description": "Consecutively discharging the colored strips off the board into the collector exits."
+  }
+ ],
+ "_evidence": {
+  "hook_trigger:Challenge / Ego Threat": "00:00 - Challenge text header 'I can't reach colors' presents a problem to be solved.",
+  "hook_emotion:Curiosity": "00:00 - Viewer wonders how the trapped color bars can be freed.",
+  "persuasion_triggers:Oddly Satisfying (ASMR / OCD)": "00:41 - Strips smoothly sliding out and shattering into colorful particles upon clearing.",
+  "persuasion_triggers:Challenge / Ego Threat": "00:00 - On-screen text 'I can't reach colors' challenges player problem-solving skills.",
+  "ad_emotion:Curiosity": "00:10 - Watching the intricate movements of checker blocks to see what unlocks.",
+  "ad_emotion:Satisfaction": "00:43 - Satisfying sequence of multiple colored bars releasing in rapid succession.",
+  "gameplay_moment_type:Puzzle Solving": "00:15 - Moving interlocking blocks around to clear space.",
+  "gameplay_moment_type:Satisfying Moment": "00:45 - Rapid clearing of orange, yellow, green, and red strips.",
+  "ad_format": "Rule 1: Real gameplay board shown throughout with genuine puzzle mechanics and interactions."
+ },
+ "_audit": [],
+ "_validation_warnings": [
+  "gameplay_seconds 60 vs Demo+Escalation+Payoff 56; check"
+ ]
+}

@@ -1,0 +1,108 @@
+{
+ "hook": {
+  "hook_type": [
+   "Challenge Text",
+   "Reaction Face"
+  ],
+  "hook_trigger": [
+   "Challenge / Ego Threat",
+   "Curiosity Gap"
+  ],
+  "hook_emotion": [
+   "Curiosity",
+   "Tension"
+  ]
+ },
+ "audio": {
+  "audio_style_tags": [
+   "Voiceover",
+   "Background Music",
+   "Gameplay SFX"
+  ],
+  "music_mood": "Upbeat whimsical comedic electronic track"
+ },
+ "content": {
+  "concept_tags": [
+   "Gameplay Showcase",
+   "Fail / Win Loop",
+   "Puzzle Challenge"
+  ],
+  "concept_description": "A street puzzle challenge transitioning into digital gameplay where players try to connect matching colored dots without intersecting lines.",
+  "persuasion_triggers": [
+   "Challenge / Ego Threat",
+   "Curiosity Gap"
+  ],
+  "player_motivation": [
+   "Mastery / Problem Solving",
+   "Completion / Order"
+  ],
+  "cultural_reference": "",
+  "why_it_works": "The IQ challenge creates an instant ego threat that compels viewers to prove they can solve the deceptively simple line-connecting puzzle, while repeated fails generate frustration and the urge to try it themselves."
+ },
+ "visuals": {
+  "visual_style_tags": [
+   "2D Art",
+   "Top-Down View",
+   "Live Action",
+   "Split-Screen"
+  ],
+  "primary_color": "White (#FFFFFF), Light Blue (#75B2E8), Green (#4CAF50), Red (#E91E63)",
+  "notable_characters": "Street players attempting the physical board puzzle; elderly professor character reacting behind the digital board.",
+  "notable_objects": "Whiteboard puzzle board with colored dots, pencil drawing lines, animated decreasing IQ counter."
+ },
+ "emotions": {
+  "ad_emotion": [
+   "Curiosity",
+   "Frustration",
+   "Tension"
+  ],
+  "emotional_arc": "Curiosity -> Tension -> Frustration"
+ },
+ "end_card": {
+  "end_card_elements": [
+   "Game Logo",
+   "Store Badges"
+  ],
+  "cta_and_text": "Amaze GO! search bar with Google Play and App Store badges at 00:47"
+ },
+ "gameplay": {
+  "gameplay_seconds": 36,
+  "core_gameplay_notes": "Drawing non-overlapping paths to connect pairs of identical colored dots on a grid/board.",
+  "gameplay_moment_type": [
+   "Puzzle Solving",
+   "Trial & Error",
+   "Failure"
+  ]
+ },
+ "ad_format": [
+  "Fake Gameplay",
+  "Live Action",
+  "Hybrid"
+ ],
+ "chapterization": [
+  {
+   "stage": "Hook",
+   "starttime_offset": "00:00",
+   "endtime_offset": "00:10",
+   "chapter_description": "Street challenge setup testing an IQ puzzle on a physical whiteboard with cash stakes."
+  },
+  {
+   "stage": "Demo",
+   "starttime_offset": "00:10",
+   "endtime_offset": "00:26",
+   "chapter_description": "Digital gameplay version begins, showing the hand attempting to connect dots while an IQ counter drops."
+  },
+  {
+   "stage": "Escalation",
+   "starttime_offset": "00:26",
+   "endtime_offset": "00:46",
+   "chapter_description": "Repeated failed attempts to connect the dots without crossing lines as IQ score plummets."
+  },
+  {
+   "stage": "End Card",
+   "starttime_offset": "00:46",
+   "endtime_offset": "00:50",
+   "chapter_description": "App logo with search bar and download badges."
+  }
+ ]
+}

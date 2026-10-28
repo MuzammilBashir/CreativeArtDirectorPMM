@@ -1,0 +1,123 @@
+{
+ "hook": {
+  "hook_type": [
+   "Cinematic / Story Opening"
+  ],
+  "hook_trigger": [
+   "Novelty",
+   "Curiosity Gap"
+  ],
+  "hook_emotion": [
+   "Curiosity",
+   "Surprise"
+  ]
+ },
+ "audio": {
+  "audio_style_tags": [
+   "Voiceover",
+   "Background Music",
+   "Gameplay SFX"
+  ],
+  "music_mood": "Upbeat casual electronic beat with playful tension"
+ },
+ "content": {
+  "concept_tags": [
+   "Gameplay Showcase",
+   "Puzzle Challenge",
+   "Reaction / Testimonial",
+   "Fail / Win Loop"
+  ],
+  "concept_description": "A UGC creator demonstrates an arrow-clearing maze puzzle, repeatedly making mistakes as an IQ bar dramatically drops.",
+  "persuasion_triggers": [
+   "Challenge / Ego Threat",
+   "Loss Aversion",
+   "Oddly Satisfying (ASMR / OCD)"
+  ],
+  "player_motivation": [
+   "Mastery / Problem Solving",
+   "Achievement / Progression",
+   "Competition",
+   "Completion / Order"
+  ],
+  "cultural_reference": "Albert Einstein caricature icon on the IQ score meter",
+  "why_it_works": "Combines striking neon visuals with relatable UGC gameplay failure and an IQ-loss penalty that triggers viewer ego to download and prove they can solve it."
+ },
+ "visuals": {
+  "visual_style_tags": [
+   "2D Art",
+   "High-Contrast / Dark Mood",
+   "Bright Palette"
+  ],
+  "primary_color": "Black (#000000), Neon Magenta (#FF007F), Cyan (#00E5FF), Neon Orange (#FF8C00)",
+  "notable_characters": "Young female UGC presenter in casual attire; Einstein avatar next to IQ bar",
+  "notable_objects": "Neon glowing lion-shaped arrow puzzle, white hand cursor, top IQ score progress bar, giant red 'FAIL' stamp button"
+ },
+ "emotions": {
+  "ad_emotion": [
+   "Curiosity",
+   "Tension",
+   "Frustration",
+   "Humor"
+  ],
+  "emotional_arc": "Curiosity and intrigue shift into mounting tension and frustration before ending in humorous failure."
+ },
+ "end_card": {
+  "end_card_elements": [
+   "Game Logo",
+   "CTA Button"
+  ],
+  "cta_and_text": "Game logo 'POINT OUT' and red CTA button 'PLAY NOW!' appear at 00:58."
+ },
+ "gameplay": {
+  "gameplay_seconds": 53,
+  "core_gameplay_notes": "Tap directional arrows along maze tracks to launch them off the board without colliding with blocking arrows.",
+  "gameplay_moment_type": [
+   "Puzzle Solving",
+   "Trial & Error",
+   "Failure"
+  ]
+ },
+ "ad_format": [
+  "Real Gameplay",
+  "UGC",
+  "Hybrid"
+ ],
+ "chapterization": [
+  {
+   "stage": "Hook",
+   "starttime_offset": "00:00",
+   "endtime_offset": "00:05",
+   "chapter_description": "A neon lion roars and transforms into a complex multi-colored arrow puzzle grid."
+  },
+  {
+   "stage": "Setup",
+   "starttime_offset": "00:05",
+   "endtime_offset": "00:15",
+   "chapter_description": "UGC host introduces Point Out and demonstrates how tapping arrows shoots them off the board."
+  },
+  {
+   "stage": "Demo",
+   "starttime_offset": "00:15",
+   "endtime_offset": "00:26",
+   "chapter_description": "Host explains the IQ score meter at the top and how tapping blocking arrows lowers score."
+  },
+  {
+   "stage": "Escalation",
+   "starttime_offset": "00:26",
+   "endtime_offset": "00:44",
+   "chapter_description": "Repeated collisions and failed moves cause the IQ score to rapidly drop."
+  },
+  {
+   "stage": "Payoff",
+   "starttime_offset": "00:44",
+   "endtime_offset": "00:57",
+   "chapter_description": "Score plummets to 15, ending in a giant red FAIL stamp."
+  },
+  {
+   "stage": "End Card",
+   "starttime_offset": "00:57",
+   "endtime_offset": "00:59",
+   "chapter_description": "Final end card showing the game icon, logo, and Play Now call to action."
+  }
+ ]
+}

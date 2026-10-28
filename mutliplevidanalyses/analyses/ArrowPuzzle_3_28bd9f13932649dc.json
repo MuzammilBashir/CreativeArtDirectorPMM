@@ -1,0 +1,117 @@
+{
+ "hook": {
+  "hook_type": [
+   "Gameplay Mid-Action"
+  ],
+  "hook_trigger": [
+   "Challenge / Ego Threat",
+   "Rescue / Empathy"
+  ],
+  "hook_emotion": [
+   "Curiosity",
+   "Tension"
+  ]
+ },
+ "audio": {
+  "audio_style_tags": [
+   "Background Music",
+   "Gameplay SFX"
+  ],
+  "music_mood": "Upbeat synth puzzle background track with error buzzers and whooshes"
+ },
+ "content": {
+  "concept_tags": [
+   "Gameplay Showcase",
+   "Puzzle Challenge",
+   "Rescue / Survival"
+  ],
+  "concept_description": "A player tries to clear tangled arrows trapping a mother monkey and baby, repeatedly making wrong moves that trigger error blocks and lower the IQ meter to fail.",
+  "persuasion_triggers": [
+   "Challenge / Ego Threat",
+   "Rescue / Empathy"
+  ],
+  "player_motivation": [
+   "Mastery / Problem Solving"
+  ],
+  "cultural_reference": "Albert Einstein caricature on the IQ meter",
+  "why_it_works": "The IQ comparison and emotional cue of a crying trapped monkey provoke the viewer's ego and urge to solve the maze correctly where the player failed."
+ },
+ "visuals": {
+  "visual_style_tags": [
+   "2D Art",
+   "Top-Down View"
+  ],
+  "primary_color": "Navy Blue (#1b2456), Cyan (#4ee2ec), Red (#d92638)",
+  "notable_characters": "Mother monkey and baby monkey, Einstein avatar",
+  "notable_objects": "IQ rating meter, directional arrow tracks, pointer finger, FAIL overlay banner"
+ },
+ "emotions": {
+  "ad_emotion": [
+   "Tension",
+   "Frustration"
+  ],
+  "emotional_arc": "Tension and challenge start -> escalating frustration and failure as moves get blocked"
+ },
+ "end_card": {
+  "end_card_elements": [
+   "Game Logo"
+  ],
+  "cta_and_text": "00:27 - FAIL, 00:29 - Arrow Puzzle",
+  "end_card_brand_text": "Arrow Puzzle"
+ },
+ "gameplay": {
+  "gameplay_seconds": 27,
+  "core_gameplay_notes": "Tapping arrows to slide them out of the maze without hitting obstacles or other blocking arrows.",
+  "gameplay_moment_type": [
+   "Puzzle Solving",
+   "Trial & Error",
+   "Failure"
+  ]
+ },
+ "ad_format": [
+  "Hybrid",
+  "Real Gameplay"
+ ],
+ "chapterization": [
+  {
+   "stage": "Hook",
+   "starttime_offset": "00:00",
+   "endtime_offset": "00:03",
+   "chapter_description": "Introduction of the arrow puzzle maze trapping monkeys, with an IQ meter overhead."
+  },
+  {
+   "stage": "Escalation",
+   "starttime_offset": "00:03",
+   "endtime_offset": "00:26",
+   "chapter_description": "Multiple blocked arrow taps turn red, the monkeys start crying, and the IQ meter drops to Dumb."
+  },
+  {
+   "stage": "Payoff",
+   "starttime_offset": "00:26",
+   "endtime_offset": "00:27",
+   "chapter_description": "Final blocked move causes a large FAIL stamp to appear."
+  },
+  {
+   "stage": "End Card",
+   "starttime_offset": "00:27",
+   "endtime_offset": "00:30",
+   "chapter_description": "Animated game logo and title display for Arrow Puzzle."
+  }
+ ],
+ "_evidence": {
+  "hook_trigger:Challenge / Ego Threat": "00:00 - Dumb to Genius IQ meter displayed at top",
+  "hook_trigger:Rescue / Empathy": "00:00 - Mother and baby monkey trapped inside the maze center",
+  "hook_emotion:Curiosity": "00:01 - Viewer watches the pointer prepare to tap maze arrows",
+  "hook_emotion:Tension": "00:02 - Red collision line signals a blocked arrow and error",
+  "persuasion_triggers:Challenge / Ego Threat": "00:03 - Meter pointer slips towards Dumb with an angry Einstein icon",
+  "persuasion_triggers:Rescue / Empathy": "00:16 - Trapped monkey cries with tears streaming down face",
+  "ad_emotion:Tension": "00:05 - Repeated attempts struggle to find clear paths",
+  "ad_emotion:Frustration": "00:25 - Multiple red highlighted blocked paths and final FAIL stamp",
+  "gameplay_moment_type:Puzzle Solving": "00:04 - Arrow successfully navigates out of maze",
+  "gameplay_moment_type:Trial & Error": "00:11 - Hand tests several arrow paths in succession",
+  "gameplay_moment_type:Failure": "00:27 - Giant FAIL graphic covers the screen",
+  "ad_format": "Rule 4: Real core arrow maze gameplay combined with added IQ meter, Einstein avatar, trapped monkeys, and FAIL stamp"
+ },
+ "_audit": [],
+ "_validation_warnings": []
+}

@@ -1,0 +1,119 @@
+```json
+{
+ "hook": {
+  "hook_type": [
+   "Challenge Text",
+   "Cinematic / Story Opening"
+  ],
+  "hook_trigger": [
+   "Curiosity Gap",
+   "Novelty"
+  ],
+  "hook_emotion": [
+   "Curiosity",
+   "Relaxation"
+  ]
+ },
+ "audio": {
+  "audio_style_tags": [
+   "Voiceover",
+   "Background Music",
+   "Gameplay SFX"
+  ],
+  "music_mood": "Calm, ambient acoustic and relaxing melody with chime sound effects"
+ },
+ "content": {
+  "concept_tags": [
+   "Gameplay Showcase",
+   "Puzzle Challenge",
+   "Fail / Win Loop"
+  ],
+  "concept_description": "Promotes a relaxing arrow-unraveling puzzle game highlighting features like offline play and brain training alongside IQ-driven gameplay.",
+  "persuasion_triggers": [
+   "Challenge / Ego Threat",
+   "Oddly Satisfying (ASMR / OCD)",
+   "Achievement / Reward"
+  ],
+  "player_motivation": [
+   "Mastery / Problem Solving",
+   "Relaxation",
+   "Completion / Order"
+  ],
+  "cultural_reference": "Albert Einstein",
+  "why_it_works": "Pairs appealing promises of ad-free relaxation with an interactive-style puzzle where IQ fluctuations provoke ego and motivate play."
+ },
+ "visuals": {
+  "visual_style_tags": [
+   "2D Art",
+   "Top-Down View",
+   "Bright Palette",
+   "High-Contrast / Dark Mood"
+  ],
+  "primary_color": "Dark Slate Gray (#111827), Neon Yellow (#EAB308), Neon Magenta (#D946EF)",
+  "notable_characters": "Albert Einstein portrait next to the IQ progress bar",
+  "notable_objects": "Gilded fantasy mirror frame, tangled neon arrow lines, animated pointer hand, level showcase cards"
+ },
+ "emotions": {
+  "ad_emotion": [
+   "Relaxation",
+   "Curiosity",
+   "Satisfaction",
+   "Frustration"
+  ],
+  "emotional_arc": "Calm relaxation transitions to focused problem solving, minor frustration on collisions, and satisfying progress"
+ },
+ "end_card": {
+  "end_card_elements": [
+   "Game Logo",
+   "CTA Button"
+  ],
+  "cta_and_text": "'COLOR MAZE' title and 'PLAY' button appear at 00:49"
+ },
+ "gameplay": {
+  "gameplay_seconds": 31,
+  "core_gameplay_notes": "Tapping intertwined colored arrows in the correct sequence to let them exit the maze without colliding with blocked paths.",
+  "gameplay_moment_type": [
+   "Puzzle Solving",
+   "Trial & Error",
+   "Failure",
+   "Satisfying Moment"
+  ]
+ },
+ "ad_format": [
+  "Hybrid",
+  "Real Gameplay"
+ ],
+ "chapterization": [
+  {
+   "stage": "Hook",
+   "starttime_offset": "00:00",
+   "endtime_offset": "00:03",
+   "chapter_description": "Bold text claims this is the most relaxing arrow puzzle game for arrow lovers."
+  },
+  {
+   "stage": "Setup",
+   "starttime_offset": "00:03",
+   "endtime_offset": "00:17",
+   "chapter_description": "Checklist of game benefits displayed on an ornate magic mirror frame with narration."
+  },
+  {
+   "stage": "Demo",
+   "starttime_offset": "00:17",
+   "endtime_offset": "00:33",
+   "chapter_description": "Gameplay begins showing untangling of colored arrows and reactive IQ score changes."
+  },
+  {
+   "stage": "Escalation",
+   "starttime_offset": "00:33",
+   "endtime_offset": "00:48",
+   "chapter_description": "Continued arrow clearing with errors lowering the IQ meter and successful moves restoring it."
+  },
+  {
+   "stage": "End Card",
+   "starttime_offset": "00:48",
+   "endtime_offset": "00:52",
+   "chapter_description": "End card displaying the Color Maze logo, carousel of creative level layouts, and a Play CTA."
+  }
+ ]
+}
+```

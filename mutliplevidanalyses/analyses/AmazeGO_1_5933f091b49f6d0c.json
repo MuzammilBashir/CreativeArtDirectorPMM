@@ -1,0 +1,135 @@
+{
+ "hook": {
+  "hook_type": [
+   "Challenge Text",
+   "Gameplay Mid-Action"
+  ],
+  "hook_trigger": [
+   "Challenge / Ego Threat",
+   "Curiosity Gap"
+  ],
+  "hook_emotion": [
+   "Curiosity"
+  ]
+ },
+ "audio": {
+  "audio_style_tags": [
+   "Voiceover",
+   "Background Music",
+   "Gameplay SFX"
+  ],
+  "music_mood": "playful upbeat background music with quirky rhythm"
+ },
+ "content": {
+  "concept_tags": [
+   "Puzzle Challenge",
+   "Fail / Win Loop"
+  ],
+  "concept_description": "A street puzzle challenge transitions to digital line-connecting puzzle attempts where every solution fails, provoking viewer challenge.",
+  "persuasion_triggers": [
+   "Challenge / Ego Threat"
+  ],
+  "player_motivation": [
+   "Mastery / Problem Solving"
+  ],
+  "cultural_reference": "",
+  "why_it_works": "The IQ challenge premise and repeated simple-looking failures trigger the viewer's ego and urge to prove they can solve the puzzle correctly."
+ },
+ "visuals": {
+  "visual_style_tags": [
+   "2D Art",
+   "Top-Down View"
+  ],
+  "primary_color": "white (#FFFFFF), green (#4CAF50), red (#E53935), blue (#2196F3)",
+  "notable_characters": "elderly woman solving street puzzle, thinker professor figure above IQ meter",
+  "notable_objects": "whiteboard, marker, pencil, app search bar"
+ },
+ "emotions": {
+  "ad_emotion": [
+   "Curiosity",
+   "Frustration"
+  ],
+  "emotional_arc": "Intrigued by the street challenge, followed by increasing frustration as every puzzle line attempt intersects and fails."
+ },
+ "end_card": {
+  "end_card_elements": [
+   "Game Logo",
+   "Store Badges",
+   "CTA Button"
+  ],
+  "cta_and_text": "00:47 - Amaze GO! in search bar",
+  "end_card_brand_text": "Amaze GO!"
+ },
+ "gameplay": {
+  "gameplay_seconds": 35,
+  "core_gameplay_notes": "A pencil attempts to connect matching colored dots inside a square without overlapping lines, failing each time.",
+  "gameplay_moment_type": [
+   "Puzzle Solving",
+   "Failure",
+   "Trial & Error"
+  ]
+ },
+ "ad_format": [
+  "Fake Gameplay",
+  "Live Action"
+ ],
+ "chapterization": [
+  {
+   "stage": "Hook",
+   "starttime_offset": "00:00",
+   "endtime_offset": "00:11",
+   "chapter_description": "Woman attempts a circle line puzzle on a street whiteboard and fails."
+  },
+  {
+   "stage": "Demo",
+   "starttime_offset": "00:11",
+   "endtime_offset": "00:28",
+   "chapter_description": "Pencil attempts connecting dots on paper with decreasing IQ score upon line intersection."
+  },
+  {
+   "stage": "Escalation",
+   "starttime_offset": "00:28",
+   "endtime_offset": "00:46",
+   "chapter_description": "Repeated line-crossing failures cause the displayed IQ score to drop dramatically."
+  },
+  {
+   "stage": "End Card",
+   "starttime_offset": "00:46",
+   "endtime_offset": "00:50",
+   "chapter_description": "End card displaying Amaze GO! logo, animated search bar, and app store buttons."
+  }
+ ],
+ "_evidence": {
+  "hook_trigger:Challenge / Ego Threat": "00:00 - On-screen text 'OnlyIQ>130 can solve it?' challenges intelligence",
+  "hook_trigger:Curiosity Gap": "00:01 - Viewer watches woman attempt to draw lines between dots to see if she succeeds",
+  "hook_emotion:Curiosity": "00:01 - Viewer wonders how to solve the dot connection challenge",
+  "persuasion_triggers:Challenge / Ego Threat": "00:13 - Voiceover asks 'Can you solve it? What's your IQ?' alongside a dropping IQ meter",
+  "ad_emotion:Curiosity": "00:00 - Opening challenge text invites viewer to figure out the solution",
+  "ad_emotion:Frustration": "00:26 - Red cross appears with a buzzer sound and decreasing IQ score after line crosses",
+  "gameplay_moment_type:Puzzle Solving": "00:12 - Drawing lines between matching colored circles",
+  "gameplay_moment_type:Failure": "00:26 - Line collides with existing path triggering a red X mark",
+  "gameplay_moment_type:Trial & Error": "00:29 - Resetting the board and attempting an alternate path",
+  "ad_format": "Rule 2 (Fake Gameplay: connect-the-dots line puzzle shown for an arrow puzzle game Amaze GO!) and Rule 3 (Live Action street footage 00:00-00:11)"
+ },
+ "_audit": [
+  {
+   "field": "hook_type",
+   "claim": "Gameplay Mid-Action",
+   "problem": "The hook features real-life live-action street footage of a woman drawing on a physical whiteboard, not video game gameplay.",
+   "fix": "Remove 'Gameplay Mid-Action'"
+  },
+  {
+   "field": "end_card_elements",
+   "claim": "CTA Button",
+   "problem": "There is no Call to Action (CTA) button displayed on the end card; only the game logo, an animated search bar, and app store badges are present.",
+   "fix": "Remove 'CTA Button' from end_card_elements"
+  },
+  {
+   "field": "cta_and_text",
+   "claim": "00:47 - Amaze GO! in search bar",
+   "problem": "The game title appearing inside a search bar is not a call-to-action (e.g., 'Download Now', 'Play Free'). There is no CTA text present.",
+   "fix": "Set to \"\""
+  }
+ ],
+ "_validation_warnings": []
+}

@@ -1,0 +1,599 @@
+{
+  "grid": [
+    8,
+    8
+  ],
+  "occupied_cells": 54,
+  "empty_cells": 10,
+  "occupancy_percent": 84.375,
+  "studs_per_cell": 4,
+  "blocks": {
+    "Y": {
+      "name": "Y",
+      "color": "#FFD43B",
+      "cells": [
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "gate": [
+        "bottom",
+        3,
+        2
+      ]
+    },
+    "B": {
+      "name": "B",
+      "color": "#3889F5",
+      "cells": [
+        [
+          5,
+          1
+        ],
+        [
+          6,
+          0
+        ],
+        [
+          6,
+          1
+        ],
+        [
+          6,
+          2
+        ],
+        [
+          7,
+          1
+        ]
+      ],
+      "gate": [
+        "top",
+        4,
+        3
+      ]
+    },
+    "C": {
+      "name": "C",
+      "color": "#39CBE0",
+      "cells": [
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          5
+        ]
+      ],
+      "gate": [
+        "left",
+        4,
+        3
+      ]
+    },
+    "V": {
+      "name": "V",
+      "color": "#9364DA",
+      "cells": [
+        [
+          3,
+          7
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          7
+        ]
+      ],
+      "gate": [
+        "bottom",
+        5,
+        3
+      ]
+    },
+    "T": {
+      "name": "T",
+      "color": "#248B85",
+      "cells": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "gate": [
+        "left",
+        0,
+        2
+      ]
+    },
+    "R": {
+      "name": "R",
+      "color": "#DA657F",
+      "cells": [
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          6
+        ]
+      ],
+      "gate": [
+        "bottom",
+        0,
+        3
+      ]
+    },
+    "G": {
+      "name": "G",
+      "color": "#45B969",
+      "cells": [
+        [
+          5,
+          3
+        ],
+        [
+          5,
+          4
+        ],
+        [
+          6,
+          3
+        ],
+        [
+          6,
+          4
+        ],
+        [
+          7,
+          3
+        ]
+      ],
+      "gate": [
+        "right",
+        1,
+        2
+      ]
+    },
+    "P": {
+      "name": "P",
+      "color": "#C787D4",
+      "cells": [
+        [
+          5,
+          5
+        ],
+        [
+          6,
+          5
+        ],
+        [
+          7,
+          4
+        ],
+        [
+          7,
+          5
+        ]
+      ],
+      "gate": [
+        "right",
+        3,
+        2
+      ]
+    },
+    "N": {
+      "name": "N",
+      "color": "#5360B6",
+      "cells": [
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          6
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          7,
+          7
+        ]
+      ],
+      "gate": [
+        "right",
+        5,
+        2
+      ]
+    },
+    "O": {
+      "name": "O",
+      "color": "#D68D45",
+      "cells": [
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          4,
+          2
+        ]
+      ],
+      "gate": [
+        "top",
+        0,
+        4
+      ]
+    },
+    "W": {
+      "name": "W",
+      "color": "#91ADB8",
+      "cells": [
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "gate": [
+        "left",
+        2,
+        2
+      ]
+    }
+  },
+  "solution": [
+    {
+      "block": "O",
+      "direction": "left",
+      "cell_steps": 1
+    },
+    {
+      "block": "O",
+      "direction": "up",
+      "cell_steps": 1
+    },
+    {
+      "block": "O",
+      "direction": "up",
+      "cell_steps": 1
+    },
+    {
+      "block": "O",
+      "direction": "up",
+      "cell_steps": 1
+    },
+    {
+      "block": "T",
+      "direction": "up",
+      "cell_steps": 1
+    },
+    {
+      "block": "T",
+      "direction": "left",
+      "cell_steps": 1
+    },
+    {
+      "block": "T",
+      "direction": "left",
+      "cell_steps": 1
+    },
+    {
+      "block": "T",
+      "direction": "left",
+      "cell_steps": 1
+    },
+    {
+      "block": "W",
+      "direction": "up",
+      "cell_steps": 1
+    },
+    {
+      "block": "W",
+      "direction": "left",
+      "cell_steps": 1
+    },
+    {
+      "block": "W",
+      "direction": "left",
+      "cell_steps": 1
+    },
+    {
+      "block": "W",
+      "direction": "left",
+      "cell_steps": 1
+    },
+    {
+      "block": "C",
+      "direction": "up",
+      "cell_steps": 1
+    },
+    {
+      "block": "C",
+      "direction": "left",
+      "cell_steps": 1
+    },
+    {
+      "block": "C",
+      "direction": "left",
+      "cell_steps": 1
+    },
+    {
+      "block": "C",
+      "direction": "left",
+      "cell_steps": 1
+    },
+    {
+      "block": "B",
+      "direction": "left",
+      "cell_steps": 1
+    },
+    {
+      "block": "B",
+      "direction": "up",
+      "cell_steps": 1
+    },
+    {
+      "block": "B",
+      "direction": "up",
+      "cell_steps": 1
+    },
+    {
+      "block": "B",
+      "direction": "up",
+      "cell_steps": 1
+    },
+    {
+      "block": "G",
+      "direction": "up",
+      "cell_steps": 1
+    },
+    {
+      "block": "G",
+      "direction": "up",
+      "cell_steps": 1
+    },
+    {
+      "block": "G",
+      "direction": "right",
+      "cell_steps": 1
+    },
+    {
+      "block": "G",
+      "direction": "right",
+      "cell_steps": 1
+    },
+    {
+      "block": "G",
+      "direction": "right",
+      "cell_steps": 1
+    },
+    {
+      "block": "P",
+      "direction": "up",
+      "cell_steps": 1
+    },
+    {
+      "block": "P",
+      "direction": "right",
+      "cell_steps": 1
+    },
+    {
+      "block": "P",
+      "direction": "right",
+      "cell_steps": 1
+    },
+    {
+      "block": "P",
+      "direction": "right",
+      "cell_steps": 1
+    },
+    {
+      "block": "R",
+      "direction": "left",
+      "cell_steps": 1
+    },
+    {
+      "block": "R",
+      "direction": "down",
+      "cell_steps": 1
+    },
+    {
+      "block": "R",
+      "direction": "down",
+      "cell_steps": 1
+    },
+    {
+      "block": "R",
+      "direction": "down",
+      "cell_steps": 1
+    },
+    {
+      "block": "N",
+      "direction": "up",
+      "cell_steps": 1
+    },
+    {
+      "block": "N",
+      "direction": "right",
+      "cell_steps": 1
+    },
+    {
+      "block": "N",
+      "direction": "right",
+      "cell_steps": 1
+    },
+    {
+      "block": "N",
+      "direction": "right",
+      "cell_steps": 1
+    },
+    {
+      "block": "V",
+      "direction": "right",
+      "cell_steps": 1
+    },
+    {
+      "block": "V",
+      "direction": "right",
+      "cell_steps": 1
+    },
+    {
+      "block": "V",
+      "direction": "down",
+      "cell_steps": 1
+    },
+    {
+      "block": "V",
+      "direction": "down",
+      "cell_steps": 1
+    },
+    {
+      "block": "V",
+      "direction": "down",
+      "cell_steps": 1
+    },
+    {
+      "block": "Y",
+      "direction": "down",
+      "cell_steps": 1
+    },
+    {
+      "block": "Y",
+      "direction": "down",
+      "cell_steps": 1
+    },
+    {
+      "block": "Y",
+      "direction": "down",
+      "cell_steps": 1
+    },
+    {
+      "block": "Y",
+      "direction": "down",
+      "cell_steps": 1
+    },
+    {
+      "block": "Y",
+      "direction": "down",
+      "cell_steps": 1
+    }
+  ],
+  "test_conditions": [
+    "axis-aligned sliding",
+    "no rotation",
+    "matching-color gate only"
+  ],
+  "checks": {
+    "overlap": false,
+    "uniform_cell_pitch": true,
+    "stud_count": 216,
+    "gate_spans_match": true,
+    "initial_yellow_down_blocked": true,
+    "full_clear_sequence_verified": true
+  }
+}
