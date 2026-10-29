@@ -1,0 +1,63 @@
+{
+  "params": [
+    {
+      "model": "gpt_image_2_5",
+      "variant": "flare",
+      "quality": "low",
+      "resolution": "1k",
+      "aspect_ratio": "9:16",
+      "count": 1,
+      "medias": [
+        {
+          "role": "image",
+          "value": "c6f1c599-9b82-49d9-afac-53fd5a5ca6ad"
+        }
+      ],
+      "prompt": "Edit the supplied reference into a single 9:16 opening frame for an emotionally engaging 4.5-second hook. Preserve the close face-led composition, teal crewneck, slate laptop, face-down phone and warm-gray desk setting. Explicitly redesign the fictional worker as a clearly masculine adult man in his mid-thirties: broader angular jaw, stronger brow ridge, short dark hair in broad simplified masses, subtle flat-shaded stubble. Maintain believable adult proportions, not a caricature. CORE STORY: he is visibly exhausted after a long workday, not merely thoughtful or sad. His upper back rounds forward, shoulders drop heavily, head droops toward laptop, eyelids are heavy and half lowered, subtle under-eye shadows, jaw slack with lips slightly parted during a weary exhale. Eyes remain open enough to direct the gaze at the laptop. Make physical exhaustion unmistakable at small phone size through exaggerated acting, not exaggerated anatomy. Anatomical RIGHT hand, on viewer LEFT, rests heavily over the top edge of the partly open laptop ready to close it; anatomical LEFT forearm, viewer RIGHT, rests on desk beside the reachable face-down phone. Arrange laptop left of center and phone right of center so the free-hand reach is unobstructed. Both hands anatomically sound. Show the closing action setup clearly. Clean gamey semi-realistic MOBILE ENGINE 3D: broad matte skin shading without pores, plain teal cloth without visible weave, simplified sculpted hair masses without fine strand rendering, moderate geometry, baked soft light, gentle simple contact shadows, sharp background without depth-of-field. One small coral mug and tidy paper stack behind the active hands; keep them fully inside frame. Background plain warm-gray wall and low-detail shelf with two abstract books only. Remove plant. Face and hand/laptop are the focal hierarchy. No text, logos, game UI, extra people, extra fingers, photographic skin, cinematic grading, lens effects or beauty-portrait polish. Single frame, not collage.\nOption A: Exhaustion conveyed by a heavy forward slump and drooping head; tired eyes remain clearly visible. Keep face large in upper middle."
+    },
+    {
+      "model": "gpt_image_2_5",
+      "variant": "flare",
+      "quality": "low",
+      "resolution": "1k",
+      "aspect_ratio": "9:16",
+      "count": 1,
+      "medias": [
+        {
+          "role": "image",
+          "value": "c6f1c599-9b82-49d9-afac-53fd5a5ca6ad"
+        }
+      ],
+      "prompt": "Edit the supplied reference into a single 9:16 opening frame for an emotionally engaging 4.5-second hook. Preserve the close face-led composition, teal crewneck, slate laptop, face-down phone and warm-gray desk setting. Explicitly redesign the fictional worker as a clearly masculine adult man in his mid-thirties: broader angular jaw, stronger brow ridge, short dark hair in broad simplified masses, subtle flat-shaded stubble. Maintain believable adult proportions, not a caricature. CORE STORY: he is visibly exhausted after a long workday, not merely thoughtful or sad. His upper back rounds forward, shoulders drop heavily, head droops toward laptop, eyelids are heavy and half lowered, subtle under-eye shadows, jaw slack with lips slightly parted during a weary exhale. Eyes remain open enough to direct the gaze at the laptop. Make physical exhaustion unmistakable at small phone size through exaggerated acting, not exaggerated anatomy. Anatomical RIGHT hand, on viewer LEFT, rests heavily over the top edge of the partly open laptop ready to close it; anatomical LEFT forearm, viewer RIGHT, rests on desk beside the reachable face-down phone. Arrange laptop left of center and phone right of center so the free-hand reach is unobstructed. Both hands anatomically sound. Show the closing action setup clearly. Clean gamey semi-realistic MOBILE ENGINE 3D: broad matte skin shading without pores, plain teal cloth without visible weave, simplified sculpted hair masses without fine strand rendering, moderate geometry, baked soft light, gentle simple contact shadows, sharp background without depth-of-field. One small coral mug and tidy paper stack behind the active hands; keep them fully inside frame. Background plain warm-gray wall and low-detail shelf with two abstract books only. Remove plant. Face and hand/laptop are the focal hierarchy. No text, logos, game UI, extra people, extra fingers, photographic skin, cinematic grading, lens effects or beauty-portrait polish. Single frame, not collage.\nOption B: Same character and staging; head tilted slightly to one side and eyelids heavier, mouth gently open mid long exhale; a stronger drained expression without sadness or sleeping. Keep the same close framing."
+    }
+  ],
+  "results": {
+    "jobs": [
+      {
+        "index": 0,
+        "job_id": "cf6a2830-6e85-4eb7-aad6-cbd69c9278a3",
+        "status": "completed",
+        "type": "image",
+        "model": "gpt_image_2_5",
+        "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3GoKP4VmvKVeJb1hKAKlCgP8sfw/hf_20261029_144739_cf6a2830-6e85-4eb7-aad6-cbd69c9278a3.png"
+      },
+      {
+        "index": 1,
+        "job_id": "952000ad-7757-4858-884c-02825154d9f6",
+        "status": "completed",
+        "type": "image",
+        "model": "gpt_image_2_5",
+        "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3GoKP4VmvKVeJb1hKAKlCgP8sfw/hf_20261029_144744_952000ad-7757-4858-884c-02825154d9f6.png"
+      }
+    ],
+    "summary": {
+      "total": 2,
+      "completed": 2,
+      "failed": 0,
+      "active": 0,
+      "errors": 0
+    },
+    "all_terminal": true
+  },
+  "quotedCredits": 0.5
+}

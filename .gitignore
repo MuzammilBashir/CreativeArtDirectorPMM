@@ -5,6 +5,10 @@
 # Local credentials and machine-specific state
 .aws/
 .git-credentials
+.env
+.env.*
+!.env.example
+__pycache__/
 
 # OS/editor noise
 Thumbs.db

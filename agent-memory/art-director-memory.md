@@ -66,6 +66,10 @@ For any supplied ad:
 
 ## Current project memory
 
+- Before Hooks production, read `Hooks/rules/production-rules.md`: cost-conscious capable draft model selection, three attempts with two options, image drafts at the selected model's smallest supported resolution, 480p video drafts, 720p final video, 4–5 second duration, and Art Director scoring with a 90% approval gate. Game DNA is unassessed when absent; provisional weighting and attempt interpretations are documented in that canonical record.
+
+- Hooks reuses the existing Art Director visual skills as its universal visual foundation. Do not create a duplicate Hooks visual skill set. Keep hook-specific storytelling and production approval rules in `Hooks/rules/`; apply game-specific style references only when relevant. This reuse applies even during the initial Hooks phase without Game DNA.
+
 - The project is an autonomous mobile-game ad art-direction system.
 - V1 focuses on truthful, test-ready gameplay and UGC-supporting creative; playable-ad delivery and publishing are out of scope.
 - Creative Strategist owns the strategic what and why. Art Director owns the visual how.
@@ -88,4 +92,18 @@ Status: `observation`, not a validated performance learning.
 
 ## Persistence rule
 
+The shared Obsidian entry point is `vault/Art Director/Art Director Home.md`. Consult its routing before Art Director work and follow `vault/Art Director/Learning Workflow.md` when recording reusable findings. Existing project libraries remain canonical; use vault links rather than duplicate copies. New cross-topic learnings without an existing home belong in the vault's `Learnings/` folder and should be linked from its `Learning Index.md`. The Hooks Creation Process is currently a discussion draft.
+
 When a new stable learning is discovered, update this file only if it changes how the agent should operate across future tasks. Store game-specific observations, performance results, and review reports in their dedicated project libraries, then link or summarize them here when they become operationally important.
+
+## Owner feedback memory — 2026-10-29
+- Always record the owner's feedback in this memory file during the same turn. Preserve concept-specific context; reusable visual rules also belong in the canonical feedback ledger and its Claude mirror. Do not store secrets as feedback.
+- HOOK-001: exhaustion and exaggeration were missing; the characters looked too mildly tired, and their facial presentation was more feminine than intended. Revise this concept toward an explicitly masculine adult character and a much more readable exhausted pose/expression. This is concept-specific, not a male-only casting rule.
+- Audit intended concept versus exact prompt versus actual output before blaming Higgsfield. The prompt itself suppressed exhaustion and did not specify masculine presentation. Earlier scores were too generous because they overvalued polish. See Hooks/productions/a-moment-thats-mine/reviews/prompt-output-audit-v1.md and AF-12.
+- Art Director must make the production decision within the authorized three-attempt cycle, with two options per attempt; do not stop after a failed first round waiting for the owner to repeat the instruction. A request to discuss or audit first pauses generation for that discussion, not the underlying objective.
+
+## 2026-10-29 — HOOK-001 revised image cycle
+Owner requested recreated prompts and repeat generation after exhaustion/character feedback. Completed attempts 2 and 3, two options each. Explicit performance cues fixed much of the emotional mismatch. Art Director selected A-v3 as best at 88%, below the 90% gate; three-attempt limit exhausted without approval. Preserve the limit; do not claim success or spend a fourth round silently. Full decision: Hooks/productions/a-moment-thats-mine/reviews/first-frame-final-decision.md.
+
+## 2026-10-29 — Owner approved first frame
+Owner: "Let's keep this one approved for now, and continue with the hook." A-v3 accepted for continuation despite the recorded 88% score. Preserve this asset-specific override; do not change the general 90% threshold. Proceed with storyboard, then 480p video drafts, then reviewed 720p final. Do not ask again for first-frame approval.

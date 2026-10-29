@@ -1,0 +1,66 @@
+[
+  {
+    "file": "asmrstar.mp4",
+    "status": "already_analyzed"
+  },
+  {
+    "file": "cathook.mp4",
+    "status": "already_analyzed"
+  },
+  {
+    "file": "girlfriendcrying.mp4",
+    "status": "already_analyzed"
+  },
+  {
+    "file": "hf_20261007_121650_5168a466-b043-4f94-9874-c981bce80e07.mp4",
+    "status": "already_analyzed"
+  },
+  {
+    "file": "hf_20261007_123830_cc87edb5-6a8d-40c7-9243-58fe10d11f7d.mp4",
+    "status": "failed",
+    "diagnostic": "Uploading selected video to Google Gemini for analysis...\nGemini operation failed (ServerError; code=503; status=UNAVAILABLE). Check credentials, model access, quota, or network. No approval recorded."
+  },
+  {
+    "file": "Hook_Aging.mp4",
+    "status": "analyzed",
+    "diagnostic": "Uploading selected video to Google Gemini for analysis...\nSaved: F:\\Projects\\AI\\PMM_ArtDirector\\Hooks\\reference-analysis\\Hook_Aging-6ec4e74c5a\\gemini-20261029T125959797524Z.md\n"
+  },
+  {
+    "file": "Hook_NoMeTime.mp4",
+    "status": "already_analyzed"
+  },
+  {
+    "file": "iq140day.mp4",
+    "status": "already_analyzed"
+  },
+  {
+    "file": "iq140night.mp4",
+    "status": "already_analyzed"
+  },
+  {
+    "file": "knitting.mp4",
+    "status": "already_analyzed"
+  },
+  {
+    "file": "marbles.mp4",
+    "status": "already_analyzed"
+  },
+  {
+    "file": "soapcutting.mp4",
+    "status": "already_analyzed"
+  },
+  {
+    "file": "strawberina.mp4",
+    "status": "already_analyzed"
+  },
+  {
+    "file": "wifeplayinggame.mp4",
+    "status": "analyzed",
+    "diagnostic": "Uploading selected video to Google Gemini for analysis...\nSaved: F:\\Projects\\AI\\PMM_ArtDirector\\Hooks\\reference-analysis\\wifeplayinggame-66ea3e49b6\\gemini-20261029T130053874620Z.md\n"
+  },
+  {
+    "file": "🍀 Top Puzzle Games  Hollywood Crush 🧩 .mp4",
+    "status": "analyzed",
+    "diagnostic": "Uploading selected video to Google Gemini for analysis...\nSaved: F:\\Projects\\AI\\PMM_ArtDirector\\Hooks\\reference-analysis\\🍀 Top Puzzle Games  Hollywood Crush 🧩 -1bb4832ca9\\gemini-20261029T130128399513Z.md\n"
+  }
+]

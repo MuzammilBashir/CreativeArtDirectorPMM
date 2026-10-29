@@ -1,0 +1,63 @@
+{
+  "params": [
+    {
+      "model": "gpt_image_2_5",
+      "variant": "flare",
+      "quality": "low",
+      "resolution": "1k",
+      "aspect_ratio": "9:16",
+      "count": 1,
+      "medias": [
+        {
+          "role": "image",
+          "value": "cf6a2830-6e85-4eb7-aad6-cbd69c9278a3"
+        }
+      ],
+      "prompt": "Targeted art-direction revision of this exact reference. Keep the SAME exhausted adult male character, facial identity, heavy drooping eyelids, open-mouth weary exhale, forward-slumped posture, dark short hair, teal shirt, and exact right-hand-on-laptop / left-hand-by-phone arrangement. Do not soften exhaustion. Convert rendering to a simplified semi-realistic MOBILE GAME ENGINE frame, not photographic CGI: hair formed from 8-12 broad smooth sculpted clumps with no fine strands; face broad smooth matte planes with NO pores, no individual beard hairs, stubble represented only by one flat soft gray tone; cloth completely plain matte teal without fibers, weave or microtexture; forearms no individual hairs; desk a uniform warm brown matte surface without fine grain. Simplify all objects to the same detail tier. Soft baked illumination and simple contact shadows. Sharp readable environment with no lens blur. Keep adult proportions, not a big-eyed cartoon. Reframe 8 percent wider so both hands, whole laptop, whole phone and small coral mug sit safely inside frame with clear margins. Remove paper stack entirely to declutter; background plain warm-gray wall with just two low-detail books on one shelf, no plant. Preserve large readable face as focal point. No lettering, logos, watermark, cinematic grade, photorealism. Single portrait 9:16 image. Option A: Keep the reference head leaning forward and slightly down."
+    },
+    {
+      "model": "gpt_image_2_5",
+      "variant": "flare",
+      "quality": "low",
+      "resolution": "1k",
+      "aspect_ratio": "9:16",
+      "count": 1,
+      "medias": [
+        {
+          "role": "image",
+          "value": "cf6a2830-6e85-4eb7-aad6-cbd69c9278a3"
+        }
+      ],
+      "prompt": "Targeted art-direction revision of this exact reference. Keep the SAME exhausted adult male character, facial identity, heavy drooping eyelids, open-mouth weary exhale, forward-slumped posture, dark short hair, teal shirt, and exact right-hand-on-laptop / left-hand-by-phone arrangement. Do not soften exhaustion. Convert rendering to a simplified semi-realistic MOBILE GAME ENGINE frame, not photographic CGI: hair formed from 8-12 broad smooth sculpted clumps with no fine strands; face broad smooth matte planes with NO pores, no individual beard hairs, stubble represented only by one flat soft gray tone; cloth completely plain matte teal without fibers, weave or microtexture; forearms no individual hairs; desk a uniform warm brown matte surface without fine grain. Simplify all objects to the same detail tier. Soft baked illumination and simple contact shadows. Sharp readable environment with no lens blur. Keep adult proportions, not a big-eyed cartoon. Reframe 8 percent wider so both hands, whole laptop, whole phone and small coral mug sit safely inside frame with clear margins. Remove paper stack entirely to declutter; background plain warm-gray wall with just two low-detail books on one shelf, no plant. Preserve large readable face as focal point. No lettering, logos, watermark, cinematic grade, photorealism. Single portrait 9:16 image. Option B: Keep the same identity and exhaustion; tilt head subtly toward his left shoulder with a heavier sagging jaw, awake but drained."
+    }
+  ],
+  "results": {
+    "jobs": [
+      {
+        "index": 0,
+        "job_id": "12be5f68-8ceb-41d9-b821-94fac94e8031",
+        "status": "completed",
+        "type": "image",
+        "model": "gpt_image_2_5",
+        "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3GoKP4VmvKVeJb1hKAKlCgP8sfw/hf_20261029_144854_12be5f68-8ceb-41d9-b821-94fac94e8031.png"
+      },
+      {
+        "index": 1,
+        "job_id": "be595da3-d456-4068-a2dc-f5882ca26e1d",
+        "status": "completed",
+        "type": "image",
+        "model": "gpt_image_2_5",
+        "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3GoKP4VmvKVeJb1hKAKlCgP8sfw/hf_20261029_144859_be595da3-d456-4068-a2dc-f5882ca26e1d.png"
+      }
+    ],
+    "summary": {
+      "total": 2,
+      "completed": 2,
+      "failed": 0,
+      "active": 0,
+      "errors": 0
+    },
+    "all_terminal": true
+  },
+  "quotedCredits": 0.5
+}

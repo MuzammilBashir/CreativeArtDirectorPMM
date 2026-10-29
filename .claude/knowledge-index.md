@@ -4,6 +4,12 @@ This index makes the repository's Markdown knowledge discoverable to Claude. Rea
 
 ## Operating and policy
 
+- `skills/hook-analyzer/SKILL.md` — reference-analysis role and brief handoff to Art Director.
+- `Hooks/templates/hook-analyzer-brief.md` — reference-study and production brief structure.
+
+- `vault/Art Director/Art Director Home.md` — shared Obsidian entry point, retrieval order, and storage routing.
+- `vault/Art Director/Learning Index.md` — vault learnings and proposed processes.
+
 - `SKILL.md` — full Art Director operating model.
 - `agent-memory/art-director-memory.md` — persistent memory, loading order, current knowledge, and non-negotiable rules.
 - `ad-bible/ad-bible-v1.md` — ad principles and creative-bible rules.

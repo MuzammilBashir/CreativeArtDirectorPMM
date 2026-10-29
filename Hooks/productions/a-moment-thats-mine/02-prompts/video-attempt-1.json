@@ -1,0 +1,53 @@
+{
+  "params": [
+    {
+      "model": "wan3_0",
+      "resolution": "480p",
+      "duration": 5,
+      "aspect_ratio": "9:16",
+      "count": 1,
+      "generate_audio": false,
+      "medias": [
+        {
+          "role": "start_image",
+          "value": "12be5f68-8ceb-41d9-b821-94fac94e8031"
+        },
+        {
+          "role": "end_image",
+          "value": "8b107636-129b-4b78-8093-54b877cc1120"
+        }
+      ],
+      "prompt": "Animate a continuous FIVE SECOND portrait mobile-game 3D hook using supplied first and final images. Locked camera, same adult male identity, teal shirt, hair, matte style, lighting and room throughout. Core feeling: obvious work exhaustion changes to choosing a small personal break, not miraculous recovery. 0.0-0.8s hold heavy eyelids, slumped torso, slack tired mouth. 0.8-1.8s his anatomical RIGHT hand (viewer left) pushes laptop lid down smoothly on its fixed hinge until completely closed. Laptop base must stay stationary. 1.8-2.7s hold right hand on closed lid, weary exhale, eyes move toward the phone at viewer right. 2.7-4.2s anatomical LEFT hand reaches down, grasps the SINGLE phone and raises it to chest height, screen facing him, back facing camera. Smile develops gradually only as phone is raised. 4.2-5.0s hold a small relieved anticipatory smile and phone position matching final image. Laptop remains completely closed. Right hand stays on laptop, left hand holds phone, no hand swaps, no duplicate phone, no teleporting props, no extra fingers, no morphing face. Mug and shelf stationary. No cuts, no camera movement, no new objects, no text, no game UI, no speech."
+    },
+    {
+      "model": "wan3_0",
+      "resolution": "480p",
+      "duration": 5,
+      "aspect_ratio": "9:16",
+      "count": 1,
+      "generate_audio": false,
+      "medias": [
+        {
+          "role": "start_image",
+          "value": "12be5f68-8ceb-41d9-b821-94fac94e8031"
+        },
+        {
+          "role": "end_image",
+          "value": "8b107636-129b-4b78-8093-54b877cc1120"
+        }
+      ],
+      "prompt": "Animate a continuous FIVE SECOND portrait mobile-game 3D hook using supplied first and final images. Locked camera, same adult male identity, teal shirt, hair, matte style, lighting and room throughout. Core feeling: obvious work exhaustion changes to choosing a small personal break, not miraculous recovery. 0.0-0.8s hold heavy eyelids, slumped torso, slack tired mouth. 0.8-1.8s his anatomical RIGHT hand (viewer left) pushes laptop lid down smoothly on its fixed hinge until completely closed. Laptop base must stay stationary. 1.8-2.7s hold right hand on closed lid, weary exhale, eyes move toward the phone at viewer right. 2.7-4.2s anatomical LEFT hand reaches down, grasps the SINGLE phone and raises it to chest height, screen facing him, back facing camera. Smile develops gradually only as phone is raised. 4.2-5.0s hold a small relieved anticipatory smile and phone position matching final image. Laptop remains completely closed. Right hand stays on laptop, left hand holds phone, no hand swaps, no duplicate phone, no teleporting props, no extra fingers, no morphing face. Mug and shelf stationary. No cuts, no camera movement, no new objects, no text, no game UI, no speech. Performance variant B: slightly more pronounced exhausted exhale and relaxed shoulder release, with a subtler final smile. Preserve action order and all timing."
+    }
+  ],
+  "jobs": [
+    {
+      "index": 0,
+      "job_id": "9770a699-5259-4746-b8f0-304e71825ac8"
+    },
+    {
+      "index": 1,
+      "job_id": "2622caf6-6624-4dce-a0de-5f63abcf46a1"
+    }
+  ],
+  "quotedCredits": 10
+}

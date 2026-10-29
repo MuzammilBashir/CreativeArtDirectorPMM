@@ -24,6 +24,15 @@ Rule format: `ID — rule` then `Why:` (the owner's reason) and `Source:` (date 
 
 ## Rules
 
+### AF-12 — Make the core emotion readable and audit the prompt before blaming execution
+For hooks, specify visible facial, posture and action cues at sufficient intensity to communicate the central emotion immediately at phone size. Use purposeful exaggeration when the concept needs it; do not soften exhaustion into generic mild weariness through restrained prompt language. Compare intended concept, submitted prompt and actual output separately. Treat missing or contradictory instructions as Art Director errors; identify genuine model deviations independently. Recalibrate scores when the core emotion is missing, even if the image is polished. Character presentation preferences are recorded per concept rather than generalized to every character.
+Why: owner identified weak exhaustion and unexpected feminine facial presentation in HOOK-001, and asked whether the prompt or Higgsfield caused the mismatch.
+Source: 2026-10-29, HOOK-001 attempt 1 feedback; detailed audit in Hooks/productions/a-moment-thats-mine/reviews/prompt-output-audit-v1.md.
+### AF-11 — Hooks must serve a meaningful emotional purpose
+For hook/intro work, apply the emotional-storytelling requirements in project `Hooks/rules/production-rules.md`. Art Director authors the story and visual directions from the brief before Higgsfield creates mocks. Review whether the execution supports the intended feeling and the brief's purpose; audience impact remains a hypothesis without evidence.
+Why: the owner defines emotional engagement as the main essence of every hook and wants meaningful, purpose-serving stories.
+Source: 2026-10-29, Hooks workflow direction.
+
 ### AF-01 — Mocks must be achievable in a mobile engine
 Match the reference's style tier (e.g. gamey semi-realistic), and render it as an in-engine mobile game frame, not a photoreal render or an "edited screenshot". Prompt for mobile techniques: baked/simple lighting, simple shadows, simplified textures, moderate polygon count, low-detail background cards, bloom only on lights. Exclude photorealism, cinematic grading, depth of field, lens flare, volumetric light, film grain and heavy motion blur. Review every mock with: "Could our engine render this on a mid-range phone?"
 Why: we are mobile developers; a mock the build can't reach misleads the ad and sets an impossible art target.
@@ -60,11 +69,18 @@ Why: Cube Blast restyle v1 had different colour tones, highlights that were too 
 Source: 2026-10-28, Cube Blast restyle v1.
 
 ### AF-09 — Self-score against the reference and retry until ≥ 90%
-Before showing any style-matched visual, compare it with the reference myself and give it a score out of 100 using the Art Director's knowledge (visual-language skill, the review framework, the Block Out benchmark for block games, and this ledger). Measure what can be measured (sampled colour difference, brightness, highlight coverage, geometry match) and judge the rest by eye. If the score is below 90, name the gaps, fix the prompt or edit, and retry. Present only a result that scores ≥ 90, with its score breakdown and the rejected attempts listed. If several retries can't reach 90, stop and report the best score and what blocks it. Image generation can't hit exact colour values, so when only tone is off, a deterministic per-colour correction pass on the best version is allowed. Say so when presenting. Reusable tools: `visual-directions/cube-blast-restyle/score.py` (colour 40, exposure 20, highlights 15, geometry 25) and `correct.py`.
+Before showing any style-matched visual, compare it with the reference myself and give it a score out of 100 using the Art Director's knowledge (visual-language skill, the review framework, the Block Out benchmark for block games, and this ledger). Measure what can be measured (sampled colour difference, brightness, highlight coverage, geometry match) and judge the rest by eye. If the score is below 90, name the gaps, fix the prompt or edit, and retry. Present only a result that scores ≥ 90, with its score breakdown and the rejected attempts listed. If several retries can't reach 90, stop and report the best score and what blocks it. Image generation can't hit exact colour values, so when only tone is off, a deterministic per-colour correction pass on the best version is allowed. Say so when presenting. Reusable tools: `visual-directions/cube-blast-restyle/score.py` (colour 30, exposure 20, contrast 15, highlights 10, geometry 25) and `correct2.py` (lightness-distribution match; `correct.py` matches medians only and leaves contrast wrong).
 Why: the owner should not have to spot mismatches; the agent must check its own work against the reference.
 Source: 2026-10-28, Cube Blast restyle v1 feedback.
+
+### AF-10 — Match contrast, not just average colour; calibrate the score to the owner's eye
+Matching each colour's average is not enough. Also match the lightness spread: deep-shadow share, dark seams and crevices, and the gap between shadow and highlight (compare lightness percentiles 5/25/50/75/95 with the reference). Colours the reference doesn't have (e.g. navy, purple, white) must sit in the reference's lightness band, never darker than its darkest cube colour, and pixels that are only shading in the reference (e.g. dark blue) are not a colour target. After any correction pass, inspect by eye for grain, blotches or dirty-looking pieces before scoring. If the owner scores a result lower than my scorer did, the scorer is wrong: fix it until it ranks that result below the owner's score, then retry.
+Correction passes must be smooth: one global tone curve plus a per-colour hue shift. Per-colour lightness remapping created blotches and smears. Never recolour a gameplay colour to fit the reference's palette (v1–v4 wrongly turned orange pieces yellow). Check piece seams, row count and stud count by eye; the score's colour grid does not see a piece split into cubes or an extra row.
+Why: v3 scored 95.7 on my scorer but the owner rated it below 75: it was more contrasted than the reference and navy/purple were far too dark.
+Source: 2026-10-28, Cube Blast restyle v3 feedback.
 
 ### AF-07 — Visual analysis format
 When asked to analyse game screenshots, give for each one: art style, game genre, 10 good things, and the bad things, judged by Art Director rules. Label game titles and mechanics as `inferred` unless verified.
 Why: format the owner requested.
 Source: 2026-10-28, reference screenshot analysis.
+

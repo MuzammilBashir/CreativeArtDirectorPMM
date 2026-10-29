@@ -1,0 +1,173 @@
+{
+  "requests": [
+    {
+      "index": 0,
+      "params": {
+        "model": "gpt_image_2_5",
+        "variant": "flare",
+        "quality": "low",
+        "resolution": "1k",
+        "aspect_ratio": "9:16",
+        "count": 1,
+        "medias": [
+          {
+            "role": "image",
+            "value": "12be5f68-8ceb-41d9-b821-94fac94e8031"
+          }
+        ],
+        "prompt": "Create ONE subsequent storyboard frame of this exact reference scene. Same fictional male identity, hair, stubble shape, teal shirt, simplified mobile-game 3D rendering, warm-gray wall, shelf, camera position, lighting, mug placement, desk and laptop. Preserve all spatial continuity. Right hand belongs on viewer left; left hand on viewer right. No paper stack, new objects, text, logos, game UI, cinematic lighting or photoreal detail. Single portrait frame, not collage. The laptop is now fully CLOSED flat on the desk on viewer left, hinged correctly, right palm rests on the closed lid. Phone still face down on desk viewer right. He is mid tired exhale, eyelids heavy, upper body beginning to release tension. Mouth slightly open. Left hand still on desk beside phone. This is the deliberate stop-work beat. Performance A: decisive physical choice, then modest warm relief."
+      }
+    },
+    {
+      "index": 1,
+      "params": {
+        "model": "gpt_image_2_5",
+        "variant": "flare",
+        "quality": "low",
+        "resolution": "1k",
+        "aspect_ratio": "9:16",
+        "count": 1,
+        "medias": [
+          {
+            "role": "image",
+            "value": "12be5f68-8ceb-41d9-b821-94fac94e8031"
+          }
+        ],
+        "prompt": "Create ONE subsequent storyboard frame of this exact reference scene. Same fictional male identity, hair, stubble shape, teal shirt, simplified mobile-game 3D rendering, warm-gray wall, shelf, camera position, lighting, mug placement, desk and laptop. Preserve all spatial continuity. Right hand belongs on viewer left; left hand on viewer right. No paper stack, new objects, text, logos, game UI, cinematic lighting or photoreal detail. Single portrait frame, not collage. Laptop remains fully CLOSED flat on desk viewer left; right palm still on it. His LEFT hand on viewer right is lifting the same dark phone from its original desk location toward his chest, screen faces him, phone back faces camera. Eyes follow phone. Head begins to lift, expression shifts from exhaustion toward mild interest, not a broad smile yet. Phone appears once only. Performance A: decisive physical choice, then modest warm relief."
+      }
+    },
+    {
+      "index": 2,
+      "params": {
+        "model": "gpt_image_2_5",
+        "variant": "flare",
+        "quality": "low",
+        "resolution": "1k",
+        "aspect_ratio": "9:16",
+        "count": 1,
+        "medias": [
+          {
+            "role": "image",
+            "value": "12be5f68-8ceb-41d9-b821-94fac94e8031"
+          }
+        ],
+        "prompt": "Create ONE subsequent storyboard frame of this exact reference scene. Same fictional male identity, hair, stubble shape, teal shirt, simplified mobile-game 3D rendering, warm-gray wall, shelf, camera position, lighting, mug placement, desk and laptop. Preserve all spatial continuity. Right hand belongs on viewer left; left hand on viewer right. No paper stack, new objects, text, logos, game UI, cinematic lighting or photoreal detail. Single portrait frame, not collage. Laptop remains fully CLOSED on desk viewer left; right hand stays resting on closed lid. LEFT hand holds the phone vertically at chest height viewer right, screen toward him/back toward camera. Head lifted slightly, shoulders settled, eyes on phone, clear small relieved anticipatory smile. Thumb poised along phone edge ready to interact. He is still tired but has chosen a personal moment; no miraculous makeover. Phone no longer on desk. Performance A: decisive physical choice, then modest warm relief."
+      }
+    },
+    {
+      "index": 3,
+      "params": {
+        "model": "gpt_image_2_5",
+        "variant": "flare",
+        "quality": "low",
+        "resolution": "1k",
+        "aspect_ratio": "9:16",
+        "count": 1,
+        "medias": [
+          {
+            "role": "image",
+            "value": "12be5f68-8ceb-41d9-b821-94fac94e8031"
+          }
+        ],
+        "prompt": "Create ONE subsequent storyboard frame of this exact reference scene. Same fictional male identity, hair, stubble shape, teal shirt, simplified mobile-game 3D rendering, warm-gray wall, shelf, camera position, lighting, mug placement, desk and laptop. Preserve all spatial continuity. Right hand belongs on viewer left; left hand on viewer right. No paper stack, new objects, text, logos, game UI, cinematic lighting or photoreal detail. Single portrait frame, not collage. The laptop is now fully CLOSED flat on the desk on viewer left, hinged correctly, right palm rests on the closed lid. Phone still face down on desk viewer right. He is mid tired exhale, eyelids heavy, upper body beginning to release tension. Mouth slightly open. Left hand still on desk beside phone. This is the deliberate stop-work beat. Performance B: more pronounced weary exhale and gentle head tilt, then a slightly warmer smile. Same character, no camera change."
+      }
+    },
+    {
+      "index": 4,
+      "params": {
+        "model": "gpt_image_2_5",
+        "variant": "flare",
+        "quality": "low",
+        "resolution": "1k",
+        "aspect_ratio": "9:16",
+        "count": 1,
+        "medias": [
+          {
+            "role": "image",
+            "value": "12be5f68-8ceb-41d9-b821-94fac94e8031"
+          }
+        ],
+        "prompt": "Create ONE subsequent storyboard frame of this exact reference scene. Same fictional male identity, hair, stubble shape, teal shirt, simplified mobile-game 3D rendering, warm-gray wall, shelf, camera position, lighting, mug placement, desk and laptop. Preserve all spatial continuity. Right hand belongs on viewer left; left hand on viewer right. No paper stack, new objects, text, logos, game UI, cinematic lighting or photoreal detail. Single portrait frame, not collage. Laptop remains fully CLOSED flat on desk viewer left; right palm still on it. His LEFT hand on viewer right is lifting the same dark phone from its original desk location toward his chest, screen faces him, phone back faces camera. Eyes follow phone. Head begins to lift, expression shifts from exhaustion toward mild interest, not a broad smile yet. Phone appears once only. Performance B: more pronounced weary exhale and gentle head tilt, then a slightly warmer smile. Same character, no camera change."
+      }
+    },
+    {
+      "index": 5,
+      "params": {
+        "model": "gpt_image_2_5",
+        "variant": "flare",
+        "quality": "low",
+        "resolution": "1k",
+        "aspect_ratio": "9:16",
+        "count": 1,
+        "medias": [
+          {
+            "role": "image",
+            "value": "12be5f68-8ceb-41d9-b821-94fac94e8031"
+          }
+        ],
+        "prompt": "Create ONE subsequent storyboard frame of this exact reference scene. Same fictional male identity, hair, stubble shape, teal shirt, simplified mobile-game 3D rendering, warm-gray wall, shelf, camera position, lighting, mug placement, desk and laptop. Preserve all spatial continuity. Right hand belongs on viewer left; left hand on viewer right. No paper stack, new objects, text, logos, game UI, cinematic lighting or photoreal detail. Single portrait frame, not collage. Laptop remains fully CLOSED on desk viewer left; right hand stays resting on closed lid. LEFT hand holds the phone vertically at chest height viewer right, screen toward him/back toward camera. Head lifted slightly, shoulders settled, eyes on phone, clear small relieved anticipatory smile. Thumb poised along phone edge ready to interact. He is still tired but has chosen a personal moment; no miraculous makeover. Phone no longer on desk. Performance B: more pronounced weary exhale and gentle head tilt, then a slightly warmer smile. Same character, no camera change."
+      }
+    }
+  ],
+  "results": {
+    "jobs": [
+      {
+        "index": 0,
+        "job_id": "348699a0-2bf4-4a64-9827-84f0ffcc28fe",
+        "status": "completed",
+        "type": "image",
+        "model": "gpt_image_2_5",
+        "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3GoKP4VmvKVeJb1hKAKlCgP8sfw/hf_20261029_145358_348699a0-2bf4-4a64-9827-84f0ffcc28fe.png"
+      },
+      {
+        "index": 1,
+        "job_id": "cfa55ed8-1ce4-499e-8b62-e25972f654ab",
+        "status": "completed",
+        "type": "image",
+        "model": "gpt_image_2_5",
+        "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3GoKP4VmvKVeJb1hKAKlCgP8sfw/hf_20261029_145400_cfa55ed8-1ce4-499e-8b62-e25972f654ab.png"
+      },
+      {
+        "index": 2,
+        "job_id": "8b107636-129b-4b78-8093-54b877cc1120",
+        "status": "completed",
+        "type": "image",
+        "model": "gpt_image_2_5",
+        "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3GoKP4VmvKVeJb1hKAKlCgP8sfw/hf_20261029_145357_8b107636-129b-4b78-8093-54b877cc1120.png"
+      },
+      {
+        "index": 3,
+        "job_id": "f70e377f-154e-4f15-aa7c-bdf68833bb15",
+        "status": "completed",
+        "type": "image",
+        "model": "gpt_image_2_5",
+        "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3GoKP4VmvKVeJb1hKAKlCgP8sfw/hf_20261029_145401_f70e377f-154e-4f15-aa7c-bdf68833bb15.png"
+      },
+      {
+        "index": 4,
+        "job_id": "d45285bb-1666-4a79-a17f-03f021c76a96",
+        "status": "completed",
+        "type": "image",
+        "model": "gpt_image_2_5",
+        "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3GoKP4VmvKVeJb1hKAKlCgP8sfw/hf_20261029_145356_d45285bb-1666-4a79-a17f-03f021c76a96.png"
+      },
+      {
+        "index": 5,
+        "job_id": "f3bdace5-5651-4e27-9e1b-29aed69d49fe",
+        "status": "completed",
+        "type": "image",
+        "model": "gpt_image_2_5",
+        "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3GoKP4VmvKVeJb1hKAKlCgP8sfw/hf_20261029_145400_f3bdace5-5651-4e27-9e1b-29aed69d49fe.png"
+      }
+    ],
+    "summary": {
+      "total": 6,
+      "completed": 6,
+      "failed": 0,
+      "active": 0,
+      "errors": 0
+    },
+    "all_terminal": true
+  },
+  "quotedCredits": 1.5
+}

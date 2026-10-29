@@ -5,8 +5,8 @@ import numpy as np
 from PIL import Image
 from score import lab, family, hsv, load  # noqa: E402  (score.py's main() is guarded below)
 
-TARGET = {"red": "#c60c0c", "yellow": "#e4bd05", "green": "#37a00b", "blue": "#2275cb",
-          "navy": "#212f9e", "purple": "#7424b0", "white": "#e6e2d8"}
+TARGET = {"red": "#c60c0c", "yellow": "#e4bd05", "green": "#37a00b", "blue": "#2a80d8",
+          "navy": "#2c4cc4", "purple": "#7c30c4", "white": "#e6e2d8", "orange": "#e07a0a"}
 
 
 def lab2rgb(L):
@@ -24,17 +24,22 @@ def main():
     region = img[y0:y1, x0:x1]
     flat = region.reshape(-1, 3)
     fams = np.array([family(*c) for c in hsv(flat)])
-    # yellow-orange shading pixels belong to the yellow blocks
-    fams[fams == "orange"] = "yellow"
+    # orange pieces' light shading reads as "yellow"; keep it with orange so gameplay colours never change
+    if (fams == "orange").sum() > (fams == "yellow").sum():
+        fams[fams == "yellow"] = "orange"
     L = lab(flat)
     for f, hx in TARGET.items():
         m = fams == f
         if m.sum() < 200:
             continue
         tgt = lab(np.array([int(hx[i:i + 2], 16) / 255 for i in (1, 3, 5)]))
-        L[m] += tgt - np.median(L[m], 0)
+        d = tgt - np.median(L[m], 0)
+        if "--hue-only" in sys.argv:  # keep lightness from an earlier tone-curve pass
+            d[0] = 0
+        L[m] += d
     img[y0:y1, x0:x1] = lab2rgb(L).reshape(region.shape)
     Image.fromarray((img * 255).astype(np.uint8)).save(sys.argv[2])
 
 
-main()
+if __name__ == "__main__":
+    main()

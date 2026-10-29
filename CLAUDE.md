@@ -4,6 +4,8 @@ This repository is the working knowledge base for the PMM Art Director. Use it a
 
 ## Required operating order
 
+For Art Director work, first read `vault/Art Director/Art Director Home.md`. Use its knowledge map and learning workflow to retrieve relevant records and save reusable findings. Existing project libraries remain canonical; link them from the vault instead of duplicating them. Draft vault processes are not approved operating rules.
+
 Before answering a game-ad, visual-design, art-direction, animation, motion, or mockup request:
 
 1. Read `agent-memory/art-director-memory.md`.
@@ -15,6 +17,8 @@ Before answering a game-ad, visual-design, art-direction, animation, motion, or 
 6. Preserve gameplay truth, source provenance, and the user's direct constraints.
 
 ## Specialist skills
+
+- `hook-analyzer`: timestamped hook reference analysis and evidence-backed briefs for Art Director; canonical source `skills/hook-analyzer/SKILL.md`.
 
 The Claude-compatible copies live in `.claude/skills/`. The project originals remain in `skills/` and are kept as the canonical authoring source. If a specialist skill changes, update its Claude-compatible copy as part of the same change.
 

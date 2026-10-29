@@ -7,7 +7,9 @@ from PIL import Image
 REF = "../../references/2.png"
 SRC = "../../references/block-gameplay-source.webp"
 SRC_BOARD = (105, 370, 805, 1150)
-REF_BOARD = (118, 348, 855, 1105)  # 9x9 cube grid in the style reference
+REF_BOARD = (118, 348, 855, 1105)
+# piece colours in the gameplay source, checked by eye; its "yellow" pixels are orange-piece highlights
+SRC_PIECES = {"red", "orange", "green", "blue", "navy", "purple", "white"}  # 9x9 cube grid in the style reference
 
 
 def load(p):
@@ -50,6 +52,11 @@ def board_stats(img, box):
     return med, hv[solid, 2].mean(), hv[solid, 1].mean(), highlight
 
 
+def lq(img, box):
+    x0, y0, x1, y1 = box
+    return np.percentile(lab(img[y0:y1:2, x0:x1:2].reshape(-1, 3))[:, 0], [5, 25, 50, 75, 95])
+
+
 def grid(img, box, cols=7, rows=8):
     x0, y0, x1, y1 = box
     cw, ch = (x1 - x0) / cols, (y1 - y0) / rows
@@ -81,17 +88,24 @@ def main():
     shared = [f for f in ("red", "yellow", "green", "blue") if f in rmed]
     # orange restyle blocks are compared to the reference's yellow-orange if no orange exists there
     pairs = [(f, f) for f in shared if f in cmed]
-    if "orange" in cmed and "orange" not in rmed and "yellow" in rmed and "yellow" not in cmed:
-        pairs.append(("orange", "yellow"))
+    pairs = [p for p in pairs if p[0] in SRC_PIECES]
     des = {c: float(np.linalg.norm(lab(cmed[c]) - lab(rmed[r]))) for c, r in pairs}
+    # colours the reference lacks (navy, purple, white) must still sit in its lightness band, not below its darkest cube
+    lo = min(lab(rmed[f])[0] for f in shared)
+    for f in ("navy", "purple"):
+        if f in cmed and f not in dict(pairs):
+            des[f] = max(0.0, lo - float(lab(cmed[f])[0])) * 1.5
     de = np.mean(list(des.values()))
-    colour = 40 * max(0, 1 - de / 30)
+    colour = 30 * max(0, 1 - de / 30)
+    # contrast: board lightness spread and deep-shadow share must match the reference (owner: v3 too contrasted)
+    rq, cq = lq(ref, REF_BOARD), lq(cand, box)
+    contrast = 15 * max(0, 1 - np.abs(rq - cq).mean() / 10)
     exposure = 20 * max(0, 1 - abs(cv - rv) / 0.15) * 0.6 + 20 * max(0, 1 - abs(cs - rs) / 0.25) * 0.4
-    hl = 15 * max(0, 1 - abs(ch - rh) / max(rh, 0.01))
+    hl = 10 * max(0, 1 - abs(ch - rh) / max(rh, 0.01))
     g_src, g_c = grid(src, SRC_BOARD), grid(cand, box)
     geo_match, bad = partition_agreement(g_src, g_c)
     geometry = 25 * max(0, (geo_match - 0.8) / 0.2)
-    total = colour + exposure + hl + geometry
+    total = colour + exposure + contrast + hl + geometry
 
     hexs = lambda c: "#%02x%02x%02x" % tuple(int(x * 255) for x in c)
     print("colour dE per family:", {k: round(v, 1) for k, v in des.items()})
@@ -100,7 +114,8 @@ def main():
     print(f"brightness ref {rv:.2f} cand {cv:.2f} | saturation ref {rs:.2f} cand {cs:.2f}")
     print(f"highlight coverage ref {rh:.3f} cand {ch:.3f}")
     print(f"geometry pair agreement {geo_match:.3f}; suspect cells (row,col):", [(i // 7 + 1, i % 7 + 1) for i in bad])
-    print(f"SCORE colour {colour:.1f}/40 exposure {exposure:.1f}/20 highlights {hl:.1f}/15 "
+    print("lightness p5/p25/p50/p75/p95 ref", rq.round(1), "cand", cq.round(1))
+    print(f"SCORE colour {colour:.1f}/30 exposure {exposure:.1f}/20 contrast {contrast:.1f}/15 highlights {hl:.1f}/10 "
           f"geometry {geometry:.1f}/25 = {total:.1f}/100")
 
 
