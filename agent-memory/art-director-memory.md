@@ -107,3 +107,6 @@ Owner requested recreated prompts and repeat generation after exhaustion/charact
 
 ## 2026-10-29 — Owner approved first frame
 Owner: "Let's keep this one approved for now, and continue with the hook." A-v3 accepted for continuation despite the recorded 88% score. Preserve this asset-specific override; do not change the general 90% threshold. Proceed with storyboard, then 480p video drafts, then reviewed 720p final. Do not ask again for first-frame approval.
+
+## 2026-10-29 — HOOK-001 continuation completed
+After owner accepted A-v3, generated two four-frame storyboard options (approved opening reused), selected A; generated two Wan 3.0 five-second 480p video drafts. Art Director selected A at 91% for internal silent handoff. Final 720x1280 standard local upscale saved in Hooks/productions/a-moment-thats-mine/06-final/HOOK-001-720p-silent-v1.mp4. Review limitations, model-analysis corrections, prompts, cost quotes and Mixer notes are in reviews/video-final-review.md. No Game DNA, audio or gameplay insertion. No external delivery.
