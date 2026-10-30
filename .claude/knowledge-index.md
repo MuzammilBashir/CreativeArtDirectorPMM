@@ -18,6 +18,7 @@ This index makes the repository's Markdown knowledge discoverable to Claude. Rea
 
 ## Specialist visual and motion guidance
 
+- `skills/storytelling/SKILL.md` — game-hook story writing and critique before prompting; research basis in its `references/` folder.
 - `skills/visual-language/SKILL.md` — visual language.
 - `skills/visual-language/references/puzzle-production.md` — puzzle production guidance.
 - `skills/visual-language/references/block-out-style.md` — block-out style reference.

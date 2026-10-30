@@ -41,6 +41,10 @@ productions/<intro-id>/
 
 Preserve versions and record the approval or revision decision against the exact asset reviewed.
 
+## Story-writing exercises
+
+- [50 hook ideas, stories, Higgsfield prompt pairs and self-scores — 2026-10-30](briefs/hook-ideas-50-2026-10-30/README.md). Exploratory concepts, not verified game content or approved production assets.
+
 ## Agreed scope
 
 - Read [production rules](rules/production-rules.md) before production: draft cost selection, attempt limits, smallest-supported image drafts, 480p video drafts, 720p final video, 4–5 second duration, and the 90% scoring gate. Working interpretations are labeled separately from owner requirements.

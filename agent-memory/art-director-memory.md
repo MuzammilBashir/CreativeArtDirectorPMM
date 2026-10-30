@@ -25,6 +25,7 @@ Start with:
 
 Then load only the relevant specialist skills:
 
+- `skills/storytelling/SKILL.md` for game-hook premises, short scripts, narrative development and story critique before visual prompting. Its research reference separates reviewed sources from partially accessible further study.
 - `skills/creative-strategist/SKILL.md` for concept, hook, promise, proof, payoff, CTA, audience, and test questions.
 - `skills/visual-language/SKILL.md` for color, shape, materials, lighting, hierarchy, typography, and consistency.
 - `skills/camera-composition/SKILL.md` for framing, crop, focal point, camera movement, and continuity.
@@ -101,6 +102,12 @@ When a new stable learning is discovered, update this file only if it changes ho
 - HOOK-001: exhaustion and exaggeration were missing; the characters looked too mildly tired, and their facial presentation was more feminine than intended. Revise this concept toward an explicitly masculine adult character and a much more readable exhausted pose/expression. This is concept-specific, not a male-only casting rule.
 - Audit intended concept versus exact prompt versus actual output before blaming Higgsfield. The prompt itself suppressed exhaustion and did not specify masculine presentation. Earlier scores were too generous because they overvalued polish. See Hooks/productions/a-moment-thats-mine/reviews/prompt-output-audit-v1.md and AF-12.
 - Art Director must make the production decision within the authorized three-attempt cycle, with two options per attempt; do not stop after a failed first round waiting for the owner to repeat the instruction. A request to discuss or audit first pauses generation for that discussion, not the underlying objective.
+
+## Owner feedback — 2026-10-30: hook story-writing focus
+
+- Owner judged HOOK-001's video execution okay but its story meaningless. Preserve the prior internal production approval as historical evidence; it does not establish owner acceptance of story quality. The 91% internal score was insufficient to detect this weakness.
+- Current objective is to improve Art Director's ability to write meaningful, engaging stories specifically for game hooks. Focus on story development and critique before prompts or further generation. Reference analyses are learning material, not proof of engagement.
+- Evaluate the viewer's reason to care, concrete tension or curiosity, meaningful progression, and connection to the game's appeal. A tired character picking up a phone and smiling does not establish these by itself. Proposed writing exercises remain draft until calibrated with owner feedback; do not invent Game DNA.
 
 ## 2026-10-29 — HOOK-001 revised image cycle
 Owner requested recreated prompts and repeat generation after exhaustion/character feedback. Completed attempts 2 and 3, two options each. Explicit performance cues fixed much of the emotional mismatch. Art Director selected A-v3 as best at 88%, below the 90% gate; three-attempt limit exhausted without approval. Preserve the limit; do not claim success or spend a fourth round silently. Full decision: Hooks/productions/a-moment-thats-mine/reviews/first-frame-final-decision.md.

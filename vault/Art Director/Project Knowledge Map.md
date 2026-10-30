@@ -13,6 +13,7 @@ Paths below are relative links from this note to existing project files. Agents 
 
 ## Creation skills
 
+- [Storytelling: game-hook premises, beats and critique](../../skills/storytelling/SKILL.md)
 - [Creative strategist: concepts and hooks](../../skills/creative-strategist/SKILL.md)
 - [Owner art feedback](../../skills/art-feedback-ledger/SKILL.md)
 - [Visual language](../../skills/visual-language/SKILL.md)

@@ -123,6 +123,8 @@ Ask only questions that block safe or accurate progress. When clarification is o
 
 ## Format-specific direction
 
+For hook premises, short scripts and story-quality review, load `skills/storytelling/SKILL.md` before visual prompting. It supports Art Director's original story writing within the supplied brief and keeps story judgment separate from execution polish.
+
 ### UGC ads
 
 Specify creator persona, setting, camera behavior, opening line or caption, credibility cues, gameplay reveal, emotional progression, CTA, and what makes the performance feel native rather than generic. The creator behavior must support the audience hypothesis.
