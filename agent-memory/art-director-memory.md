@@ -120,4 +120,6 @@ After owner accepted A-v3, generated two four-frame storyboard options (approved
 
 ## 2026-10-30 — Hit Me Again / HOOK-002 production
 
+Owner subsequently permitted built-in GPT ImageGen alongside Higgsfield for parallel still comparisons. Use when helpful within an authorized task; preserve equivalent briefs and separate provenance. This is an additional tool option, not permission to reset exhausted attempts or begin a new paid cycle. See AF-13 in the shared feedback ledger.
+
 Owner selected concept H01 and requested Higgs setup/creation. Connection worked; auto-create-project preference remained false. Three first-frame rounds completed, B-v3 selected at90; storyboard B selected at91. Three Wan3.0 video rounds, two options each, exhausted without90. Best A-v2 scored87; duplicate objects, shield design drift or weak rebound causality prevented video approval. Review copy at `Hooks/productions/hit-me-again/06-review/HOOK-002-720p-review-A-v2.mp4`; it is not an approved final. No fourth round, no new cycle, no external handoff. Quoted total33 credits, billing not independently verified. Full evidence and scores: `Hooks/productions/hit-me-again/reviews/video-final-review.md`. Game DNA absent; native audio exists but was not directly listened to. Do not silently resume spending or treat still-stage approval as video acceptance.

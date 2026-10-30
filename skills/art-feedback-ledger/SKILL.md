@@ -24,6 +24,11 @@ Rule format: `ID — rule` then `Why:` (the owner's reason) and `Source:` (date 
 
 ## Rules
 
+### AF-13 — Allow parallel GPT ImageGen comparisons
+The owner permits using the built-in GPT ImageGen tool alongside Higgsfield for comparative still exploration. When useful within an authorized visual task, compare the same story beat, visual brief and reference constraints, and judge actual outputs with the same criteria. Record provider, exact prompt, settings and evidence separately; do not confuse built-in GPT ImageGen with a GPT model accessed through Higgsfield. This permission does not reset exhausted production attempts, authorize a new paid cycle, or make comparison mandatory on every task.
+Why: owner wants another image-generation option available for comparison at the same time.
+Source: 2026-10-30, after Hit Me Again production: "you can use GPT image gen model as well for comparison as the same time."
+
 ### AF-12 — Make the core emotion readable and audit the prompt before blaming execution
 For hooks, specify visible facial, posture and action cues at sufficient intensity to communicate the central emotion immediately at phone size. Use purposeful exaggeration when the concept needs it; do not soften exhaustion into generic mild weariness through restrained prompt language. Compare intended concept, submitted prompt and actual output separately. Treat missing or contradictory instructions as Art Director errors; identify genuine model deviations independently. Recalibrate scores when the core emotion is missing, even if the image is polished. Character presentation preferences are recorded per concept rather than generalized to every character.
 Why: owner identified weak exhaustion and unexpected feminine facial presentation in HOOK-001, and asked whether the prompt or Higgsfield caused the mismatch.
