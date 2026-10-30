@@ -1,0 +1,65 @@
+{
+  "attempt": 2,
+  "requests": [
+    {
+      "index": 3,
+      "params": {
+        "model": "wan3_0",
+        "resolution": "480p",
+        "duration": 5,
+        "aspect_ratio": "9:16",
+        "generate_audio": true,
+        "enable_thinking": true,
+        "count": 1,
+        "medias": [
+          {
+            "role": "start_image",
+            "value": "a1e10c45-6ee4-4cab-b058-a852086e43e7"
+          }
+        ],
+        "prompt": "Five-second animation from this exact opening, one fixed camera, no cuts. A short original training gag: small teal adult fighter on LEFT parries the big rust-red trainer's hammer into the bronze bell at upper RIGHT. Exactly TWO men, ONE shield, ONE complete rigid hammer, ONE bell. THE HAMMER IS ONE SOLID INTACT OBJECT: its SINGLE gray metal head stays ATTACHED to the SAME wooden handle at all times. Trainer's BOTH HANDS grip that handle through the ENTIRE swing and rebound. No flying pieces, no thrown hammer, no duplication, no breakage, no detached projectile. 0–1.3s: from the raised opening pose, trainer immediately swings the intact hammer down-left onto the TOP of hero's shield. 1.3–2.6s: hero makes a short upward-right shield push; the WHOLE intact hammer and trainer's hands pivot up-right together, its attached head strikes the bell's LOWER LEFT RIM. 2.6–5s: bell swings after physical contact, trainer holds intact hammer lowered with astonished face; hero grins and braces overhead shield ready again. Do not add another windup, throw, attack or object. Fixed full-body framing, same faces/clothes/scales and courtyard, stable soft daylight, simple mobile-game semi-realistic 3D. No slow motion, camera movement, sparks, text or UI. Only shield clang at impact and one bell ring at impact; no speech or music."
+      }
+    },
+    {
+      "index": 4,
+      "params": {
+        "model": "wan3_0",
+        "resolution": "480p",
+        "duration": 5,
+        "aspect_ratio": "9:16",
+        "generate_audio": true,
+        "enable_thinking": true,
+        "count": 1,
+        "medias": [
+          {
+            "role": "start_image",
+            "value": "a1e10c45-6ee4-4cab-b058-a852086e43e7"
+          }
+        ],
+        "prompt": "Animate one continuous five-second original training scene from the supplied start image. Keep EXACTLY ONE unbroken practice mallet: one gray head permanently mounted on one straight wooden shaft; two hands permanently gripping shaft. The mallet does NOT split, shed pieces, duplicate or leave the trainer's hands. Same small teal adult fighter left, large rust-red trainer right, shield above hero, single bell high right. Immediate action, no extra preparation: in first1.4s swing mallet downward onto shield. At1.4–2.7s shield's small upward nudge redirects the ENTIRE rigid mallet and arms toward upper-right bell, and its attached head hits lower rim. Show both contact points clearly, not an airborne detached object. At2.7–5s trainer lowers SAME intact mallet, looks in surprised disbelief, hero mischievously lifts eyebrow and reoffers overhead shield. One swing only. Locked medium-wide camera and unchanged exposure, full bodies and action path visible, matte mobile-engine style from reference. No extra characters, jump cuts, motion trails, magic, debris, text, logos or UI. Synchronized metallic shield tap and one bronze bell tone, quiet air; no VO."
+      }
+    }
+  ],
+  "quote": {
+    "cost": {
+      "credits": 10,
+      "credits_exact": 10
+    }
+  },
+  "submission": {
+    "jobs": [
+      {
+        "index": 3,
+        "job_id": "e3fea7ea-894e-4b3f-b7bf-d8a5f2b5cd76",
+        "status": "pending"
+      },
+      {
+        "index": 4,
+        "job_id": "9bede322-5757-4761-b439-2debb37dc2dd",
+        "status": "pending"
+      }
+    ],
+    "submitted_count": 2,
+    "failed_count": 0
+  }
+}

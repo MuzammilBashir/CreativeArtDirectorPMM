@@ -1,0 +1,93 @@
+{
+  "attempt": 1,
+  "requests": [
+    {
+      "index": 1,
+      "params": {
+        "model": "wan3_0",
+        "resolution": "480p",
+        "duration": 5,
+        "generate_audio": true,
+        "enable_thinking": true,
+        "aspect_ratio": "9:16",
+        "count": 1,
+        "medias": [
+          {
+            "role": "start_image",
+            "value": "a1e10c45-6ee4-4cab-b058-a852086e43e7"
+          },
+          {
+            "role": "end_image",
+            "value": "5875a619-d37e-4869-a240-05d9b8e33211"
+          }
+        ],
+        "prompt": "Animate this original fictional mobile-game training scene as ONE continuous five-second shot in portrait 9:16. Use the supplied opening character/design/layout exactly and final image as the ending pose. Small mature adult teal fighter LEFT, larger rust-red adult trainer RIGHT, one gray practice mallet with wooden handle, one shield on fighter's LEFT arm and one bronze bell UPPER RIGHT. Fixed medium-wide camera; stable soft light and matte simplified 3D; both entire bodies and weapon arc stay visible. No cuts, zoom, slow motion, text, logos, UI, extra limbs/weapons, injury, sparks or particles. Crucial causal action: the trainer swings mallet DOWN-LEFT and its gray HEAD actually STRIKES the UPPER FACE of the fighter's overhead shield; the fighter makes a small upward-right parry at that contact, so the SAME mallet head visibly BOUNCES UP-RIGHT into the bell's LOWER LEFT RIM. Trainer keeps BOTH HANDS gripping the handle and arms follow the rebound. Do not skip either contact, do not make trainer deliberately swing at bell, do not animate bell before the hit. 0–0.6s short anticipation; 0.6–1.8s downward swing and shield contact; 1.8–3.3s one clear rebound into bell; 3.3–5s bell sways while trainer lowers mallet and looks surprised, fighter grins and offers overhead shield for another try. Exactly ONE hammer swing and ONE bell strike. Keep hammer head rigid and same size, shield and bell fixed identities; feet stay planted. Audio: shield clang precisely at contact, bronze bell tone precisely at bell hit, light courtyard air; no speech or music. Readable without sound. Option A: crisp physical contact with short elastic rebound, a brief proud eyebrow lift from hero only after bell rings."
+      }
+    },
+    {
+      "index": 2,
+      "params": {
+        "model": "wan3_0",
+        "resolution": "480p",
+        "duration": 5,
+        "generate_audio": true,
+        "enable_thinking": true,
+        "aspect_ratio": "9:16",
+        "count": 1,
+        "medias": [
+          {
+            "role": "start_image",
+            "value": "a1e10c45-6ee4-4cab-b058-a852086e43e7"
+          },
+          {
+            "role": "end_image",
+            "value": "5875a619-d37e-4869-a240-05d9b8e33211"
+          },
+          {
+            "role": "image",
+            "value": "4b3c8712-2139-4de5-9e89-b28426e48f96"
+          },
+          {
+            "role": "image",
+            "value": "bbe0a49b-82fb-4077-b9be-bf57332cb279"
+          }
+        ],
+        "prompt": "Animate this original fictional mobile-game training scene as ONE continuous five-second shot in portrait 9:16. Use the supplied opening character/design/layout exactly and final image as the ending pose. Small mature adult teal fighter LEFT, larger rust-red adult trainer RIGHT, one gray practice mallet with wooden handle, one shield on fighter's LEFT arm and one bronze bell UPPER RIGHT. Fixed medium-wide camera; stable soft light and matte simplified 3D; both entire bodies and weapon arc stay visible. No cuts, zoom, slow motion, text, logos, UI, extra limbs/weapons, injury, sparks or particles. Crucial causal action: the trainer swings mallet DOWN-LEFT and its gray HEAD actually STRIKES the UPPER FACE of the fighter's overhead shield; the fighter makes a small upward-right parry at that contact, so the SAME mallet head visibly BOUNCES UP-RIGHT into the bell's LOWER LEFT RIM. Trainer keeps BOTH HANDS gripping the handle and arms follow the rebound. Do not skip either contact, do not make trainer deliberately swing at bell, do not animate bell before the hit. 0–0.6s short anticipation; 0.6–1.8s downward swing and shield contact; 1.8–3.3s one clear rebound into bell; 3.3–5s bell sways while trainer lowers mallet and looks surprised, fighter grins and offers overhead shield for another try. Exactly ONE hammer swing and ONE bell strike. Keep hammer head rigid and same size, shield and bell fixed identities; feet stay planted. Audio: shield clang precisely at contact, bronze bell tone precisely at bell hit, light courtyard air; no speech or music. Readable without sound. Option B: hero dips knees slightly at shield impact then gives a small purposeful upward-right shield push; trainer's astonished expression is held at the end. Follow supplementary pose references only as anatomical/contact guidance; no cutaways or slide transitions."
+      }
+    }
+  ],
+  "quote": {
+    "cost": {
+      "credits": 10,
+      "credits_exact": 10
+    }
+  },
+  "submission": {
+    "jobs": [
+      {
+        "index": 1,
+        "job_id": "fc859f96-1896-4f7c-a857-da5a4ff63140",
+        "status": "pending"
+      },
+      {
+        "index": 2,
+        "status": "submission_failed",
+        "error": "wan3_0 backend request failed (422): params failed validation [{\"type\":\"value_error\",\"loc\":[],\"msg\":\"Value error, start_image/end_image cannot be combined with reference media\",\"input\":{\"prompt\":\"Animate this original fictional mobile-game training scene as ONE continuous five-second shot in portrait 9:16. Use the supplied opening character/design/layout exactly and final image as the ending pose. Small mature adult teal fighter LEFT, larger rust-red adult trainer RIGHT, one gray practice mallet with wooden handle, one shield on fighter's LEFT arm and one bronze bell UPPER RIGHT. Fixed medium-wide camera; stable soft light and matte simplified 3D; both entire bodies and weapon arc stay visible. No cuts, zoom, slow motion, text, logos, UI, extra limbs/weapons, injury, sparks or particles. Crucial causal action: the trainer swings mallet DOWN-LEFT and its gray HEAD actually STRIKES the UPPER FACE of the fighter's overhead shield; the fighter makes a small upward-right parry at that contact, so the SAME mallet head visibly BOUNCES UP-RIGHT into the bell's LOWER LEFT RIM. Trainer keeps BOTH HANDS gripping the handle and arms follow the rebound. Do not skip either contact, do not make trainer deliberately swing at bell, do not animate bell before the hit. 0–0.6s short anticipation; 0.6–1.8s downward swing and shield contact; 1.8–3.3s one clear rebound into bell; 3.3–5s bell sways while trainer lowers mallet and looks surprised, fighter grins and offers overhead shield for another try. Exactly ONE hammer swing and ONE bell strike. Keep hammer head rigid and same size, shield and bell fixed identities; feet stay planted. Audio: shield clang precisely at contact, bronze bell tone precisely at bell hit, light courtyard air; no speech or music. Readable without sound. Option B: hero dips knees slightly at shield impact then gives a small purposeful upward-right shield push; trainer's astonished expression is held at the end. Follow supplementary pose references only as anatomical/contact guidance; no cutaways or slide transitions.\",\"aspect_ratio\":\"9:16\",\"duration\":5,\"resolution\":\"480p\",\"generate_audio\":true,\"enable_thinking\":true,\"start_image\":{\"id\":\"a1e10c45-6ee4-4cab-b058-a852086e43e7\",\"type\":\"image_job\"},\"end_image\":{\"id\":\"5875a619-d37e-4869-a240-05d9b8e33211\",\"type\":\"image_job\"},\"image_references\":[{\"id\":\"4b3c8712-2139-4de5-9e89-b28426e48f96\",\"type\":\"image_job\"},{\"id\":\"bbe0a49b-82fb-4077-b9be-bf57332cb279\",\"type\":\"image_job\"}]}}]",
+        "adjustments": {
+          "medias[2].role": {
+            "requested": "image",
+            "used": "image_references",
+            "reason": "Wan 3.0 backend expects schema-key media roles"
+          },
+          "medias[3].role": {
+            "requested": "image",
+            "used": "image_references",
+            "reason": "Wan 3.0 backend expects schema-key media roles"
+          }
+        }
+      }
+    ],
+    "submitted_count": 1,
+    "failed_count": 1
+  }
+}

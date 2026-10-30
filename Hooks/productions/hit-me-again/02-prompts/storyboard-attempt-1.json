@@ -1,0 +1,90 @@
+{
+  "attempt": 1,
+  "reference_job": "a1e10c45-6ee4-4cab-b058-a852086e43e7",
+  "prompts": [
+    "Create ONE storyboard still for the same original fictional training hook, using the supplied opening as exact visual continuity reference. Portrait 9:16, same fixed camera, same two adult characters (small teal fighter LEFT, large rust-red trainer RIGHT), same plain courtyard, same full-body framing, shield, ONE mallet, single bronze bell and stand, lighting, proportions and material style. Keep every object entirely visible. No panels, captions, text, logos, UI, camera cuts, new weapons, extra limbs, sparks, particles or photoreal detail. Maintain both trainer hands gripping same mallet handle, hero shield on LEFT forearm. Only change action pose described next. Storyboard A frame2, ~2.0 seconds: trainer has swung mallet down-left. The flat mallet HEAD visibly contacts the TOP of the hero's overhead shield, just above his head. Hero crouches firmly, shield tilts up toward image RIGHT. Emphasize clean physical contact, weapon not through shield. Bell remains untouched upper-right.",
+    "Create ONE storyboard still for the same original fictional training hook, using the supplied opening as exact visual continuity reference. Portrait 9:16, same fixed camera, same two adult characters (small teal fighter LEFT, large rust-red trainer RIGHT), same plain courtyard, same full-body framing, shield, ONE mallet, single bronze bell and stand, lighting, proportions and material style. Keep every object entirely visible. No panels, captions, text, logos, UI, camera cuts, new weapons, extra limbs, sparks, particles or photoreal detail. Maintain both trainer hands gripping same mallet handle, hero shield on LEFT forearm. Only change action pose described next. Storyboard A frame3, ~3.3 seconds: mallet has bounced up-right from shield; its gray HEAD is visibly touching the LOWER LEFT RIM of the golden bell upper-right. Trainer arms follow rebound, hands remain attached to handle, surprised eyebrows. Bell tilts slightly away to right at that contact. Hero remains left under raised shield. Do not swing at trainer face.",
+    "Create ONE storyboard still for the same original fictional training hook, using the supplied opening as exact visual continuity reference. Portrait 9:16, same fixed camera, same two adult characters (small teal fighter LEFT, large rust-red trainer RIGHT), same plain courtyard, same full-body framing, shield, ONE mallet, single bronze bell and stand, lighting, proportions and material style. Keep every object entirely visible. No panels, captions, text, logos, UI, camera cuts, new weapons, extra limbs, sparks, particles or photoreal detail. Maintain both trainer hands gripping same mallet handle, hero shield on LEFT forearm. Only change action pose described next. Storyboard A frame4, ~4.7 seconds: bell gently tilted after ringing, hammer lowered safely in trainer hands, trainer raises eyebrows in amused surprise. Hero left lowers shield to chest, tips it forward again with cheeky confident grin and ready stance: invitation to try again. Preserve size difference; no celebratory jump or thumbs-up.",
+    "Create ONE storyboard still for the same original fictional training hook, using the supplied opening as exact visual continuity reference. Portrait 9:16, same fixed camera, same two adult characters (small teal fighter LEFT, large rust-red trainer RIGHT), same plain courtyard, same full-body framing, shield, ONE mallet, single bronze bell and stand, lighting, proportions and material style. Keep every object entirely visible. No panels, captions, text, logos, UI, camera cuts, new weapons, extra limbs, sparks, particles or photoreal detail. Maintain both trainer hands gripping same mallet handle, hero shield on LEFT forearm. Only change action pose described next. Storyboard B frame2, ~2.2 seconds: show same single parry with a lower knee bend, mallet HEAD firmly touching overhead shield's broad top, hero's eyes focused up-right. Shield rim rises toward bell upper-right. Trainer both hands on shaft. Clear undamaged contact, bell untouched, no sparks.",
+    "Create ONE storyboard still for the same original fictional training hook, using the supplied opening as exact visual continuity reference. Portrait 9:16, same fixed camera, same two adult characters (small teal fighter LEFT, large rust-red trainer RIGHT), same plain courtyard, same full-body framing, shield, ONE mallet, single bronze bell and stand, lighting, proportions and material style. Keep every object entirely visible. No panels, captions, text, logos, UI, camera cuts, new weapons, extra limbs, sparks, particles or photoreal detail. Maintain both trainer hands gripping same mallet handle, hero shield on LEFT forearm. Only change action pose described next. Storyboard B frame3, ~3.5 seconds: mallet HEAD at bell's lower-left lip with visible contact, bell inclines to right and trainer's hands follow the upward-right handle arc. Hero remains firmly braced on left with shield raised, pleased controlled expression. Everything full frame.",
+    "Create ONE storyboard still for the same original fictional training hook, using the supplied opening as exact visual continuity reference. Portrait 9:16, same fixed camera, same two adult characters (small teal fighter LEFT, large rust-red trainer RIGHT), same plain courtyard, same full-body framing, shield, ONE mallet, single bronze bell and stand, lighting, proportions and material style. Keep every object entirely visible. No panels, captions, text, logos, UI, camera cuts, new weapons, extra limbs, sparks, particles or photoreal detail. Maintain both trainer hands gripping same mallet handle, hero shield on LEFT forearm. Only change action pose described next. Storyboard B frame4, ~4.8 seconds: trainer safely lowers mallet, looks at small fighter with a surprised open brow; fighter raises his shield into the SAME overhead ready pose as the opening, with a mischievous grin. Bell slightly tilted to show completed ring. Purposeful repeat challenge, not general celebration."
+  ],
+  "submission": {
+    "jobs": [
+      {
+        "index": 1,
+        "job_id": "b0a5e328-17f8-451a-b866-4aedf60ab870",
+        "status": "pending",
+        "adjustments": {
+          "medias[0].role": {
+            "requested": "image",
+            "used": "image_references",
+            "reason": "GPT Image 2.5 backend expects schema-key media roles"
+          }
+        }
+      },
+      {
+        "index": 2,
+        "job_id": "61b4977c-3fce-4da1-bdfd-ac7aa701581e",
+        "status": "pending",
+        "adjustments": {
+          "medias[0].role": {
+            "requested": "image",
+            "used": "image_references",
+            "reason": "GPT Image 2.5 backend expects schema-key media roles"
+          }
+        }
+      },
+      {
+        "index": 3,
+        "job_id": "f46a37a5-357d-4318-bd14-45f74792aad5",
+        "status": "pending",
+        "adjustments": {
+          "medias[0].role": {
+            "requested": "image",
+            "used": "image_references",
+            "reason": "GPT Image 2.5 backend expects schema-key media roles"
+          }
+        }
+      },
+      {
+        "index": 4,
+        "job_id": "4b3c8712-2139-4de5-9e89-b28426e48f96",
+        "status": "pending",
+        "adjustments": {
+          "medias[0].role": {
+            "requested": "image",
+            "used": "image_references",
+            "reason": "GPT Image 2.5 backend expects schema-key media roles"
+          }
+        }
+      },
+      {
+        "index": 5,
+        "job_id": "bbe0a49b-82fb-4077-b9be-bf57332cb279",
+        "status": "pending",
+        "adjustments": {
+          "medias[0].role": {
+            "requested": "image",
+            "used": "image_references",
+            "reason": "GPT Image 2.5 backend expects schema-key media roles"
+          }
+        }
+      },
+      {
+        "index": 6,
+        "job_id": "5875a619-d37e-4869-a240-05d9b8e33211",
+        "status": "pending",
+        "adjustments": {
+          "medias[0].role": {
+            "requested": "image",
+            "used": "image_references",
+            "reason": "GPT Image 2.5 backend expects schema-key media roles"
+          }
+        }
+      }
+    ],
+    "submitted_count": 6,
+    "failed_count": 0
+  }
+}

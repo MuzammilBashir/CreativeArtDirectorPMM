@@ -1,0 +1,70 @@
+{
+  "attempt": 3,
+  "staging_revision": "Begin in-media-res on approved storyboard contact pose instead of original windup; same parry story, no additional image generation.",
+  "requests": [
+    {
+      "index": 5,
+      "params": {
+        "model": "wan3_0",
+        "resolution": "480p",
+        "duration": 5,
+        "aspect_ratio": "9:16",
+        "generate_audio": true,
+        "enable_thinking": true,
+        "count": 1,
+        "medias": [
+          {
+            "role": "start_image",
+            "value": "4b3c8712-2139-4de5-9e89-b28426e48f96"
+          },
+          {
+            "role": "end_image",
+            "value": "5875a619-d37e-4869-a240-05d9b8e33211"
+          }
+        ],
+        "prompt": "Animate five seconds from this supplied exact CONTACT frame of an original fictional training game. START WITH ACTION ALREADY HAPPENING: the single gray mallet head is touching the TOP of the teal fighter's shield. NO windup, NO holding still, NO pressing down, NO second blow. In the FIRST HALF SECOND the hero snaps his LEFT forearm and shield UP and RIGHT, visibly flicking the whole attached mallet away. The SAME SINGLE INTACT MALLET stays rigid and permanently gripped by the rust-red trainer's TWO hands; arms recoil involuntarily. By1.5seconds its attached gray HEAD physically bumps the LOWER LEFT RIM of the EXISTING bronze bell at UPPER RIGHT. The bell only moves AFTER that hit. From1.5–3seconds bell sways gently, trainer recoils with wide-eyed surprise and lowers whole hammer safely. From3–5seconds hero grins at trainer and reoffers overhead shield, feet planted, ready for another try. ONE continuous controlled rebound arc, ONE hammer, ONE head, ONE shaft, ONE shield, ONE bell, TWO adult men throughout. Never detach, duplicate or throw any object; no debris, projectiles, extra bells, extra weapons, extra hands or morphing. Fixed camera, original full-body composition and matte simplified 3D courtyard, unchanged light and scale, all contact points in frame. No pan, zoom, cuts, slowmotion, trails, sparks, writing or UI. One short metallic shield clack immediately, one warm bronze bell tone on impact, otherwise quiet courtyard air. No speech or music. Hero's visible shield flick MUST cause the recoil; trainer must not deliberately aim at bell. Option A: a brief snappy parry and clean complete bell hit, then relax into the supplied final pose."
+      }
+    },
+    {
+      "index": 6,
+      "params": {
+        "model": "wan3_0",
+        "resolution": "480p",
+        "duration": 5,
+        "aspect_ratio": "9:16",
+        "generate_audio": true,
+        "enable_thinking": true,
+        "count": 1,
+        "medias": [
+          {
+            "role": "start_image",
+            "value": "4b3c8712-2139-4de5-9e89-b28426e48f96"
+          }
+        ],
+        "prompt": "Animate five seconds from this supplied exact CONTACT frame of an original fictional training game. START WITH ACTION ALREADY HAPPENING: the single gray mallet head is touching the TOP of the teal fighter's shield. NO windup, NO holding still, NO pressing down, NO second blow. In the FIRST HALF SECOND the hero snaps his LEFT forearm and shield UP and RIGHT, visibly flicking the whole attached mallet away. The SAME SINGLE INTACT MALLET stays rigid and permanently gripped by the rust-red trainer's TWO hands; arms recoil involuntarily. By1.5seconds its attached gray HEAD physically bumps the LOWER LEFT RIM of the EXISTING bronze bell at UPPER RIGHT. The bell only moves AFTER that hit. From1.5–3seconds bell sways gently, trainer recoils with wide-eyed surprise and lowers whole hammer safely. From3–5seconds hero grins at trainer and reoffers overhead shield, feet planted, ready for another try. ONE continuous controlled rebound arc, ONE hammer, ONE head, ONE shaft, ONE shield, ONE bell, TWO adult men throughout. Never detach, duplicate or throw any object; no debris, projectiles, extra bells, extra weapons, extra hands or morphing. Fixed camera, original full-body composition and matte simplified 3D courtyard, unchanged light and scale, all contact points in frame. No pan, zoom, cuts, slowmotion, trails, sparks, writing or UI. One short metallic shield clack immediately, one warm bronze bell tone on impact, otherwise quiet courtyard air. No speech or music. Hero's visible shield flick MUST cause the recoil; trainer must not deliberately aim at bell. Option B: small strong upward-right forearm flick and quick recoil, hero's sly expression held at the end; continuous motion rather than pausing on contact."
+      }
+    }
+  ],
+  "quote": {
+    "cost": {
+      "credits": 10,
+      "credits_exact": 10
+    }
+  },
+  "submission": {
+    "jobs": [
+      {
+        "index": 5,
+        "job_id": "113b2fad-b5b0-47e1-bbc4-224900905fff",
+        "status": "pending"
+      },
+      {
+        "index": 6,
+        "job_id": "7f391f76-eecb-485d-bee1-a87455743d31",
+        "status": "pending"
+      }
+    ],
+    "submitted_count": 2,
+    "failed_count": 0
+  }
+}

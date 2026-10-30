@@ -1,0 +1,222 @@
+{
+  "production_id": "HOOK-002",
+  "concept_id": "H01",
+  "created_date": "2026-10-30",
+  "sources": "Original fictional story; no Game DNA; prompt records in 02-prompts",
+  "assets": [
+    {
+      "stage": "first_frame",
+      "round": 1,
+      "option": "A",
+      "job_id": "14a2f636-0294-4441-9428-2e9de149e2a0",
+      "status": "completed",
+      "creator": "Higgsfield GPT Image2.5",
+      "license_or_usage_status": "unknown",
+      "review_status": "retained_evidence"
+    },
+    {
+      "stage": "first_frame",
+      "round": 1,
+      "option": "B",
+      "job_id": "f6b738de-859f-4024-98ed-4dd78b7d68c6",
+      "status": "completed",
+      "creator": "Higgsfield GPT Image2.5",
+      "license_or_usage_status": "unknown",
+      "review_status": "retained_evidence"
+    },
+    {
+      "stage": "first_frame",
+      "round": 2,
+      "option": "A",
+      "job_id": "ba53a464-2cde-412f-9959-ffd781731e61",
+      "status": "completed",
+      "creator": "Higgsfield GPT Image2.5",
+      "license_or_usage_status": "unknown",
+      "review_status": "retained_evidence"
+    },
+    {
+      "stage": "first_frame",
+      "round": 2,
+      "option": "B",
+      "job_id": "d7097bec-dd6d-451c-a22b-3e9be12ff543",
+      "status": "completed",
+      "creator": "Higgsfield GPT Image2.5",
+      "license_or_usage_status": "unknown",
+      "review_status": "retained_evidence"
+    },
+    {
+      "stage": "first_frame",
+      "round": 3,
+      "option": "A",
+      "job_id": "fb3fcef2-cf49-478c-b17c-f40135abad8b",
+      "status": "completed",
+      "creator": "Higgsfield GPT Image2.5",
+      "license_or_usage_status": "unknown",
+      "review_status": "retained_evidence"
+    },
+    {
+      "stage": "first_frame",
+      "round": 3,
+      "option": "B",
+      "job_id": "a1e10c45-6ee4-4cab-b058-a852086e43e7",
+      "status": "completed",
+      "creator": "Higgsfield GPT Image2.5",
+      "license_or_usage_status": "unknown",
+      "review_status": "retained_evidence"
+    },
+    {
+      "stage": "storyboard",
+      "round": 1,
+      "option": "A",
+      "frame": 2,
+      "job_id": "b0a5e328-17f8-451a-b866-4aedf60ab870",
+      "status": "completed",
+      "creator": "Higgsfield GPT Image2.5",
+      "license_or_usage_status": "unknown",
+      "review_status": "retained_evidence"
+    },
+    {
+      "stage": "storyboard",
+      "round": 1,
+      "option": "A",
+      "frame": 3,
+      "job_id": "61b4977c-3fce-4da1-bdfd-ac7aa701581e",
+      "status": "completed",
+      "creator": "Higgsfield GPT Image2.5",
+      "license_or_usage_status": "unknown",
+      "review_status": "retained_evidence"
+    },
+    {
+      "stage": "storyboard",
+      "round": 1,
+      "option": "A",
+      "frame": 4,
+      "job_id": "f46a37a5-357d-4318-bd14-45f74792aad5",
+      "status": "completed",
+      "creator": "Higgsfield GPT Image2.5",
+      "license_or_usage_status": "unknown",
+      "review_status": "retained_evidence"
+    },
+    {
+      "stage": "storyboard",
+      "round": 1,
+      "option": "B",
+      "frame": 2,
+      "job_id": "4b3c8712-2139-4de5-9e89-b28426e48f96",
+      "status": "completed",
+      "creator": "Higgsfield GPT Image2.5",
+      "license_or_usage_status": "unknown",
+      "review_status": "retained_evidence"
+    },
+    {
+      "stage": "storyboard",
+      "round": 1,
+      "option": "B",
+      "frame": 3,
+      "job_id": "bbe0a49b-82fb-4077-b9be-bf57332cb279",
+      "status": "completed",
+      "creator": "Higgsfield GPT Image2.5",
+      "license_or_usage_status": "unknown",
+      "review_status": "retained_evidence"
+    },
+    {
+      "stage": "storyboard",
+      "round": 1,
+      "option": "B",
+      "frame": 4,
+      "job_id": "5875a619-d37e-4869-a240-05d9b8e33211",
+      "status": "completed",
+      "creator": "Higgsfield GPT Image2.5",
+      "license_or_usage_status": "unknown",
+      "review_status": "retained_evidence"
+    },
+    {
+      "stage": "video",
+      "round": 1.0,
+      "option": "A-v1",
+      "job_id": "fc859f96-1896-4f7c-a857-da5a4ff63140",
+      "status": "completed",
+      "file_path": "05-video-drafts/A-v1.mp4",
+      "creator": "Higgsfield Wan3.0",
+      "review_status": "not_approved",
+      "score": 56,
+      "license_or_usage_status": "unknown",
+      "review_report": "reviews/video-final-review.md"
+    },
+    {
+      "stage": "video",
+      "round": 1.0,
+      "option": "B-v1",
+      "job_id": "084ebbb5-9410-4134-abce-e1867e3f1b94",
+      "status": "completed",
+      "file_path": "05-video-drafts/B-v1.mp4",
+      "creator": "Higgsfield Wan3.0",
+      "review_status": "not_approved",
+      "score": 54,
+      "license_or_usage_status": "unknown",
+      "review_report": "reviews/video-final-review.md"
+    },
+    {
+      "stage": "video",
+      "round": 2.0,
+      "option": "A-v2",
+      "job_id": "e3fea7ea-894e-4b3f-b7bf-d8a5f2b5cd76",
+      "status": "completed",
+      "file_path": "05-video-drafts/A-v2.mp4",
+      "creator": "Higgsfield Wan3.0",
+      "review_status": "not_approved",
+      "score": 87,
+      "license_or_usage_status": "unknown",
+      "review_report": "reviews/video-final-review.md"
+    },
+    {
+      "stage": "video",
+      "round": 2.0,
+      "option": "B-v2",
+      "job_id": "9bede322-5757-4761-b439-2debb37dc2dd",
+      "status": "completed",
+      "file_path": "05-video-drafts/B-v2.mp4",
+      "creator": "Higgsfield Wan3.0",
+      "review_status": "not_approved",
+      "score": 48.5,
+      "license_or_usage_status": "unknown",
+      "review_report": "reviews/video-final-review.md"
+    },
+    {
+      "stage": "video",
+      "round": 3.0,
+      "option": "A-v3",
+      "job_id": "113b2fad-b5b0-47e1-bbc4-224900905fff",
+      "status": "completed",
+      "file_path": "05-video-drafts/A-v3.mp4",
+      "creator": "Higgsfield Wan3.0",
+      "review_status": "not_approved",
+      "score": 57.5,
+      "license_or_usage_status": "unknown",
+      "review_report": "reviews/video-final-review.md"
+    },
+    {
+      "stage": "video",
+      "round": 3.0,
+      "option": "B-v3",
+      "job_id": "7f391f76-eecb-485d-bee1-a87455743d31",
+      "status": "completed",
+      "file_path": "05-video-drafts/B-v3.mp4",
+      "creator": "Higgsfield Wan3.0",
+      "review_status": "not_approved",
+      "score": 85,
+      "license_or_usage_status": "unknown",
+      "review_report": "reviews/video-final-review.md"
+    }
+  ],
+  "review_export": {
+    "method": "standard Lanczos scale, H264 NVENC, not AI enhancement",
+    "status": "unapproved_review_copy",
+    "duration_seconds": 5,
+    "file_path": "06-review/HOOK-002-720p-review-A-v2.mp4",
+    "source_job": "e3fea7ea-894e-4b3f-b7bf-d8a5f2b5cd76",
+    "width": 720,
+    "score": 87,
+    "height": 1280
+  }
+}

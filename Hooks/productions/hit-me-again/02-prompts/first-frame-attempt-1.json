@@ -1,0 +1,20 @@
+{
+  "concept_id": "H01",
+  "production_id": "HOOK-002",
+  "title": "Hit Me Again",
+  "date": "2026-10-30",
+  "status": "FIRST_FRAME_ATTEMPT_1_PREPARED",
+  "game_dna": "N/A—not supplied",
+  "settings": {
+    "model": "gpt_image_2_5",
+    "variant": "flare",
+    "quality": "low",
+    "resolution": "1k",
+    "aspect_ratio": "9:16"
+  },
+  "quote_credits": 0.5,
+  "prompts": [
+    "Original fictional mobile-game training scene, portrait 9:16. Gamey semi-realistic 3D with adult human proportions, simplified matte cloth, smooth metal, broad simple shapes, soft stable daylight and simple contact shadows, low-detail warm-gray stone courtyard. No photorealism, cinematic grading, depth of field, lens flare, grain, heavy blur, text, logos, UI or extra characters. Eye-level locked medium-wide three-quarter view, entire bodies, weapon, shield and bell visible with generous margins; central 80 percent width. Small determined adult male shield-bearer on LEFT, teal tunic, plain brown trousers, short dark hair, feet planted, braced left forearm carrying a broad sloped metal shield. Large friendly stocky adult training partner on RIGHT in rust-red padded tunic, holding ONE oversized wooden-handled gray practice mallet with both hands. His mallet head is poised above and to the right of the fighter's shield, about to swing down-left, clearly separated from it. One large golden bronze victory bell hangs from a sturdy short stone-supported crossbar at UPPER RIGHT behind the training partner. The bell is clearly visible in the same plane, with room for the mallet head to rebound up-right from the shield and strike its lower rim. Strong focal order: small fighter's determined face and shield, oversized approaching mallet, golden bell. The small fighter is confident and clever, not frightened or injured. This is the opening BEFORE contact, no motion trails or impact effects. Option A: Broad side-on staging, shield face sloped up-right like a ramp; both opponents full body, bell entirely clear above the larger partner's right shoulder. Make the size mismatch instantly legible without making the hero childlike.",
+    "Original fictional mobile-game training scene, portrait 9:16. Gamey semi-realistic 3D with adult human proportions, simplified matte cloth, smooth metal, broad simple shapes, soft stable daylight and simple contact shadows, low-detail warm-gray stone courtyard. No photorealism, cinematic grading, depth of field, lens flare, grain, heavy blur, text, logos, UI or extra characters. Eye-level locked medium-wide three-quarter view, entire bodies, weapon, shield and bell visible with generous margins; central 80 percent width. Small determined adult male shield-bearer on LEFT, teal tunic, plain brown trousers, short dark hair, feet planted, braced left forearm carrying a broad sloped metal shield. Large friendly stocky adult training partner on RIGHT in rust-red padded tunic, holding ONE oversized wooden-handled gray practice mallet with both hands. His mallet head is poised above and to the right of the fighter's shield, about to swing down-left, clearly separated from it. One large golden bronze victory bell hangs from a sturdy short stone-supported crossbar at UPPER RIGHT behind the training partner. The bell is clearly visible in the same plane, with room for the mallet head to rebound up-right from the shield and strike its lower rim. Strong focal order: small fighter's determined face and shield, oversized approaching mallet, golden bell. The small fighter is confident and clever, not frightened or injured. This is the opening BEFORE contact, no motion trails or impact effects. Option B: Same original cast and action premise but a slightly more frontal three-quarter staging. Hero at lower-left, big trainer at middle-right, golden bell upper-right. Emphasize hero's sly determined brow and firmly planted stance. Keep a wide clear triangular path from mallet to shield to bell, no overlap hiding those three forms."
+  ]
+}

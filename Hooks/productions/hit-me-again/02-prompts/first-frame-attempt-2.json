@@ -1,0 +1,39 @@
+{
+  "attempt": 2,
+  "quote_credits": 0.5,
+  "reference_job": "f6b738de-859f-4024-98ed-4dd78b7d68c6",
+  "prompts": [
+    "Edit this reference into a corrected opening frame for the SAME fictional training hook. Keep the two original adult characters, teal smaller fighter on LEFT and rust-red large trainer on RIGHT, their hair, clothing colors, single hammer and golden bell. Pull the camera BACK 35 percent and recenter EVERYTHING so both complete bodies including both boots, the whole bell, the whole hammer and crossbar fit inside central 80 percent of 9:16 frame with visible margins. Bell must not touch right edge: relocate bell and its stand toward CENTER-RIGHT above trainer's LEFT shoulder in image space, within the weapon's upward-right rebound arc. REMOVE detailed fortress background: one smooth warm-gray wall, flat simple paving, no barrels, racks, flags or texture noise. Simplified matte mobile-game 3D, broad clean hair masses, smooth cloth without weave, skin without pores or stubble microdetail, soft stable overcast daylight, subtle small highlights, no photorealism, cinematic effects, blur or text. Small fighter is clearly a mature adult age thirty, compact athletic build and adult facial proportions, determined and clever. The fighter braces a wide shield with its face sloping from LOWER LEFT to UPPER RIGHT like an obvious deflection ramp; the top surface should be visible. Trainer holds oversized mallet with both hands above-left of his head, poised for downward-left swing toward shield. Show a clear gap before contact. Focal hierarchy shield/hero -> mallet -> bell. Option A: shield braced at chest height in a compact stable lunge, trainer's hammer angled diagonally toward shield, whole triangular action path spacious.",
+    "Edit this reference into a corrected opening frame for the SAME fictional training hook. Keep the two original adult characters, teal smaller fighter on LEFT and rust-red large trainer on RIGHT, their hair, clothing colors, single hammer and golden bell. Pull the camera BACK 35 percent and recenter EVERYTHING so both complete bodies including both boots, the whole bell, the whole hammer and crossbar fit inside central 80 percent of 9:16 frame with visible margins. Bell must not touch right edge: relocate bell and its stand toward CENTER-RIGHT above trainer's LEFT shoulder in image space, within the weapon's upward-right rebound arc. REMOVE detailed fortress background: one smooth warm-gray wall, flat simple paving, no barrels, racks, flags or texture noise. Simplified matte mobile-game 3D, broad clean hair masses, smooth cloth without weave, skin without pores or stubble microdetail, soft stable overcast daylight, subtle small highlights, no photorealism, cinematic effects, blur or text. Small fighter is clearly a mature adult age thirty, compact athletic build and adult facial proportions, determined and clever. The fighter braces a wide shield with its face sloping from LOWER LEFT to UPPER RIGHT like an obvious deflection ramp; the top surface should be visible. Trainer holds oversized mallet with both hands above-left of his head, poised for downward-left swing toward shield. Show a clear gap before contact. Focal hierarchy shield/hero -> mallet -> bell. Option B: show the same subjects and uncluttered environment but slightly more side-on. Angle the shield upper surface visibly up-right and keep the bell upper-right fully within frame. Hero's eyes track hammer head, one eyebrow raised with sly confidence."
+  ],
+  "submission": {
+    "jobs": [
+      {
+        "index": 3,
+        "job_id": "ba53a464-2cde-412f-9959-ffd781731e61",
+        "status": "pending",
+        "adjustments": {
+          "medias[0].role": {
+            "requested": "image",
+            "used": "image_references",
+            "reason": "GPT Image 2.5 backend expects schema-key media roles"
+          }
+        }
+      },
+      {
+        "index": 4,
+        "job_id": "d7097bec-dd6d-451c-a22b-3e9be12ff543",
+        "status": "pending",
+        "adjustments": {
+          "medias[0].role": {
+            "requested": "image",
+            "used": "image_references",
+            "reason": "GPT Image 2.5 backend expects schema-key media roles"
+          }
+        }
+      }
+    ],
+    "submitted_count": 2,
+    "failed_count": 0
+  }
+}

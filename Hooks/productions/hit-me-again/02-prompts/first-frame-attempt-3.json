@@ -1,0 +1,38 @@
+{
+  "attempt": 3,
+  "reference": "d7097bec-dd6d-451c-a22b-3e9be12ff543",
+  "prompts": [
+    "Make a targeted pose edit to this SAME fictional 9:16 training scene. Preserve camera, entire bodies, courtyard, characters, clothing colors, single hammer and complete bell placement. IMPORTANT CHANGE: smaller adult hero on left raises his LEFT SHIELD ARM OVER HIS HEAD. The SHIELD MUST NOT BE UPRIGHT beside his torso. Rotate the whole shield into an almost HORIZONTAL ROOF above his forehead, tilted only 25 degrees upward toward image RIGHT. Its long axis runs LEFT TO RIGHT, not up and down. We see the broad TOP plane of the metal shield like a shallow sloping ramp. Hero ducks slightly underneath, left elbow bent overhead, eyes glance upward toward hammer. Keep believable arm anatomy and adult proportions. Hammer head poised just above and right of shield's upward-facing surface, clearly separated before downward-left impact. Large trainer on right keeps both hands on mallet and amused expression. Golden bell upper-right fully visible, untouched. Strong clean action silhouette immediately readable at phone size. Simplify surface detail: smooth broad cloth, no weave, broad hair shapes, smooth warm-gray wall, simple paving, soft stable diffuse daylight. Gamey semi-realistic mobile 3D, no cinematic effects, no photoreal textures, text, logos, UI, impact sparks or duplicated objects. Option A: confident compact low lunge, shield as unmistakable sloping roof overhead, firm planted feet.",
+    "Make a targeted pose edit to this SAME fictional 9:16 training scene. Preserve camera, entire bodies, courtyard, characters, clothing colors, single hammer and complete bell placement. IMPORTANT CHANGE: smaller adult hero on left raises his LEFT SHIELD ARM OVER HIS HEAD. The SHIELD MUST NOT BE UPRIGHT beside his torso. Rotate the whole shield into an almost HORIZONTAL ROOF above his forehead, tilted only 25 degrees upward toward image RIGHT. Its long axis runs LEFT TO RIGHT, not up and down. We see the broad TOP plane of the metal shield like a shallow sloping ramp. Hero ducks slightly underneath, left elbow bent overhead, eyes glance upward toward hammer. Keep believable arm anatomy and adult proportions. Hammer head poised just above and right of shield's upward-facing surface, clearly separated before downward-left impact. Large trainer on right keeps both hands on mallet and amused expression. Golden bell upper-right fully visible, untouched. Strong clean action silhouette immediately readable at phone size. Simplify surface detail: smooth broad cloth, no weave, broad hair shapes, smooth warm-gray wall, simple paving, soft stable diffuse daylight. Gamey semi-realistic mobile 3D, no cinematic effects, no photoreal textures, text, logos, UI, impact sparks or duplicated objects. Option B: hero crouches lower with shield ramp covering his head; expression focused and slightly mischievous. More visible top plane, clear empty gap between mallet and ramp."
+  ],
+  "submission": {
+    "jobs": [
+      {
+        "index": 5,
+        "job_id": "fb3fcef2-cf49-478c-b17c-f40135abad8b",
+        "status": "pending",
+        "adjustments": {
+          "medias[0].role": {
+            "requested": "image",
+            "used": "image_references",
+            "reason": "GPT Image 2.5 backend expects schema-key media roles"
+          }
+        }
+      },
+      {
+        "index": 6,
+        "job_id": "a1e10c45-6ee4-4cab-b058-a852086e43e7",
+        "status": "pending",
+        "adjustments": {
+          "medias[0].role": {
+            "requested": "image",
+            "used": "image_references",
+            "reason": "GPT Image 2.5 backend expects schema-key media roles"
+          }
+        }
+      }
+    ],
+    "submitted_count": 2,
+    "failed_count": 0
+  }
+}
